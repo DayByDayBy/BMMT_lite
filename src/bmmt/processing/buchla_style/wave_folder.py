@@ -105,12 +105,14 @@ def buchla_wavefolder(
         extra_stage_amount=0.0,
         tape_amount=0.0,
         tape_tau=0.01,
+        auto_gain_compensate=True,
         sr=48000):
     """
     Analog-accurate Buchla-style wavefolder with:
     - Hybrid multi-stage chain
     - Tape-like hysteresis (continuous)
     - 8x oversampling
+    - Optional automatic gain compensation
     """
 
     x = np.asarray(x, dtype=float)
@@ -142,6 +144,14 @@ def buchla_wavefolder(
 
     # Oversampled processing
     y = oversample_8x(x_d, process_sample)
+    
+    # Automatic gain compensation
+    if auto_gain_compensate:
+        # Compensate for drive gain and typical folding amplification
+        # The factor accounts for both input drive and typical output expansion
+        compensation = 1.0 / (drive * 0.65)
+        y = y * compensation
+    
     return y
 
 
@@ -155,6 +165,7 @@ def apply_wavefolder(
         extra_stage_amount=0.0,
         tape_amount=0.0,
         tape_tau=0.01,
+        auto_gain_compensate=True,
         sample_rate=44100):
     return buchla_wavefolder(
         x=signal,
@@ -166,6 +177,7 @@ def apply_wavefolder(
         extra_stage_amount=extra_stage_amount,
         tape_amount=tape_amount,
         tape_tau=tape_tau,
+        auto_gain_compensate=auto_gain_compensate,
         sr=sample_rate,
     )
 
@@ -190,6 +202,7 @@ if __name__ == "__main__":
         extra_stage_amount=0.3,
         tape_amount=0.5,
         tape_tau=0.01,
+        auto_gain_compensate=True,
         sr=sr
     )
 
@@ -217,9 +230,7 @@ if __name__ == "__main__":
 # Higher drive → more harmonic richness
 # tape_amount > 0.5 → strong hysteresis, subtle lag
 # extra_stage_amount → increases “overdrive” and additional folds
-
-
-
+# auto_gain_compensate → maintains consistent perceived loudness
 
 
 
