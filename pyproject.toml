@@ -1,0 +1,12 @@
+[project]
+name = "bmmt-lite"
+version = "0.1.0"
+description = "Modular audio synthesis library for Python"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.13"
+dependencies = [
+    "numpy>=1.21.0",
+    "scipy>=1.7.0",
+    "soundfile>=0.12.0",
+]
