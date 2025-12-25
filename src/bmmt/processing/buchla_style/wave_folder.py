@@ -29,7 +29,7 @@ def opamp_soft_clip(v, limit=3.0):
 # Newton–Raphson Solver
 # ============================================================
 
-def newton_solve(func, dfunc, x0, max_iter=12, tol=1e-8):
+def newton_solve(func, dfunc, x0, max_iter=6, tol=1e-8):
     x = x0
     for _ in range(max_iter):
         fx = func(x)
@@ -105,7 +105,7 @@ def buchla_wavefolder(
         extra_stage_amount=0.0,
         tape_amount=0.0,
         tape_tau=0.01,
-        output_gain=0.5,
+        output_gain=0.3,
         auto_gain_compensate=False,
         sr=48000):
     """
