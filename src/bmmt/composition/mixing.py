@@ -4,7 +4,7 @@ Signal combination, modulation application, and layering utilities for "broken t
 """
 
 import numpy as np
-from scipy import signal
+from scipy import signal as scipy_signal
 from typing import List, Union, Optional, Tuple, Dict, Any, Callable
 import warnings
 
@@ -475,9 +475,9 @@ def apply_filter_modulation(signal: np.ndarray, cutoff_base: float, modulation_d
         try:
             normalized_cutoff = avg_cutoff / nyquist
             if filter_type == 'lowpass':
-                b, a = signal.butter(2, normalized_cutoff, btype='low')
+                b, a = scipy_signal.butter(2, normalized_cutoff, btype='low')
             elif filter_type == 'highpass':
-                b, a = signal.butter(2, normalized_cutoff, btype='high')
+                b, a = scipy_signal.butter(2, normalized_cutoff, btype='high')
             elif filter_type == 'bandpass':
                 # For bandpass, use cutoff as center frequency with fixed bandwidth
                 bandwidth = avg_cutoff * 0.2  # 20% bandwidth
@@ -485,9 +485,9 @@ def apply_filter_modulation(signal: np.ndarray, cutoff_base: float, modulation_d
                 high_freq = min(avg_cutoff + bandwidth/2, nyquist * 0.99)
                 low_norm = low_freq / nyquist
                 high_norm = high_freq / nyquist
-                b, a = signal.butter(2, [low_norm, high_norm], btype='band')
+                b, a = scipy_signal.butter(2, [low_norm, high_norm], btype='band')
             
-            filtered_window = signal.filtfilt(b, a, window_signal)
+            filtered_window = scipy_signal.filtfilt(b, a, window_signal)
             
             # Overlap-add with windowing
             window_func = np.hanning(len(filtered_window))

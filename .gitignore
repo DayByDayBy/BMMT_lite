@@ -23,3 +23,12 @@ wheels/
 .DS_Store
 
 black_market_meditation_tapes/OPECC_artists/ghūl/influences
+
+.planning
+dev_diary.md
+
+.codeiumignore
+.cursorignore
+uv.lock
+
+KNOWLEDGE.md
