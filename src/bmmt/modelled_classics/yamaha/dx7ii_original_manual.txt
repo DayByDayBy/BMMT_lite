@@ -1,0 +1,7734 @@
+YAMAHA.
+
+
+
+
+
+
+I	Ila∑FC>/C>
+DIGITAL PROGRAMMABLE ALGORITHM SYNTHESIZER
+OWNER'S MANUAL
+
+T
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Welcome
+Welcome to the DX7 II FD/D, the newest members of the growing family of FM digital synthesizers from Yamaha. Using the industry-standard DX7 as its starting point, the DX II offers a number of important new features, such as improved sound quality, two-layer voice programming, additional FM features, new performance options, an expanded front-panel LCD display, and on-board disk storage (on the DX7IIFD).
+Since there is so much material available on the DX7 family of synthesizers (and on the theory of FM digital synthesis), this manual will not be an FM tutorial. Instead, it has been designed to be a "users manual" in the truest sense - it's goal is to help you make music with your new DX7IIFD as quickly as possible.
+If you are already familiar with the operation of the original DX7, this manual will help you make the transition to the DX7IIFD in short order. On the other hand, if this is your first FM digital instrument, this manual will guide you into the operation of your new synthesizer with easy-to-follow, step-by-step instructions and explanations.
+After you are comfortable with the operation of your new synthesizer, you may want to explore the fascinating world of FM digital voicing. If so, consult the extensive list of reference works on FM synthesis listed in the bibliography at the back of this manual.
+
+Tips
+
+
+The DX7 II FDID has been designed for years of trouble-free use. In order to ensure that it remains a healthy member of your family of musical instruments, please keep the following tips in mind:
+
+Installation:
+When setting up the DX in your home or studio, avoid exposure to direct sunlight or other sources of heat. Environments with excessive dust, cold, dampness, or vibration can also damage your instrument. Even though the DX is electronic, you should treat it with the same kind of care you would lavish on any other musical instrument.
+Also, since the DX is electronic, you should make sure not to set it too close to equipment (such as a television set) that generates electromagnetic fields. Such proximity could cause both malfunctions in the synthesizer's digital circuitry and interference noise in the other unit.
+
+Moving:
+When you move your DX, make sure to insert the head protection sheet into the disk drive
+- the magnetic head of the drive is very sensitive to vibration, and needs this protection if it is to survive road work.
+
+Handling:
+The DX is sturdy, but it can do without rough handling. Don't subject it to sudden jolts (such as dropping it), as this can damage the internal circuitry. If you plan to travel with it, be sure to use a road case. Also, make sure not to apply excessive force to any of the keys, buttons, or other controls.
+
+Cleaning:
+To clean or dust your DX, use nothing more than a clean, slightly damp cloth. Using chemical solvents will damage the finish, and using too much water may do considerable damage to the internal circuitry.
+
+AC Power & Other Equipment:
+When you are using the DX with an amplifier or mixer that has unbalanced outputs, connect both units to the same AC outlet to avoid hum.
+If you use a number of electronic instruments in your setup, you may want to consult an electrician, who can make sure that your system does not overtax the available power.
+
+
+AC Power & Down Time:
+Whenever the DX will not be used for an extended period of time, it is best to protect .it from potential disaster. Electrical storms and other natural or man-made disasters can give rise to power surges, which may damage the digital circuitry of your DX - even if the power is turned off. Either unplug your instrument when not in use, or invest in power strips with surge protectors to safeguard all of your electronic equipment.
+
+Service & Your Warranty:
+The DX contains no user-serviceable parts. Opening it up or tampering with it in any way will void the warranty, and may also lead you to experience some nasty electrical shocks. If you have a problem with your instrument, please take it to an authorized Yamaha service center.
+
+Modifications & Your Warranty:
+Unless you are assured to the contrary in writing, you should assume that any modifications made to your DX will void the original product warranty. Therefore, you should make sure that you receive a warranty (or some other kind of guarantee) from the person or company that is responsible for the modification.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Flip open for
+DX7II Reference Diagram
+
+
+enter PLAY mode
+PERFORMANCE button-----.
+                              Voice Mode Select buttons Cursor (POLY/MONO & PAN) buttons	Cartridge slot
+
+
+YAMAHA
+II	) hr-F?
+
+
+
+
+
+LCD di
+LED displays
+
+Volume slider ----1+	-- .
+
+
+"'-GlRT>NSY!ffiESIZEA
+
+
+
+
+
+
+
+
+
+
+Data entry slider	'
+(Continuous slider 2)	l
+Modulation wheel	'
+
+
+
+
+Breath controller jack
+
+
+Head phone jack-----
+
+Store button
+
+Edit/Compare button (Enters EDIT mode)
+
+---	Data entry buttons
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contents
+
+
+1	Section 1: Playing the DX7 II FD/D
+3	Getting Started
+6	Exploring The New Perfonnance Library
+10	Exploring The New Voice Library
+14	The Play Modes
+15	Using Controllers with the DX
+
+17	Section 2: Creating and Storing New Sounds
+19	Creating New Sounds
+24	Saving New Sounds
+
+
+
+.,_,,..
+
+27	Section 3: Using the New Performance Features
+
+29	Perfonnance Edit Buttons
+32	Basic Perfonnance Parameters
+36	Pan
+38	Controllers
+40	Micro Tuning
+
+43	Section 4: Using the New Voice Features
+45	Voice Edit Buttons
+50 Basic Voice Editing Functions
+51 New Voice Parameters
+53 Controllers
+54 Fractional Scaling
+
+
+C  ...
+
+57	Section 5: Memory Functions
+59	Utility Buttons
+62	Memory Layout
+63	Memory Types
+65	Memory Storage Types
+67	Basic Utility Functions
+68	Cartridge Memory Functions
+71	Disk Memory Functions (FD Only)
+
+75	Section 6: MIDI Functions
+77	MIDI Buttons
+79	System Setup
+81 MIDI Data Communications
+
+82 Appendix I: Supplemental Infonnation
+83 Appendix 2: Bibliography
+84 Appendix 3: MIDI Implementation Chart
+85 Blank Voice Data Chart
+86 Blank Perfonnance Data Chart
+
+
+
+
+
+
+
+
+
+
+
+
+
+ß(r) iln@rm n
+Playing the DX7 II  FD/D
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contents
+
+
+3	Getting Started
+3 Making Audio Connections
+4 Turning On the DX
+5 Setting the Volume Slider
+5 Setting the Pan and Poly/Mono Buttons
+
+6 Exploring The New Performance Library
+6 Selecting the Internal Performance Memories
+7 The Internal Performance Memories
+8 Selecting the Cartridge Performance Memories
+9 The Cartridge Performance Memories
+
+10 Exploring The New Voice Library
+10	Selecting the Internal Voice Memories
+11	The Internal Voice Memories
+12	Selecting the Cartridge Voice Memories
+13	The Cartridge Voice Memories
+
+14	The Play Modes
+14	Voice Modes and Performance Mode
+14	Using the I ~ 32/33 ~ 64 Button
+14	Using the A/B Button
+14	Using the Poly/Mono Button
+
+15	Using Controllers with the DX
+15	Pitch Bend Wheel
+15	Modulation Wheel
+15	Aftertouch
+15	Breath Controller
+16	Foot Controllers I and 2
+16	Footswitches 1 and 2
+16	Continuous Sliders I and 2
+
+Getting Started
+
+
+
+
+     Connecting the DX to a single input
+amplifier.
+
+
+You can begin to enjoy your new DX immediately, without poring through a lot of complicated electronic theory. All you have to do is take the instrument out of it's box and proceed as follows:
+
+Making Audio Connections
+There are three different ways to connect the DX to sound reinforcement equipment. The one you choose will depend on your situation:
+I. If you have a monophonic (single input) amplifier such as a guitar amp, connect the DX's A/Mix output to the amp's input (using a standard 1/4" cable).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Using stereo headphones
+with the DX.
+
+
+2. If you are using a multi-channel mixer, connect the DX's two back-panel audio outputs (A/Mix and B) to two of your mixer's inputs (using two 1/4" cables).
+3. If you are using a set of standard stereo headphones, plug them into the DX's Phones output.
+
+
+Turning On the DX
+After you have made the audio connection of your choice, tum the DX on by pressing the Power switch located on the right side of the back panel. This is the first display you will see on the main panel:
+
+
+The DX's "welcome" display.
+
+
+
+
+
+
+
+After a few seconds, this "welcome" display will be replaced by the last Play Mode display selected before the DX was turned off:
+
+
+
+initial display.
+
+
+Setting the Volume Slider
+Since the volumes of the various voices differ, start with a setting in the middle of the slider's range; adjust later to suit your taste, depending on the voice or voices being played.
+
+
+Volume Slider
+
+
+
+
+
+
+
+VOLUME
+
+Setting the Pan and Poly/Mono Buttons
+Before you begin to play your new DX, make sure that the settings of the Pan and Poly/Mono buttons are correct for your situation:
+
+To ensure that you are listening to the voices just as they were created, make sure that this light is OFF. If it is ON, press the POLYIMONO button to
+turn the light OFF. (The reasons for this will be explained later in this manual.)
+
+If you are using stereo outputs or headphones, make sure that this light is lit.
+If it is not, press the PAN button to turn the light ON.
+I
+If you are using a single (mono) output,
+make sure that this light is not lit.
+If it is, press the PAN button to turn the light OFF.
+
+
+    Poly/Mono and Pan Buttons
+
+
+@
+POLY/ MONO	PAN
+
+   Exploring The New Performance
+Library
+
+
+The Performance Mode is a completely new feature for the DX7. It allows you to play two different voices at once, and offers a number of other useful pe,formance-oriented features. These features will be explained in detail in Sections 2 and 3 of this manual. For now, though, just follow the steps below, and explore the richness of the Pe,formance Mode by playing through all of the new sounds available in the Internal and ROM Cartridge memories.
+
+Selecting the Internal Performance Memories
+
+
+
+
+
+
+
+
+
+
+
+
+
+Perfor!'lance	 Dual Internal  I I HT  1 I	Warl'l
+I
+
+
+ : I  IHT 1 I  INT49 I
+5 tr i ng	fec ti on
+
+I	I
+
+This portion of the LCD displays the name and number
+of the selected Performance memory.
+
+This portion of the LCD
+displays the location and number
+of the voice or voices used to create the selected Performance memory.
+
+
+The Internal Performance Memories
+
+
+
+
+
+Each Performance Name can consist of up to
+20 characters;
+  each Voice Name can consist of up to JO characters.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Selecting the Cartridge Performance Memories
+
+
+
+
+
+
+
+
+
+The LCD should show this display, with the cursor blinking on the arrow next to the word BANK. If not, press button 15 until this display appears.
+
+
+
+The Cartridge Performance Memories
+
+
+
+
+
+
+Performance	Name
+
+Voice	A
+
+Voice	B
+
+
+
+
+
+
+1
+Double French Horns
+INT 2
+MellowHorn
+CRT 37
+FrenchHorn
+2
+Pine Oraan
+CRT 3
+PioeOraan
+CRT 47
+PuffOraan
+3
+Full Electric Piano
+INT 5
+FullTines
+CRT 7
+HardTines
+4
+PickGuitar-SoitFlute
+INT 3
+PickGuitar
+CRT 12
+SpitFlute
+5
+Rotarv Electro Oraan
+INT 12
+TouchOraan
+CRT 21
+BriteOrqan
+6
+SuoerBass-BriahtClav
+INT 6
+SuperBass
+CRT 1
+Clavecin
+7
+MariBUMba
+INT 13
+Maribumba
+CRT 38
+StonePhone
+8
+cs	80 Brass
+CRT 15
+HardBones
+CRT 34
+HardTrumps
+9
+Orqan	Choir
+CRT 3
+PipeOrqan
+CRT 52
+FC Choir
+10
+Church Choir
+CRT 10
+LadvVox
+CRT 57
+MaleChoir
+11
+Celeste and Strinas
+INT 58
+HallOrch A
+CRT 62
+Celeste
+12
+FatBass-HeavvMetal
+CRT 43
+OwlBass
+CRT 55
+YesBunk
+13
+Old School Harmonium
+INT 59
+HarmoniumA
+CRT 53
+HarmoniumB
+14
+Octave MultiDowns
+INT 51
+LateDown
+CRT 16
+OctiLate
+JS
+16
+Classical Strinas
+CRT 8
+Violins
+CRT 26
+NewOrchest ∑-
+
+Thunder Storm
+CRT 23
+Thunderon
+CRT 61
+Explosion
+17
+Unison Bass
+INT 6
+SuperBass
+CRT 13
+BopBass
+18
+Piano with BC Brass
+INT	9
+Ebonyivory
+CRT 27
+BC Trumpet
+19
+Funky FinqaPicka
+INT 33
+FinqaPicka
+
+
+20
+-In the Laboratory-
+CRT 60
+Science
+
+
+21
+PluckSvn-UniSynth
+INT 8
+Pluk
+CRT 22
+WhaoSvnth
+22
+Good Licks
+CRT 4
+ClaviPluck
+CRT 31
+Plukatan
+23
+Dinale Bonas
+CRT 9
+TinqVoice
+CRT 42
+RubberGona
+24
+StrinaPad-Enalishorn
+INT 49
+Warm Sta B
+CRT 25
+Enalishorn
+25
+SnareDrum-Piccolos
+CRT 20
+Swissnare
+CRT 36
+Piccolo
+26
+Inside the VLSI
+CRT 14
+Glastine A
+CRT 33
+Glastine B
+27
+Rubber ElectricPiano
+CRT 44
+RubbaRoad
+
+
+28
+Old Upriaht Piano
+INT 45
+Pianoforte
+
+
+
+∑-∑∑∑-
+29
+Tap Electronic Oraan
+INT 41
+TapOraan
+∑-
+
+
+30
+PizziStrinq Section
+CRT 45
+PizzReverb
+CRT 45
+PizzReverb
+31
+Yamaha Motorcycle
+CRT 32
+KoikeCycle
+
+
+32
+Initialized Memorv
+CRT 64
+INIT VOICE
+CRT 64
+INIT VOICE
+
+
+
+Exploring The New
+Voice
+Library
+
+
+The Voices in the new DX were created using techniques like those used on the original DX7. The new Performance Mode opens up a number of exciting possibilities -many of the Voices in the new DX were created specifically to be used in combinations of two. In addition, there are a number of new features available in Voice mode ( most of them extensions of the Function mode in the original DX7). All of these features will he discussed in detail in Sections 2 and 4 of this manual. For now, though, just follow the steps below, and play through all of the Voices available in the Internal and ROM Cartridge memories.
+
+Selecting the Internal Voice Memories
+
+
+
+	
+ïThe 1~32/33~64 light will be off, indicating that voices 1~32 are currently selectable. To select voices 33~64, press the 1~32/33~64 button.
+The light will go on, indicating that voices 33~64 are currently selectable.
+
+r
+
+
+
+
+The Internal Voice Memories
+
+
+
+
+
+These are the Voice Memories loaded into the DX when it is shipped from the factory.
+Since these memories can be adjusted,
+your DX's Internal Memory
+,...		may contain different data. t	If so, reload the Internal Voice & Performance
+ data from Bank I of the supplied ROM cartridge.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Selecting the Cartridge Voice Memories
+
+
+
+The LCD should show this display, with the cursor !:)linking on the arrow next to the word BANK. If not, press i:)utton 15 until this display appears.
+
+
+
+r!
+
+
+
+The Cartridge Voice Memories
+
+
+Bank 1 of the supplied
+  ROM cartridge contains the Voice & Performance Memory
+loaded into the DX's Internal Memory when it is shipped
+        from the factory. Bank 2 contains an entirely different set of Voice & Performance data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Play Modes
+
+
+Now that you have an idea of some of the sound combinations available on the new DX, it is time to take a closer look at how the various Play Modes operate. Read on:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0	0
+VOICE MODE SELECT
+
+\[ SINGLE	]\[ DUAL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ï
+
+
+
+
+
+
+ï
+*SPLIT	ll
+
+Voice Modes and Performance Mode
+As you have heard from playing through the Performance Memories, it is possible to play two different voices at the same time on the new DX. However, you do not need to be in Performance Mode to try out various combinations of voices. In addition to Performance Play Mode, there are three different Voice Play Modes: Single, Dual, and Split.
+Single Mode calls up one voice at a time from the DX 's library of voices, as you learned on page 10 of this manual.
+Both Dual and Split involve two voices, A and B. In Dual Mode, both voices are played together, over the entire range of the keyboard. In Split Mode, Voice A is played from the left side of the keyboard, while Voice B is played from the right side of the keyboard.
+When you are in the Voice Split Mode (rather than the Performance Split Mode), the Split Point is always set at C3.
+To enter Dual or Split Mode, simply press the appropriate Voice Mode button; the light above the selected Voice Mode button will go on. Only one of these Voice Mode lights can be lit at a time. (These lights also show which Voice Mode is selected when you are in the Performance Mode.)
+Once you choose the Voice Mode you want to work with, use the I~32/33~64, A/B, and number buttons to select specific voices.
+Using the 1 32/33 64 Button	l
+The light above the I~32/33~64 button tells you which set of voices can be selected: If the light is off, voices I~32 can be selected using the number buttons; if the light is lit, voices 33~64 can be selected using the number buttons. This holds true for all three Voice Play Modes.
+
+
+
+
+ï
+\[A/ B	l\
+
+
+
+
+POLY/ MONO
+
+\[ <]
+
+Using the A/B Button
+The light above the A/B button tells you which voice location (A or B) is active for voice selection in Dual and Split modes: If the light is off, Voice A is active, and the voice chosen with the number buttons will be shown as Voice A in the LCD display; if the light is on, Voice B is active, and the voice chosen with the number buttons will be shown as Voice B in the LCD display.
+
+Using the Poly/Mono Button
+The light above the Poly/Mono tells you (indirectly) which Key Mode is currently active in Play Mode: If the light is off, the Key Mode remains as programmed; if the light is lit, the opposite Key Mode will be active. Key Modes will be explained further in Section 4.
+
+
+
+
+
+
+
+
+
+
+    Using Controllers with the DX
+
+
+
+
+
+
+
+
+
+
+
+The DX is desif?ned to operate with many controllers, each of which can be set to pe1form one of a number of different effects. The settings for these controllers can be different for each Voice Memory or Performance Memory. To bef?in your exploration of the expanded musical possibilities available with controllers on the DX, try the examples listed below. Many of you may already be familiar with the operation of the these controllers;for those who are not, each section below bef?ins with instructions on how to locate or attach the controller in question.
+
+Pitch Bend Wheel
+The Pitch Bend Wheel is located to the far left of the keyboard. To get an idea of some of the effects possible with the Pitch Bend Wheel, use it with Internal Voice #I or Internal Voice #II. Move the Wheel both quickly and slowly as you play.
+
+Modulation Wheel
+The Modulation Wheel is located to the near left of the keyboard (to the right of the Pitch Bend Wheel). For a taste of the possibilities of the Modulation Wheel, try it with Internal Voice #2 or Internal Voice #28.
+
+Aftertouch
+Aftertouch is a keyboard feature that gives you extra control over a voice. It is engaged by pushing down on the keys after they have already been depressed. To try some of the effects available with Aftertouch, call up Internal Voice #3 or Internal Voice # I9. After you have played a group of keys, press them down into the key bed and listen to the
+result.
+
+Breath Controller
+
+
+
+Foot Controllers 1 and 2
+The Foot Controllers plug into the two Foot Controller plugs on the back panel of the DX. They can give you continuous control over a number of aspects of the sounds. Try using Foot Controller 1 with Cartridge Voice #47 or Cartridge Voice #52 (from Bank 2 of the ROM). Foot Controller 2 is most often used as a volume pedal, but other effects are possible. Play Internal Voice #4 or Internal Voice #6 while experimenting with Foot Controller 2.
+
+Footswitches 1 and 2
+The Footswitches plug into the two Footswitch plugs on the back panel of the DX.
+Footswitch I acts much like a sustain pedal on a piano. Try it with Internal Performance
+#18 or Internal Performance #21 to get an idea of the different effects that are possible.	∑∑	y ∑ Footswitch 2 can be used to engage a number of effects, including that of the soft pedal on
+a piano. Try it in conjunction with Cartridge Performance #27 or Cartridge Performance #28 (from Bank 2 of the ROM).
+
+Continuous Sliders 1 and 2
+The Continuous Sliders are located to the right of the Volume Slider on the left side of the DX's front panel. They can be programmed to give you control over many aspects of the timbre of the sounds, and can even be used to alter parameters of a voice in real time. Try using Continuous Slider I with Internal Performance# I or Internal Performance #4. Then listen to the effect that Continuous Slider 2 has on Internal Performance #2 or Internal Performance #5.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ß(r) illl(O)IID /2
+Creating and Storing
+New Sounds
+
+Contents
+
+
+19	Creating New Sounds
+19	Editing and Edit Mode
+20	Entering Perfonnance Edit Mode
+20	Entering Voice Edit Mode
+21	Editing Perfonnance and Voice Data
+21	Using the Cursor Buttons and the Data Entry Buttons/Slider
+21	Edit/Compare
+22	Edit Button Quick Reference Guide
+
+24	Saving New Sounds
+24	Memory Protection
+24	Turning Memory Protect Off
+24	Perfonnance Memory
+25	Storing Perfonnance Data to Internal or Cartridge Memory
+25	Voice Memory
+25	Storing Voice Data to Internal or Cartridge Memory
+
+
+
+
+
+
+
+
+
+
+  Creating New Sounds
+
+
+The Voices and Performance setups in the DX are stored as digital information in a computer-like memory. And, like computer memory, the memory of the DX can be altered for different uses. In other words, voices do not exist as unchangeable presets (as they do in electronic organs), but rather as streams of data. This data can be changed (edited) to create new sounds and Performance setups. To find out how this works, read on.
+
+Editing and Edit Mode
+Editing is the process of changing various settings of a Voice or Performance memory. In the DX, this is accomplished in Edit Mode. Usually, you will use Edit Mode to create a new sound or Performance setup, but you can also use it to find out the parameter values for the factory preset Voices and Performance setups.
+Most of the buttons on the DX's front panel have multiple functions. You can see this by looking at the way the buttons are labeled on the front panel. For example, the +I button also functions as YES and ON. On most cases, the buttons will have different functions in different operating modes.
+The 32 number buttons are no exception: In the Play Modes, they are used to call up various Voice and Performance memories; but, in the Edit Modes, they are used to access the various parameter values that make up a sound.
+
+
+
+
+
+
+
+	
+
+
+Entering Performance Edit Mode
+
+
+
+
+
+
+
+Entering Voice Edit Mode
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+VOICE MODE SELECT
+l(sn<GLE	)j(	)I(	JI	Press the same button you pressed in
+<UAL	  S"-IT	step #1 above to return to Play Mode.
+
+In both of the above procedures, you enter the Edit Mode after the Edit Button is pressed in step #2. At that time, you can push any or all of the buttons indicated (in step #3) as many times as necessary to make the desired edits.
+It is possible - even easy - to edit Voice data in the Performance Edit Mode (or Performance data in the Voice Edit Mode). This, however, is NOT a recommended practice, since only Voice data is stored in the Voice Edit Mode, and only Performance data is stored in the Performance Edit Mode.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The cursor buttons and the data entry slider/buttons.
+
+
+
+
+
+
+
+
+
+
+
+The Edit/Compare
+LED display.
+
+Editing Performance and Voice Data
+After entering one of the Edit Modes, use the number buttons to access the parameter whose value you wish to change. Each number button calls up a variety of parameters, often through the use of multiple LCD screen displays. A complete set of these screen displays will be given at the beginning of Section 3 (for Perfonnance Edit Mode) and Section 4 (for Voice Edit Mode). In most cases, each LCD display gives you access to a number of parameters.
+
+Using the Cursor Buttons and the Data Entry Buttons/Slider
+
+Use these buttons to position the LCD cursor next to the parameter you wish to edit. Parameters are listed along the top row of the LCD display, and the cursor should be positioned over the > character pointing to the parameter you wish to edit.
+
+	
+
+
+
+Edit/Compare
+Once you have started to edit a voice, you can compare your new sound to the original by pressing the Edit/Compare button:
+
+A	B
+Once you have changed a value in Edit mode,
+this dot will light, indicating that you are now listening to an edited voice.
+The LCD will display edited values.
+
+If you press the Edit/Compare button after editing a voice,
+---	- the LED number will flash, indicating that you can now play and listen to the original, unedited voice.
+LCD values will be those of the original, unedited voice.
+
+
+
+
+
+
+
+
+
+
+
+Edit Button Quick Reference Guide
+
+
+
+Voice parameters are discussed in more detail
+in Section 4.
+
+
+OUTPUT LEVEL
+
+
+>Scaling Mode
+Normal Scaling
+>Output Level
+>Left Scaling Depth
+:,,Left Scaling Curve
+>Break Point
+>Right Scaling Depth
+:,,Right Scaling Curve
+
+Fractional Scaling
+>Offset
+>Scaling Level for note group
+
+
+
+
+
+
+
+
+
+Voice Edit parameters are discussed in
+in Section 4.
+
+
+
+
+
+
+
+
+
+
+
+
+Performance parameters
+are discussed in more detail in Section 3.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Utility parameters are discussed in more detail
+in Section 5.
+
+
+
+
+
+
+
+>Master Tuning
+>Interrial Mem1ory Protect
+>Cartridge Memory Protect
+
+Micro Tuning
+
+
+
+Fractional SC.
+Micro Tuning
+Voice and Performance
+>Bank
+>Format
+
+>Format Disk
+>Back up Disk
+>Free Files on Disk
+
+
+>Voice Edit
+Recall Edit >Performance Edit
+> Micro Tuning Edit
+
+Initialize
+
+
+
+>Directory
+>Save File
+>Load File
+>Delete File
+>Rename File
+
+
+Cartridge _Files
+;,-Directory
+>Save File
+>Load File
+>Delete File
+>Rename File
+>Cartridge Bank
+
+
+MOR Files
+>Directory
+>File In
+>File Out
+>Delete File
+:>Rename File
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     Saving New Sounds
+
+
+Once you have altered a particular Voice or Pe,formance memory to your liking, you will want to save your new data in one of the DX's memory locations. Single Voice memories and single Pe,formance setups can be saved either to the Internal Memory or to a RAM Cartridge Memory. To do so, proceed as follows:
+
+Memory Protection
+Each time the DX is turned on, it automatically powers up with both the Internal and the Cartridge Memory Protect feature turned on. Before you can save data, you must tum off this automatic memory protection.
+
+Turning Memory Protect Off
+
+
+
+
+
+
+
+Performance Memory
+Do not try to edit Performance data while in Voice Edit Mode. If you do, you will hear and see the Performance edits, but they will not be stored as part of memory when you store the Voice data.
+
+
+
+
+
+
+
+
+∑ 24 -
+
+
+
+
+
+
+
+
+
+
+Storing Performance Data to Internal or Cartridge Memory
+
+  PLAY	
+l]	\(rERFORMflNC l Press the Performance button.
+
+.
+I(INTERNAL  )I Press the Internal button or the Cartridge button to select the storage
+	o,	area for your edited Performance data. NOTE: If you wish to save the
+Performance data to a RAM cartridge, make sure that a properly
+I(CASTR,OGE )I formatted Cartridge (DX7-2) is inserted .in the cartridge port.
+
+.
+
+	EGCOPY	
+I(STORE	)I Press and hold the.Store button.
+I(	33	~ 1(	..)I While holding the Store button, use the number buttons
+v	1	ll	32	to select the memory location for your edited Perform-
+ance data. The LCD will echo your choice.
+.∑ ∑.	.
+	YES	
+(r) I(ï'-ON	)I While still holding the Store button, press the+1/YES button.
+
+Voice Memory
+Do not try to edit Voice data while in Perfonnance Edit Mode. If you do, you will hear and see the Voice edits, but they will not be stored as part of memory when you store the Perfonnance Data.
+
+Storing Voice Data to Internal or Cartridge Memory
+
+
+VOICE MODE SELECT
+l]	I(SINGLE	ll( WAL	ll(SPUT	ll  Press one of the Voice Mode buttons.
+.
+
+
+!(INTERNAL  )I Press the Internal button or the Cartridge button to select the storage
+	o,	area for your edited Voice data. NOTE: If you wish to save the Voice
+data to a RAM cartridge, make sure that a properly formatted Cartridge
+I(CARTR>OGE )I (DX7-2) is inserted in the cartridge port.
+
+	EG COPY	
+I(STORE	)I Press and hold the Store button.
+While holding the Store button, use the number buttons
+/v41	I( 1	"ll  ~ 1(32   ")I (and the 1-32/33-64 button if necessary) to select the will
+memory location for your edited Voice data. The LCD
+
+echo your choice.
+  YES	
+(r),	l(ï'-ON	ll  While still holding the Store button, press the+1/YES button.
+
+
+
+- 25 -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ß an@IID]
+      Using the New Performance Features
+
+
+
+
+
+
+
+
+
+
+Contents
+
+
+29	Performance Edit Buttons
+29	Button 27 LCD Displays
+30	Button 28 LCD Displays
+31	Button 29 LCD Displays
+31	Button 30 LCD Displays
+
+32	Basic Performance Parameters
+32	Total Volume
+32	Balance
+32	Dual Detune
+33	Split Point
+33	Note Shift
+34	EG Forced Damp
+35	Performance Name
+
+36	Pan
+36	Basic Pan Function
+36	Pan Modes
+37	PanEG
+
+38	Controllers
+38	Sustain Footswitch (FS I)
+38	Footswitch 2 (FS 2)
+39	Continuous Sliders
+39	FM Parameters Assignable to CS I and CS2
+
+40	Micro Tuning
+40	Selecting a Micro Tuning
+40	The Micro Tuning Presets
+40	Micro Tuning Editing and Storage
+
+
+
+
+
+
+
+
+
+
+Performance Edit Buttons
+
+
+All of the Performance Mode parameters are adjusted via the LCD displays called up using buttons 27 ~ 30. All of the these buttons call up multiple LCD displays. The charts below show all of the displays called up by each button, and provide a complete list of parameters and value ranges. In some cases, the first LCD display in a chart may not be the first one you see. You may need to cycle through the displays (by pressing the button repeatedly) until you reach the desired LCD display.
+
+
+Button 27 LCD Displays
+
+>A
+Bank A /off. on/
+>B
+Bank B /off, on/
+
+
+>Select
+Select (Sustain, Portamento, Key hold, Solt)
+>A
+Bank A /off, on)
+>B
+Bank B /off. on)
+>Ran9e
+Soft Range /0 - 7)
+
+>Select
+Select (see Select Table)
+>A
+Bank A /off, on)
+>B
+Bank B /off, on)
+
+
+>Select
+Select (see Select Table)
+>A
+Bank A /off, on/
+>B
+Bank B /off, on)
+
+
+
+
+
+
+
+
+
+
+
+Button 28 LCD Displays
+
+VOICE MODE
+>Uoice Mode
+Voice Mode  (single, dual, split)
+
+
+
+
+>Total uoluMe
+OR	99
+
+>Total uoluMe
+Total Volume /0 - 99)
+
+
+
+
+
+>Uoice Mode
+Voice Mode  (single, dual, split)
+
+
+
+
+>Total uoluMe
+Total Volume /0-99)
+>Balance
+Balance (-50 to +50)
+
+
+>Dual detune
+Dual Detune (0 - 7)
+
+
+
+
+
+
+
+>Uoice Mode
+Voice Mode  (single, dual, split)
+
+
+
+>Total uoluMe
+Total Volume {0-99)
+>Balance
+Balance (-50 to +50)
+
+
+
+>Split Point
+Split Point (C-2 to GB by half steps)
+
+
+
+
+
+
+
+
+
+
+Button 29 LCD Displays
+
+
+
+
+
+
+
+
+
+Button 30 LCD Displays
+
+>Table Select
+Tuning Tabla (Preset 1-11, User 1-2, Cart 1-63)
+>A
+Tabla Bank Switch (off, on)
+>B
+Tabla Bank Switch (off, on)
+
+>EG forced daMP
+EG Forced Damping (off, on)
+
+
+>A
+Bank Note Shift (-24 to +24)
+>B
+Bank Note Shift (-24 to +24)
+
+
+>PerforMance naMe
+Performance Name (20 character name)
+
+
+
+
+
+
+
+
+
+
+
+
+
+>Mode
+Pan Mode (0 - 3)
+
+
+
+
+
+
+
+
+
+
+
+       Basic Performance Parameters
+
+
+Accessed using buttons 28 and 29, these parameters determine the basic voice relationships in Performance Mode.
+
+Total Volume
+This parameter allows you to set an overall volume for each Performance memory. If you desire, you can use this setting to balance the levels of your Performance memories, so that constant Volume Slider or mixer adjustments are not necessary.
+
+Balance
+This parameter adjusts the relative volume of the two voices in Dual and Split Modes:
+g j  Voice A	VoiceB
+
+
+
+
+-50	0
+,.,'( ∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑..∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑∑	Balance Setting
+
++50
+.	J,∑∑I
+
+
+
+
+Dual Detune
+This parameters shifts the pitch of both voices in Dual and Split Modes. Each voice is shifted an equal amount. Voice A is shifted up, and Voice B is shifted down:
+Dual Detune	ï
+
+Dual Detune settings and their effect
+on Voice A and Voice B.
+
++1/4
+step ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑ ∑
+
+Setting
+
+
+.........
+Original+----
+Pitch	L-'-lt?I
+
+
+
+∑∑∑∑∑∑∑∑∑∑∑∑∑∑......................
+-1/4 ........................................
+step
+
+
+
+
+
+
+
+
+
+Split Point
+In Perfonnance Mode, the Split Point is adjustable, and is memorized as part of the Perfonnance Memory. The Split Point can be selected using the Data Entry Slider/Buttons or the keyboard: The first note played on the keyboard after accessing the Split Point parameter will be entered as the Split Point in the LCD display.
+
+
+The Split Point is adjustable in Performance Mode.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Note Shift
+This parameter allows you to adjust the transposition of each voice in Dual and Split Modes. Each voice may be adjusted up or down as much as two octaves (in halfsteps). The original transposition of each voice is retained as part of the Voice memory, and the the Note Shift value is added to or subtracted from that Voice setting when you are in Perfonnance Mode.
+
+
+
+
+
+
+
+
+
+EG Forced Damp
+Even though the DX is a 16-voice synthesizer, these voices can be used up quickly whel) you are in Dual Mode (or when you use a Sustain Footswitch pedal). When you do exceed the DX's note capacity, the first notes played will stop sounding to make way for the new notes being played.
+Under normal operating conditions, the DX considers these new notes to be continuations of the first notes; therefore, the initial portions of the attack envelope will not be retriggered:
+
+
+Under normal conditions,
+the DX's envelope acts this way.
+
+
+EG Forced Damping Off
+	,,
+This part of the attack- '	
+is not reproduced	, /
+
+
+First note	9th note*
+
+
+
+If you wish to avoid this effect, tum the Forced Damping function on. It will force the envelope to retrigger for each new note played:
+
+
+
+Using the EG Forced Damping parameter, the envelope is farced to retrigger itself for each new note played.
+
+EG Forced Damping On
+
+First note	9th note*
+
+
+
+
+* 17th note in the case of single play mode.
+
+
+
+
+
+
+
+
+
+Performance Name
+You can enter a Performance Name of up to 20 characters. To do so, follow the instructions below.
+
+
+   Since you have a total of twenty characters to define your Performance Memory, make sure that your Performance Name conveys the basic approach of the specific Performance Memory
+immediately.
+
+
+
+
+
+
+
+
+
+
+
+
+PO..Y I MONO	PAN	Using the left and right cursor buttons while holding the
+Jr<l 	lK	C>ll	Edit/Character button lets you to place the cursor over
+a specific character position. This allows you to easily
+edit any character within a name.
+I(CAATRIOOE ll	Pressing the Cartridge button selects UPPER CASE (capital) letters.
+J("TESNAL )I	Pressing the Internal button selects lower case letters.
+
+Pan
+
+
+
+
+
+
+
+Pan Modes are operative only if you are using both
+of the DX's audio output jacks.
+
+
+The Pan features represent an entirely new class of Performance controls for the DX. Accessed using button 30, these parameters provide control over the stereo image of the instrument's output.
+
+Basic Pan Functions
+In order for Pan effects to operate, you must connect both of the audio outputs on the DX's back panel. In addition, the light over the Pan button must be lit - if it is not, the Pan function is turned off. Pan can be turned on and off only in one of the Play Modes. (In Edit Mode, the Pan button becomes one of the cursor buttons.)
+There are four basic Pan Modes. Mode 0 can be used with all Voice Modes, while Modes 1 ~ 3 operate only in Dual and Split Modes.
+
+Pan Modes
+
+
+
+
+
+
+
+
+If you select Pan Mode 0, the output of the two voices in Dual or Split Modes is combined, and the location of the sound in the stereo panorama is determined by the Pan effect selected. If you select Pan Modes 1 ~ 3, the two voice outputs remain separated, and the relative level of the two voices is determined by the Pan/Level effect selected.
+There are three basic types of Pan/Level effects: LFO, Velocity, and Note Number. Each one opens up a number of possibilities:
+If LFO is selected, the Pan/Level effect will be controlled by the Voice LFO (the LFO of Voice A in Dual or Split Modes). If you are operating in Pan Mode 0, the LFO controls the position of the audio output in the stereo mix; if you are operating in Pan Modes 1 ~ 3, the LFO controls the level of the selected voices (both, A, or B).
+If Velocity is selected, the Pan/Level effect will be controlled by the force of your keyboard touch. If you are operating in Pan Mode 0, Velocity controls the position of the audio output in the stereo mix: Softer touches (slower velocities) will position the sound more in output jack A, while stronger touches (faster velocities) will position the sound more in output jack B. If you are operating in Pan Modes 1 ~ 3, Velocity controls the output volume of the selected voices (both, A, or B).
+
+
+If Key Number is selected, the Pan/Level effect will be controlled by the right/left position of keys played on the keyboard. If you are operating in Pan Mode 0, Key Number controls the position of the audio output in the stereo mix: Notes played to the left of C3 will position the sound more in output jack A, while notes played to the right of C3 will position the sound more in output jack B. If you are operating in Pan Modes 1 ~ 3, Key Number controls the output volume of the selected voices (both, A, or B).
+The overall depth (intensity) of these Pan/Level effects is controlled by the Range parameter.
+Please note that all of these Pan/Level effects are global, rather than note by note: Each new Velocity input or Key Number input will reposition the audio (or readjust the output) of all notes currently sounding.
+
+PanEG
+The Pan EG allows you to create an envelope for automatic control of Pan (Pan Mode 0) or Level (Pan Modes 1 ~ 3):
+
+
+
+
+Representative Pan Envelope
+Generator shape.
+
+
+99
+
+Output B (right)
+
+Key on
+
+
+
+50
+
+Output A (left)
+
+Time
+
+
+0	L4	L4
+
+Controllers
+
+The DX features a greatly expanded set of controller options. The settings for Footswitches I and 2 and Continuous Sliders I and 2 are adjusted in Pe,formance Edit Mode, using button 27. (The other controller settings are accessed in Voice Edit Mode.)
+
+Sustain Footswitch (FS 1)
+Footswitch I is set to operate as a Sustain pedal. In Dual and Split Modes, FS I can be selected to affect Voice A, Voice B, or both.
+
+
+Footswitch 2 (FS 2)
+Footswitch 2 is a multi-purpose pedal with four selectable functions: Sustain, Portamento,	Th
+Key Hold, or Soft.
+If Sustain is selected, FS 2 operates as a Sustain pedal Uust like FS I).	tJ"
+If Portamento is selected, Voice Portamento effects will operate only when the pedal is depressed.
+If Key Hold is selected, only notes that are being held when the pedal is engaged will sustain. This effect is similar to a piano's sostenuto pedal.
+If Soft is engaged, the pedal will soften the timbre and volume of the sound, to a degree determined by the Range parameter.
+In Dual and Split Modes, FS 2 can be selected to affect Voice A, Voice B, or both.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The Continuous Sliders provide a new avenue for exploration of real-time timbral control.
+
+
+Continuous Sliders
+The two Continuous Sliders give you access to real-time control of FM Voice parameters. There are a total of 105 different possibilities:
+
+FM Parameters Assignable to CS 1 and CS2
+
+DATA ENTRY slider highest position
+
+
+
+
+
+
+
+ïOP6  EG Level 3 (L3)
+I
+OP 1
+ïOP6  EG Level 2 (L2)
+I
+OP 1
+ïOP 6  EG Level 1 (L1)
+I
+OP 1
+ïOP6  EG Rate 4 (R4)
+I
+OP 1
+ïOP 6  EG Rate 3 (R3)
+I
+OP 1
+ïOP 6  EG Rate 2 (R2)
+I
+OP 1
+
+
+
+
+lowest position
+
+ïPortamento time
+ï Pitch EG Level 4
+I
+Level 1
+ï Pitch EG Rate 4
+I
+Rate 1
+ïLFO AMD
+PMD PMS
+Delay Speed Wave
+ï Feedback level
+ïAlgorithm
+ï Dual detune
+ïPAN select
+ïOutput balance (A/B)
+ïTotal volume
+ïNo effect
+
+
+
+In Dual and Split Modes, CS l and CS 2 can be selected to affect Voice A, Voice B, or both.
+
+Micro Tuning
+
+
+
+
+
+
+
+  The new DX contains eleven preset Intonations, which should provide you with a good introduction to possibilities
+of alternate intonation schemes.
+
+
+Micro Tuning is another new feature for the DX. It offers the possibility of pe,forming music using tuning and intonation systems other than Equal Temperament (which is the current standard tuning for both pianos and synthesizers). Micro Tuning data is accessed using button 29. New Micro Tunings are created in Micro Tuning Edit Mode, which is accessed using button 14 in conjunction with button 29.
+
+Selecting a Micro Tuning
+The DX is equipped with eleven preset Micro Tunings as part of its pennanent memory. In order to hear the sound of these presets, it is necessary to tum Micro Tuning on for Voice A, Voice B, or both (using the A and B parameters in the Micro Tuning LCD display). When Micro Tuning is not on, the DX automatically operates in Equal Temperament.
+
+The Micro Tuning Presets
+
+1
+Equal Temperament
+2
+Pure (Maior)
+3
+Pure (Minor)
+4
+Mean tone
+5
+Pythaqorean
+6
+Werckmeister
+7
+Kirnberqer
+8
+Vallotti & Young
+9
+1/4 Shifted equal
+10
+1/4 Tone
+11
+1/8 Tone
+
+In presets 2 ~ 5, the tuning can be adjusted according to the key of the music being played.
+
+Micro Tuning Editing and Storage
+If you are interested in alternate tunings and intonations, you may want to create your own sets of Micro Tuning data. The DX provides two memory locations for this purpose: User 1 and User 2. These two sets of data are stored as part of the Internal Memory, and will be stored along with all other Internal data when the Internal Voice & Perfonnance Memory is saved to another storage medium (such as RAM cartridge or disk). In addition, up to 63 Micro Tunings can be saved to RAM cartridge that has been properly fonnatted for that purpose.
+
+
+
+
+
+
+
+
+
+ Entering the Micro Tuning Edit Mode
+
+
+
+
+
+
+
+
+
+
+
+
+
+Micro Tuning
+Data
+
+
+
+
+
+
+
+
+
+
+
+
+l]
+
+EGCOPY
+I(STORE	JI Press and hold the Store button.
+
+\( NTERNAL  JI Use the Internal or Cartridge button to select the desired memory location, The LCD will echo your choice. NOTE: If you wish to save
+Of..	theMicro Tuning data to a RAM cartrid9e, make sure that a properly
+
+I(CARTRIDGE JI formatted Cartridge (MTT-Y) is inserte in the cartridge port.
+
+
+.
+	 Use the number buttons (and the 1~32/33~64 button it
+I(,	33JI--1(32	"JI necessary) to choose the desired location for your Micro
+Tuning data: 1~2 in Internal memory or 1~631n Cartridge
+memory.
+
+
+
+
+
+.
+
+	YES	
+1(ï1/0N	JI While still holding the Store button, press the +1/YES button.
+
+--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ß(r) an@IID
+Using the New Voice Features
+
+Contents
+
+
+45	Voice Edit Buttons
+45	Button 7 LCD Display
+45	Button 8 LCD Display
+45	Button 9 LCD Display
+46	Button 10 LCD Displays
+46	Button 11 LCD Display
+47	Button 12 LCD Display
+47	Button 13 LCD Display
+47	Button 23 LCD Displays
+48	Button 24 LCD Displays
+48	Button 25 LCD Displays
+49	Button 26 LCD Displays
+
+50	Basic Voice Editing Functions
+50	Operator Select
+50	Operator On/Off
+50	EG Copy
+
+51	New Voice Parameters
+51	Pitch Envelope
+51	LFO
+52	Key Modes
+
+53	Controllers
+53	Function Data and Voice Effect Data
+53	Pitch Bend Modes
+53	Foot Controller I
+
+
+54	Fractional Scaling
+54	Fractional Scaling and Level Scaling
+54	Fractional Scaling Editing and Storage
+
+
+
+
+
+
+
+
+
+     Voice Edit Buttons
+
+
+All of the Voice Mode parameters are adjusted via the LCD displays called up using buttons 7 ~ 13 and 23 ~ 26. Many of the these buttons call up multiple LCD displays. The charts below show all of the displays called up by each button, and provide a complete list of parameters and value ranges. in some cases, the first LCD display in a chart may
+not be the first one you see. You may need to cycle through the displays (by pressing the button repeatedly) until you reach the desired LCD display.
+
+
+Button 7 LCD Display
+
+
+
+ALGORITHM
+[ 7	39]
+
+∑r-'-2===2i..=222222±22.:±±±c:!;r  >Al9
+>Fbl
+Feedback Level /0 ï 7)
+>Osc. s1.1nc
+Oscillator Sync (off, on)
+
+>Transpose
+Transpose (mid C ï Ct to CS)
+>Uoice naMe
+Voice Name /10 character name)
+
+
+
+
+
+
+
+
+
+
+
+OSCILLATOR
+
+Button 8 LCD Display
+
+
+OP!	Osc	>Mode al915 111111 fixed
+
+
+
+
+
+
+
+
+
+Button 9 LCD Display
+
+
+
+
+>Coarse>Fine >Detune
+1.620Hz:	+0
+
+
+
+>Mode
+Oscillator Mode (ratio, fixed)
+>Coarse
+Coarse Frequency (varies)
+>Fine
+Fine Frequency (varies)
+>Detune
+Oscillator Detune (-7 to +7)
+
+
+
+
+
+
+
+
+
+
+
+
+>Rs
+Rate Scaling /0 ï 7)
+>R 1 >R2 >R3 >R4
+Operator Envelope Rates 1 - 4 /0 . 99)
+>Ll >L2 >L3 >Li
+Operator Envelope Levels 1 ï 4 /0 ï99)
+
+
+Button 10 LCD Displays
+
+
+OUTPUT
+ LEVEL 
+
+	>Scaling Mode
+Scaling Mode (normal, fractional)
+>Scaling Mode
+
+
+
+
+
+
+
+
+OR
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Button 11 LCD Display
+
+>Level
+Operator Output Level (0 - 99)
+>Ld
+Left Scaling Depth (0 - 99)
+>Le
+Left Scaling Curve (-fin, -exp, +exp, +fin)
+>BP
+Break Point (A-1 to CB by half steps)
+>Re
+Right Scaling Curve (-fin, -exp, +exp, +fin)
+>Rd	
+Right Scaling Depth (0 - 99)
+
+
+
+>Scaling Mode
+Scaling Mode (normal, fractional)
+>Ofst
+Fractional Scaling Offset(-127 to +127)
+> C-2-+
+Scaling Level for key range (0 -255)
+
+
+
+
+
+
+
+ï
+>UelocitY
+Velocity Sensitivity /0- 7)
+>AMS
+Amplitude Modulation Sensitivity (0 ï 7)
+>PMs(all OP)
+Pitch Modulation Sensitivity /0 ï 7)
+
+
+
+
+
+
+
+
+
+
+
+Button 12 LCD Display
+
+
+
+
+
+
+
+
+
+
+
+Button 13 LCD Display
+
+
+>Wave
+LFO Waveshape
+(triangle, saw down, saw up,
+square, sine, s/hold)
+>Speed
+LFO Speed /0 - 99)
+>Delay
+Delay before LFO begins /0 - 99)
+>Mode
+LFO Mode (single, multi)
+>PMd
+Pitch Modulation Depth /0 - 99)
+>AMd
+Amplitude Modulation Depth /0 - 99)
+>Sync
+LFO Sync (off, on)
+
+
+
+
+
+>Rn9
+
+>Uel
+Velocity (off, on)
+>Rs
+Rate Scaling /0∑ 7)
+>R 1 >R2 >R3 >R4
+Pitch Envelope Rates 1 - 4 /0 ï 99)
+>Ll >L2 >L3 >L4
+Pitch Envelope Levels 1 - 4 /0 - 99)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Button 24 LCD Displays
+
+RandoM Pitch >DePth
+1
+
+
+
+
+
+
+
+
+
+
+
+
+Button 25 LCD Displays
+
+
+
+>Ran9e
+Pitch Bend Range /0 ï 12)
+>Step
+Pitch Bend Step Range /0 ∑ 12)
+>Mode
+Pitch Bend Mode (normal, low, high, key on)
+
+>tlode
+Portamento Mode
+(sus-key p retain, sus-key p follow)
+>SteP
+Portamento Step Range /0-12)
+>TiMe
+Portamento Time /0-12)
+
+>DePth
+Random Pitch Depth /0 -7)
+
+
+
+
+
+
+
+
+
+
+>PMod
+Pitch Modulation  /0. 99)
+>AMod
+Amplitude Modulation  /0 ï 99)
+>EGbias
+Envelope Generator Bias /0-99)
+>Pblas
+Pitch Bias /-50 to +SO)
+
+
+>PMod
+Pitch Modulation  /0. 99)
+>AMod
+Amplitude Modulation  /0. 99)
+>EGbias
+Envelope Generator Bias /0.99)
+>Pbias
+Pitch Bias /∑50 to +SO)
+
+>PMod
+Pitch Modulation  /0. 99)
+>AMod
+Amplitude Modulation /0 ï99)
+>EGbias
+Envelope Generator Bias (0. 99)
+
+
+
+
+
+
+
+
+
+Button 26 LCD Displays
+
+>CS!
+Control Slider 1 (off, on)
+>PMod
+Pitch Modulation (0 - 99)
+>AMod
+Amplitude Modulation (0 - 99)
+>EGbias
+Envelope Generator Bias (0 ï 99)
+>Uol
+Volume {O - 99)
+
+>PMod
+Pitch Modulation (0 - 99)
+>AMod
+Amplitude Modulation (0 - 99)
+>EGb las
+Envelope Generator Bias (0 - 99)
+>UoI
+Volume (0-99)
+
+>PMod
+Pitch Modulation (0 - 99)
+>AMod
+Amplitude Modulation  (0 - 99)
+>EGbias
+Envelope Generator Bias (0 - 99)
+>Uol
+Volume {O ∑ 99)
+
+       Basic Voice Editing Functions
+
+
+
+
+
+
+   Voice editing is much easier on the new DX, thanks to the expanded LCD display and the direct operator access provided by buttons I~ 6 and 17 ~ 22.
+
+
+The new DX offers an expanded LCD display, which makes Voice editing much easier than it was with the original DX7. A number of other basic Edit operations have also been simplified, as follows:
+
+Operator Select
+The parameters accessed using buttons 8 ~ 11 are adjustable for each of the six operators. In Voice Edit Mode, buttons I ~ 6 provide a quick way to move from one operator to another.
+
+Operator On/Off
+In order to adjust the settings for the six operators accurately, it is useful to focus on the sound of certain operators by turning off the output of ones not being edited. In Voice Edit Mode, buttons 17 ~ 22 provide a quick way to tum the six operators on and off.
+
+
+
+
+
+
+
+
+
+
+
+
+
+EG Copy
+The EG Copy function from the original DX7 is retained in the new DX, and is made easier through the use of buttons 1 ~ 6. Once you have Envelope data you want to copy displayed in the LCD, simply press and hold the Store/EG Copy button. You can then choose the copy destination using buttons 1 ~ 6.
+
+
+
+
+
+
+- so -
+
+      New Voice Parameters
+
+
+
+
+
+
+
+
+Representative Pitch Envelope
+Generator shape.
+
+
+The basic Voice of the new DX is almost exactly the same as that of the original DX7, assuring complete compatibility between the old and new instruments. To discover the additional Voice parameters of the new DX, read on.
+
+Pitch Envelope
+The Pitch Envelope operates as it did in the original DX7, but some new features have been added. The potential depth of the Pitch Envelope effect can now be adjusted using the Range parameter:
+
+
+RNG
+Maximum Pitch
+Chanae Ranae
+1/2
+6 semitones
+1
+1 octave
+2
+2 octaves
+8
+8 octaves
+
+
+
+
+
+L4
+
+In addition, the Velocity parameter allows you to control the intensity of the Pitch Envelope with keyboard touch.
+
+LFO
+There was only one LFO in the original DX7, so all voices were affected in exactly the same way by the LFO settings. In the new DX, there are sixteen LFOs, one for each voice. Even though all sixteen LFOs must have the same settings, they can now operate independently of each other if the LFO Mode parameter is set to Multi. If Mode is set to Single, the LFO will operate as it did in the original DX7.
+
+
+
+
+
+
+
+
+- 51 -
+
+
+Key Modes
+The new DX offers two Unison Key Modes, which create "fatter" sounds. Since these new Modes use more than one note of the DX's sixteen-note capacity, they will affect the total number of notes available at any one time:
+
+ Key Mode
+Voice Mode
+
+Single
+Dual
+Split
+Polyphonic
+16
+8
+8+8
+Monophonic
+1
+1
+1 + 1
+Unison poly
+4
+2
+2+2
+Unison mono
+1
+1
+1 + 1
+
+
+In Split Mode, the actual number of voices available will depend on the settings for the two voices involved. For example, if Voice A is set to Polyphonic and Voice B is set for Unison poly, a total of IO notes can be played simultaneously (8 for Voice A and 2 for Voice B).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- 52 -
+
+Controllers
+
+
+
+
+
+
+
+
+
+
+
+Pitch Bend Modes on the new DX.
+
+
+The new DX features an expanded set of controller options. The settings for Pitch Bend Wheel, Modulation Wheel, Aftertouch, Breath Controller, and Foot Controllers 1 and 2 are adjusted in Voice Edit Mode, using buttons 24 ~ 26.(The other controller settings are accessed in Performance Edit Mode.)
+
+Function Data and Voice Effect Data
+The original DX7 separated its operational parameters into two groups: Voice data and Function data. Voice data encompassed all parameters used to create a Voice, and Function data involved settings for the various performance Controllers. The DX7 only had memory to store one set of Function settings, so all Controllers operated in the same way for all Voices.
+In the new DX, Function data has been replaced by Voice Effect data (adjusted using buttons 23 ~ 26). This Voice Effect data can be adjusted as part of each Voice Memory - this means that each Voice can have its own Controller settings.
+Most of the Voice Effect parameters are exactly the same as the Function parameters of the original DX7. The new parameters are outlined below.
+
+Pitch Bend Modes
+The Pitch Bend Wheel in the new DX functions in one of four basic Modes, which operate as follows:
+
+
+Pitch Bend Mode
+Chord notes affected
+    Applied to sound sustained by foot switch?
+Normal
+all notes
+yes
+Low
+lowest note only
+ves
+High
+highest note only
+yes
+Kevon
+all notes
+no
+
+
+
+
+Foot Controller 1
+The new DX provides memory space to set the operation of two Foot Controllers. Foot Controller 1 also has a new parameter possibility: It can be set to control the same Voice parameter as that of Continuous Slider 1. (For more on the available settings for CS I, see Section 3 of this manual.) Since CS I operates in Performance Mode, this use of Foot Controller I is also confined to Performance Mode.
+
+
+
+
+- 53 -
+
+Fractional
+Scaling
+
+
+
+
+
+Fractional Scaling allows you to adjust the output level
+    of each operator for three-note groups.
+
+
+
+
+
+
+
+
+
+
+
+        Entering Fractional Scaling
+Edit Mode
+
+
+One of the most important aspects of DX7 voicing is Level Scaling, which allows adjustment of each operator's output over the range of the keyboard. The new DX offers the possibility of even more subtle control over operator outputs, through Fractional Scaling.
+
+Fractional Scaling and Level Scaling
+Although the DX7 's Level Scaling offers a great deal of interaction between timbre and frequency, Fractional Scaling offers even greater precision: The level can be set independently in groups of three notes, over the entire range of the keyboard. To provide even more control, the resolution of the level settings has been expanded from O ~ 99 to 0 ~ 255:
+
+
+
+
+
+
+Fractional Scaling Editing and Storage
+
+
+
+- 54 -
+
+
+
+
+
+
+
+
+
+
+
+        Editing Fractional Scaling
+Data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        Storing Fractional Scaling
+Data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ß(E; Ull(Q)IID ß
+Memory Functions
+
+Contents
+
+59	Utility Buttons
+59	Button 14 LCD Displays
+60	Button 15 LCD Displays
+61	Button 16 LCD Displays
+
+62	Memory Layout
+63	Memory Types
+63	Voice & Performance Memory
+63	System Setup Memory
+63	Micro Tuning Memory
+63	Fractional Scaling Memory
+63 Initialized Memory
+64 Current Play/Edit Memory
+64 Compare/Recall Memory
+
+65 Memory Storage Types
+65 Internal Memory
+65 Cartridge Memory
+66 ROM Cartridge
+66 Disk Memory (FD Only)
+
+67 Basic Utility Functions
+67 Master Tune
+67 Recall Edit
+67 Initialize
+
+68 Cartridge Memory Functions
+68 Using Cartridge Data
+69 Formatting a RAM Cartridge
+70 Loading Voice & Performance Data from a RAM Cartridge
+
+71 Disk Memory Functions (FD Only)
+71 Using and Handling Disks
+72 Basic Disk Drive Operations
+74	DiskMDR
+
+
+.,.
+
+
+t ï
+
+
+
+
+
+
+
+
+
+Utility Buttons
+
+
+All of the Memory functions (and related utility functions) are adjusted via the LCD displays called up using buttons 14 ~ 16. All of the these buttons call up multiple LCD displays. The charts below show all of the displays called up by each button, and provide a complete list of parameters and value ranges. In some cases, the first LCD display in a chart may not be the first one you see. You may need to cycle through the displays ( by pressing the button repeatedly) until you reach the desired LCD display.
+
+
+
+
+Button 14 LCD Displays
+
+
+
+
+
+
+
+>Master tunin9
+Master Tuning (-64 to +63)
+>INT
+Internal Memory Protect (off. on)
+>CRT
+Cartridge Memory Protect /off, on)
+
+
+>Coarse
+Coarse Frequency (C#-2 to G8 by half stops)
+>Fine
+Fine Frequency (-42 to +42)
+
+
+>Uoice
+Recall Voice Edit
+>Per f.
+Recall Performance Edit
+>Micro tunin9
+Recall Micro Tuning Edit
+
+
+>UoiceA
+Initialize Voice Bank A
+>UoiceB
+Initialize Voice Bank 8
+>Per forMance
+Initialize Performance
+
+r
+
+
+
+
+
+
+Button 15 LCD Displays
+
+
+
+>Saue
+Save to Cartridge
+>Load
+Load from Cartridge
+
+
+>Bank
+Bank /1 - 4)
+>ForMat
+Format (DXl-2, FKS-Y, MTT- l-'.)
+
+
+>Bank
+Bank /1 -4)
+>ForMat
+Format (DXl-2, FKS-Y, MTT-l-'./
+
+
+>Bank
+Bank /1 - 4)
+>ForMat
+Format (DXl-2, FKS- Y, MTT- Y)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>Forriat
+Format Disk
+>Back UP
+Back Up Disk
+>Free bytes
+Free Files On Disk // - 44)
+
+
+
+
+
+Button 16 LCD Displays
+
+
+
+
+>Dir
+Internal Files Directory
+>Saue
+Save Internal File
+>Load
+Load Internal File
+>Del
+Delete Internal File
+>Renarie
+Rename Internal File
+
+
+>Dir
+Cartridge Files Directory
+>Saue
+Save Cartridge File
+>Load
+Load Cartridge File
+>Del
+Delete Cartridge File
+>Renarie
+Rename Cartridge File
+>Bank
+Cartridge Bank /1 - 4)
+
+
+
+>Dir
+MOR Files Directory
+>In
+MOR File In
+>Out
+MOR File Out
+>Del
+Delete MOR File
+>Renarie
+Rename MOR File
+
+Memory Layout
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disk
+
+
+
+
+
+
+Cartridge
+
+
+
+
+
+
+Internal Memory
+
+
+
+
+
+
+
+
+Current Play/ Edit Memory
+
+
+
+
+
+    Compare/ Recall Memory
+
+
+
+
+
+
+
+
+
+Memory Types
+
+
+As you can see from the diagram on the facing page, there are many facets to the Memory layout of the new DX. To understand all of these types of memory, study the diagram and read the explanation below:
+
+Voice & Performance Memory
+This Memory block includes data for 64 Voice Memories and 32 Performance Memories, plus one System Setup Memory and two User-defined Micro Tunings.
+
+System Setup Memory
+System Setup Memory contains a number of basic MIDI settings, plus Master Tuning and Cartridge Bank number settings. System Setup is always retained in Internal Memory, along with the Voice & Performance Memory and the two User-defined Micro Tunings. For more information on System Setup Memory, see Section 6 of this manual.
+
+Micro Tuning Memory
+The DX contains eleven Micro Tunings as part of its permanent memory. In addition, two User-defined Micro Tunings are stored as part of Voice & Performance Memory. Using a RAM cartridge, it is also possible to store up to 63 Micro Tuning Memories.
+
+Fractional Scaling Memory
+Fractional Scaling data cannot be stored in the DX's Internal Memory. In order to use Fractional Scaling data with Internal Voice Memories, the data must reside in a RAM (or ROM) cartridge installed in the DX's cartridge port.
+
+Initialized Memory
+For those who wish to create Voice Memories or Performance Memories from scratch, the DX provides both Voice and Performance "blank Page" data as part of its permanent memory. If you want to start from ground zero (instead of working from an already≠ existing Voice or Performance Memory), call up the DX's Init Voice or Init Performance data (using button 14 in Edit Mode).
+
+r
+
+
+
+
+
+
+Current Play/Edit Memory
+Whenever you call up a Voice Memory or Performance Memory in Play Mode, you are actually sending it to a special location in the DX -	the current Play/Edit Memory. As the name indicates, this is also the location where Voice or Performance data is edited. In computer terminology, this memory location is often called the Edit Buffer.
+
+Compare/Recall Memory
+When you are editing a Voice and use the Edit/Compare feature, the original Voice data is loaded into the Play/Edit Memory (so you can hear it). The edited Voice data is moved temporarily into another memory location, the Compare/Recall Memory. In computer terms, this memory location might be called the Compare Buffer. When you engage the Recall Edit function for the various Internal Memory types, you are actually recalling the last data moved to the Compare/Recall Memory.
+
+
+
+
+
+
+
+
+
+    Memory Storage Types
+
+
+
+
+
+
+
+
+
+
+   The RAM4 cartridge can be used to store one
+of three possible kinds of data.
+
+
+In addition to having a number of distinct types of memory, the new DX offers a number of ways to store these various memories. To understand how the various memory storage possibilities interact, read on.
+
+Internal Memory
+The DX's Internal Memory holds a standard Voice & Performance Memory block, which consists of the following: 64 Voice Memories, 32 Performance Memories, I System Setup Memory, and 2 User-defined Micro Tuning Memories. Voice & Performance Memory can also be stored in Cartridge Memory or in Disk Memory.
+
+Cartridge Memory
+A DX RAM4 cartridge can store three different types of data: Voice & Performance, Fractional Scaling, and Micro Tuning.
+The RAM Voice & Performance Memory is equivalent to the Internal Voice &
+Performance Memory.
+The RAM Fractional Scaling Memory holds up to 64 Fractional Scalings, which are tied to the 64 Voices in the DX's Internal Memory.
+The RAM Micro Tuning Memory holds up to 63 Micro Tunings.
+
+Possible RAM4 Contents
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Each of these kinds of Memory can be stored from cartridge to disk (FD only).
+
+
+ROM Cartridge
+The supplied ROM cartridge contains 4 banks, which can be accessed using button I5 in Edit Mode:
+
+Contents of Supplied ROM Cartridge
+
+The supplied ROM cartridge holds a number of different kinds of DX memory.
+
+
+
+
+I
+i
+I
+
+
+
+
+
+
+
+
+
+ï may all be equal tempered data
+
+
+Disk Memory (FD Only)
+Disk memory can be used to store the following: Voice & Performance Memories from the DX's Internal Memory; Voice & Performance, Fractional Scaling, or Micro Tuning Memories from Cartridge Memory; and MIDI data from an external unit via the DX's MIDI ports.
+
+7
+
+
+
+
+
+
+Basic Utility Functions
+
+
+Most of the basic Internal Memory Utility functions are accessed using button 14 in Edit Mode, as follows:
+
+Master Tune
+This sets the tuning of the DX relative to its internal A-440 reference. This setting is stored as part of the DX's System Setup Memory.
+
+Recall Edit
+These functions can be used to recall Voice, Performance, or Micro Tuning data from the DX's Compare/Recall Memory.
+
+Initialize
+These functions can be used to call up the DX's Initialized Voice or Performance Memories, if you wish to create Voice or Performance data from scratch.
+
+
+
+
+
+
+
+
+Cartridge Memory Functions
+
+
+
+
+
+
+  LCD display indicating that required Fractional Scaling or
+   Micro Tuning data is not available. When
+the needed data is supplied via a RAM cartridge, these displays disappear.
+
+
+RAM cartridges are useful storage centers for Voice & Performance data. In addition, they are the only storage source from which Fractional Scaling data and Micro Tuning data can be accessed for immediate use with DX Internal Voice & Performance data. To understand the basic Cartridge Utility functions, read on.
+
+Using Cartridge Data
+Except for the two User-defined Micro Tunings that are part of the DX's Internal Voice & Performance Memory, Cartridge Memory is the only location from which Fractional Scaling and Micro Tuning data may be recalled for immediate use. Fractional Scaling data and Micro Tuning data can be stored on disk, but cannot be used directly with Internal Memory from disk: In order to interact with Internal Voice & Performance data,
+Fractional Scaling and Micro Tuning data must reside in a cartridge plugged into the DX 's
+Cartridge port. If you create Voice or Performance data that involves Cartridge Memory (for either Fractional Scaling or Micro Tuning), the DX will remind you as follows:
+
+
+This symbol si9nifies that the indicated Voice Memory
+was created with Fractional Scaling, but the RAM cartridge with the necessary Fractional Scaling data is not inserted in the instrument's cartridge port.
+
+
+This symbol signifies that the indicated Performance memory was created to include Micro Tuning from a RAM cartridge, but the RAM cartrid9e with the necessary Micro Tuning
+data is not inserted in the instrument's cartridge port.
+
+
+
+
+
+
+
+
+
+Formatting a RAM Cartridge
+
+
+
+
+
+
+
+Loading Voice & Performance Data from a RAM Cartridge
+
+
+
+
+
+
+
+
+
+
+
+ï 
+
+
+
+
+
+
+
+
+
+
+
+'If you answer NO, you are telling the DX to load the RAM Cartridge data with 'System Setup data. If you answer YES, you are telling the DX to load the RAM 'Cartridge without System Setup data.
+
+l
+
+
+
+Disk Memory Functions (FD Only)
+
+
+The FD's disk drive is capable of storing any information that resides in the DX's Internal Memory or Cartridge Memory. In order to access this data for pe,formance, it must be loaded into the DX's Internal or Cartridge Memory- the disk drive only operates as a storage medium.
+
+Using and Handling Disks
+The DX7 II FD uses 3.5" micro floppy disks. These disks have a Memory Protect function that is similar to that of the RAM4 cartridge:
+
+
+
+Disk Memory Protect Switch
+ï	ï
+ON
+
+ OFF
+
+
+
+
+Even though 3.5" disks are relatively sturdy, you should handle them with care when inserting them into or removing them from the DX's disk drive:
+
+
+
+
+
+
+
+to remove the disk.
+
+
+
+
+
+
+Basic Disk Drive Operations
+
+
+
+Formatting a Disk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Saving Internal Memory
+to Disk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+COMPARE
+I"?- I('∞"	)[ Press and hold the Edit/Character button, and type in a name for the
+.	. . file you wish to save to disk.
+a-tARACTER
+
+Press the +1/YES button again. The display will ask "" Are you sure?"
+
+Press the +1/YES button once again.
+'It is possible to store files on top of files already loaded (which will erase the original data). Make sure to select a blank file location before moving to the Save function.
+
+
+
+
+
+
+
+
+
+
+Saving Cartridge Memory
+to Disk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lay
+
+
+
+
+ove to a
+
+
+
+
+
+d type in a name for the
+
+
+will ask	Are you sure?"
+
+
+
+Loading Internal Memory
+from Disk
+
+
+
+
+
+
+I
+i
+!
+I'
+
+
+
+Loading Cartridge Memory
+from Disk
+
+
+
+
+
+
+
+
+
+ï 
+
+
+DiskMDR
+The DX7 II FD's disk drive can also be used as a MIDI Data Recorder, to record MIDI information from external instruments via the DX's MIDI ports. The DX's disk can record external MIDI data into files of up to 20K bytes. To use this MIDI record function, make the proper MIDI connections and follow the prompts in the DX's LCD display.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ß Uil(IDIIll (ID
+MIDI Functions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- 75 -
+
+Contents
+
+
+77	MIDI Buttons
+77	Button 31 LCD Displays
+78	Button 32 LCD Displays
+
+79	System Setup
+79	Channel Messages
+79	Note On/Off
+79	Program Change Transmission
+79	Local On/Off
+80	Immediate MIDI Program Change Out
+80	Control Number
+
+81	Other System Setup Parameters	ï
+81	MIDI Data Communications
+81	MIDI Device Number
+81	Receive Block
+81	MIDI Out
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+f	4
+
+
+
+MIDI Buttons
+
+
+All of the MIDI functions and parameters are adjusted via the LCD displays called up using buttons 31 ~ 32. All of the these buttons call up multiple LCD displays. The charts below show all of the displays called up by each button, and provide a complete list of parameters and value ranges. In some cases, the first LCD display in a chart may not be the first one you see. You may need to cycle through the displays (by pressing the button repeatedly) until you reach the desired LCD display.
+
+
+Button 31 LCD Displays
+
+
+
+
+on/off >PC trns
+
+>Note on/off
+Note Selection (all, odd, avan)
+>PC trns Mode
+Program Change Transmit Mode
+(off, normal, programmable)
+>Local
+Local Mode (off, on)
+
+>[  1]  [  2]  [ 3]
+Program Number to Sand (001 - 128)
+
+
+
+
+>A
+Receive Channel A (1 - 16, off)
+
+,, "'''	>BReceive Channel B (1 - 16, off)
+>OMni
+Omni Mode (off, on)
+
+>A
+MIDI In Controller A (11-31)
+>B
+MIDI In Controller B (11-31)
+>1
+MIDI In Slider 1 (5 -31)
+>2
+MIDI In Slider 2 (5 ∑ 31)
+
+Button 32 LCD Displays
+
+>Device nuMber
+Device Number (1 - 16, off)
+>Receive block
+Receive Block	(1 - 32, 33 - 64)
+
+>Edit buf
+Transmit Voice Edit Buffer
+>1-32
+Transmit Voice Data 1-32
+>33-61
+Transmit Voice Data 33-64
+
+>Edit buf
+Transmit Performance Edit Buffer
+>INT
+Transmit Internal Performance Memory
+
+>Edit buf
+Transmit Micro Tuning Edit Buffer
+>INT
+Transmit Internal Miao Tuning Memory
+>CRT
+Transmit Cartridge Micro Tuning Memory
+
+>SYsteM setup
+Transmit System Setup
+
+
+
+
+
+f
+
+System Setup
+
+
+Since the use of many basic MIDI functions might depend on the contents of a specific set of Voice & Performance data, the new DX provides a special memory location, System Setup Memory, to store basic MIDI parameters and other data in conjunction with a Voice & Pe,formance Memory block. This System Setup Memory contains settings for the following parameters:
+
+Channel Messages
+This LCD display allows you to set the DX's MIDI transmission channel, MIDI receive channels (for Voice A and Voice Bin Performance Mode), and MIDI Omni Mode reception (on or off- if on, the receive channel settings are inactive).
+
+Note On/Off
+This parameter is usually set to off, meaning that all keys played produce a note. Other settings (Odd, Even) can be used in conjunction with other MIDI instruments to produce a variety of interesting effects.
+
+Program Change Transmission
+If the new DX is connected to another MIDI instrument, various levels of MIDI communication are possible. The MIDI Program Change Mode determines how the DX will relate to an external MIDI instrument: If Mode is set to Off, program changes on the DX will have no effect on the external unit; if Mode is set to Normal, a program change on the DX will send the same Program number to the external unit; if Mode is set to Programmable, the program changes sent will be be those programmed in the Program Change Trans LCD display.
+
+Local On/Off
+This parameter allows you to tum the DX's internal synthesizer on and off (as part of a MIDI system). If Local is set to Off, notes played on the DX keyboard will not engage the DX's internal sound mechanism.
+
+Immediate MIDI Program Change Out
+If you wish to send a quick MIDI Program Change Message to an external MIDI unit, use the following procedure:
+0	ï	.
+
+\OICl: MOOE-∑ SELECT
+[ SINGLE	)I[,,_,._	)(sPuT
+
+
+COMPAFE	EG COPY
+
+In any of the Play Modes
+(Single, Dual, Split, or Performance), press and hold the button of the
+current Play Mode (the one with the lit LED). You will see this LCD display:
+
+ 
+..
+
+
+
+Now, while still holding the Play Mode button, type in the program change number you desire (1~128) using the 1~10 number buttons (1 through 0 character buttons). All three positions in the LCD must be filled:
+for example, to send program #1, type in 001.
+
+Once you have typed in the third number, the program change you have typed in will be sent over MIDI to the instrument connected to your DX? II.
+
+
+
+Control Number
+These parameters set the MIDI Controller numbers for external MIDI Controllers that may interact with the DX. The function of these Controllers is set via button 26 in Edit Mode.
+In addition, these parameters set the MIDI function of CS I and CS 2 (as Controllers of external MIDI instruments), and also set the Controller number of an external MIDI Controller that can be used to control the Voice parameters connected to CS I and CS 2 in Performance Mode. If Controller values of 5 ~ 8 are selected, only MIDI transmission is possible.
+
+
+Other System Setup Parameters
+In addition to all of these MIDI settings, The System Setup Memory stores the Master Tune setting (button 14) and the Cartridge Bank setting (button 15). Whenever you load Voice & Performance data from Cartridge Memory or Disk Memory to Internal Memory, you have the option of loading with or without the System Setup stored with the Voice & Performance data.
+
+System Setup Data
+Button
+Master Tuning
+14
+Cartridge Bank Number
+15
+MIDI Trns ch, Rev ch, Omni Mode
+31
+Local
+31
+Control Number
+31
+Note on/off
+31
+PC trans mode
+31
+Program change out
+31
+
+
+
+    MIDI Data Communications
+
+
+If you use the new DX as part of a MIDI system, there are a number of advanced MIDI functions available for your use:
+
+MIDI Device Number
+If the DX is connected to another Yamaha product, this parameter must be used to set a Yamaha System Exclusive Device Number for MIDI System Exclusive data reception or transmission. This parameter is also used when the FD's disk drive is used as a MIDI data recorder.
+
+Receive Block
+This parameter allows you to set the Memory Reception block as either Internal Voices 1 ~ 32 or Internal Voices 33 ~ 64.
+
+MIDI Out
+These LCD displays allow you to transmit various kinds of MIDI System Exclusive data from the DX's Internal Memory to an external instrument. Obviously, these functions are useful only if you are transmitting data to another instrument (such as another DX7 II) that is capable of understanding and using it.
+
+ Appendix 1: Supplemental Information
+
+
+As mentioned at the outset, this manual has not attempted to cover all of the functions of the new DX in exhaustive detail. To do so would have required a manual of large scale and density, one in which it would have been very difficult to locate specific information needed to begin using the DX.
+
+For continuing information concerning the DX7 II FD/D, consult AfterTouch, the official publication of the Yamaha Users Group. Many advanced functions will be discussed in its pages in the coming months. There will also be information concerning the availability of other material concerning more advanced applications. Some areas that will be covered in AfterTouch or in supplemental booklets include the following:
+
+
+Quick Reference Guide Memory Management Fractional Scaling Micro Tuning (Basic)
+Micro Tuning (Advanced)
+FM Voice Programming (Basic)
+FM Voice Programming (Advanced) Real-Time Parameter Changes Advanced Controller Usage Advanced MIDI Applications
+MIDI Technical Data & Charts
+
+To receive a free copy of AfterTouch every month, send your request to Aftertouch, P.O. Box 2338, Northiridge, CA 91323-2338. On your letter or postcard, be sure to indicate that you are the owner of a DX7 II FD/D.
+
+ Appendix 2: Bibliography
+
+
+Many of the basic functions of the DX7 II FD/D are the same as those of the original DX7. Since there is a wealth of material available on the operation of the original DX7, this manual has focused on the new functions and features. For more information on the parameters and features that the new DX shares with the original DX7, consult the following:
+
+DX7 Owner's Manual. (Available through your local authorized Yamaha dealer). The Complete DX7, by Howard Massey; published by Amsco Publications; 1986.
+FM Theory and Application, by Dr. John Chowning and David Bristow; published by Yamaha Music Foundation; 1986.
+
+How to Understand and Program the Yamaha DX7, by Lorenz M. Rychner; published by Alexander Publishing; 1985.
+
+The Secrets of Analog and Digital Synthesis, by Steve de Furia; published by Hal Leonard Publishing; 1985.
+
+Yamaha Easy DX7; published by Yamaha Music Foundation and Hal Leonard Publishing; 1986.
+
+Appendix 3: MIDI Implementation Chart
+[ Digititl P1--ogr-Mllll!li"ible Algor-1thm Synthesizer- l	Date : 11/21, 1986 Kadel DX7-2	XIDI Implementation Chart Version : 1.0
++	+
+Transmitted	Recognized	Remarks
+Function ... :
+:-------------------+----------------+----------------+----------------:
+
+:-------------------+----------------+----------------+----------------:
+Default	3	: 1, 2, 3, 4	memorized
+:Mode	Messages : x	: POLY, MONO<M=l): Altered	: 11111111111111 : x	12:
+:-------------------+----------------+----------------+----------------:
+:Note	: 36 - 96	11 : 0 - 127	12 :
+:Number : True voice: 11111111111111 : 1 - 127
+:-------------------+----------------+----------------+----------------:
+:Velocity Note ON	: o 9nH,v=l-127 : o v=l-127 Note OFF : x 9nH,v=0	: x
+:-------------------+----------------+----------------+	--.
+:After	Key's	: x	: x
+:Touch	Ch's	: o	11 : o	12 :
+.-------------------+----------------+----------------+----------------:
+:Pitch Bender	: o	11 : o 0-12 semi 12 :7 bit resolution:
+:-------------------+----------------+----------------+----------------:
+
+
+:Control
+:Change
+
+
+
+9
+:-------------------+----------------+----------------+----------------:
+:Prog	: o 0 - 127 11 : o 0 - 127 12 :
+:Change : True#	: 11111111111111 :	0 - 127	:64-127:Cartridge:
+:-------------------+----------------+----------------+----------------:
+:System Exclusive	: o	13 : o	13 :Voice parameters:
+:-------------------+----------------+----------------+----------------:
+:System: Song Pos : x	x
+: Song Sel : x	: x
+:Common: Tune	: x	:	x
+:-------------------+----------------+----------------+	--.
+:System	:Clock	: x	:	x
+:Real Time :Commands: x	:	x
+:-------------------+----------------+----------------+----------------:
+:Aux	:Local ON/OFF: x	x
+:All Notes OFF: x	o (126,127)
+:Mes- :Active Sense : o	o
+:sages:Reset	: x	x
+:-------------------+----------------+----------------+----------------:
+:Notes: 11 = transmit if transmit channel is not off.
+12 = receive if receive channel is not off.
+13  = transmit/receive if device number is not off.
+
++	+
+Xode 1	OMNI ON,	POLY	Mode 2	OMNI ON,	MONO	o:	 Yes Mode 3: OMNI OFF, POLY	Mode 4 : OMNI OFF, MONO	 x:	No
+
+
+
+II	) /2-FO/D
+ï 
+-..,
+Voice name
+Date	I	I
+-=
+t-
+
+r':>
+(D
+t:::,
+......
+(1
+:r
+......
+0u0,
+
+
+
+
+
+Blank Performance Data Chart
+
+
+
+
+Performance name :
+
+
+A
+B
+Voice mode
+
+
+Voice No(name)
+
+
+Total volume
+
+Balance
+
+
+Dual detune
+
+
+Split point
+
+
+Sustain foot switch
+
+
+Foot switch
+(	)RNG
+
+
+Continuous  slider	I
+(	)
+
+
+Continuous slider	2
+(	)
+
+
+Micro tuning table select
+(	)
+Key=
+
+
+EG forced damping
+
+Note shift
+
+
+PAN mode
+
+PAN range
+
+PAN select
+
+
+PAN  EG
+RI
+R2
+R3
+R4
+
+LI
+L2
+L3
+L4
+
+
+
+
+
+
+
+
+
+
+
+
+
+- 86 -
+
+
+
+
+MIDI DATA FORMAT
+
+
+
+
+1. Transmission Requirements
+
+
+ACTIVE SENSING
+
+
+
+
+$FE
+
+NOTE ON/OFF
+
+$9n
+
+MODULATION WHEEL
+BREATH CONTROL
+
+$Bn,
+$Bn,
+
+FOOT CONTROL
+
+$Bn,
+---	EDIT MODE
+VOLUME
+
+$Bn,
+
+CONTINUOUS SLIDER 1
+*l
+$Bn,
+
+CONTINUOUS SLIDER 2
+*2
+$Bn,
+
+SUSTAIN SWITCH
+
+$Bn,
+
+PORTAMENTO SWITCH
+
+$Bn,
+
+SOSTENUTO
+
+$Bn,
+
+SOFT
+
+$Bn,
+
+DATA ENTRY +1
+
+$Bn,
+
+DATA ENTRY -1
+
+$Bn,
+
+PROGRAM CHANGE
+
+$Cn
+
+AFTER TOUCH
+
+$Dn
+
+
+PITCH BENDER	$En
+
+VOICE EDIT BUFFER	$F0, $43, $OS,
+SUPPLEMENT  EDIT BUFFER	$F0, $43, $OS,
+PACKED 32 SUPPLEMENT	$F0, $43, $OS,
+PACKED 32 VOICE	$F0, $43, $OS,
+PACKED 32 PERFORMANCE	$F0, $43, $OS,
+PERFORMANCE EDIT BUFFER	$F0, $43, $OS,
+SYSTEM SETUP	$F0, $43, $OS,
+MICRO TUNING EDIT BUFFER	$F0, $43, $OS,
+MICRO TUNING IN MEMORY	$F0, $43, $OS,
+MICRO TUNING IN CARTRIDGE	 $F0, $43, $OS, FRACTIONAL SCALING EDIT BUFFER	$F0, $43, $OS, FRACTIONAL SCALING IN CARTRIDGE	 $F0, $43, $OS,
+
+
+MIDI OUT
+
+
+
+
+
+
+
+
+
+
+
+VOICE PARAMETER CHANGE	$F0, $43, $1S,
+SUPPLEMENT PARAMETER CHANGE	 $F0, $43, $1S, PERFORMANCE PARAMETER CHANGE	 $F0, $43, $1S, MICRO TUNING PARAMETER CHANGE	$F0, $43, $1S,
+
+FRACTIONAL SCALING PARAMETER CHANGE	$F0, $43. ,
+
+$1S,
+
+
+*1 BALANCE $Bn, $08 in EDIT MODE
+
+Add-I
+
+
+
+
+
+2. Transmission Data
+
+
+2-1.  Channel Information
+Transmission Is possible only when 1~ 16 Is specified as the transmission channel.
+1) Channel voice message
+
+1  Key ON/OFF
+
+2-2.  System Information
+
+1) System real time message
+Active sensing
+Status	1 1 1 1 1 1 1 0  (FE)
+
+2) System exclualve meHage
+
+Status Note No. Velocity
+
+1 0 0 1 n n n n 0 k k k k k k k 0vvvvvvv 00000000
+
+(9n)	n = channel No.
+k=36(Ct)~96(C6)
+{v=O) Key ON (v = 0) Key OFF
+
+
+Transmission is possible only when the device No. is set to 1~16.
+1 Parameter change
+
+2 Control change
+Status	 1 0 1 1 n n n n (Bn) n = channel No. Control No.	0 c c c c c c c
+Control Value  0 v v v v v v v
+Control No.
+c=1	Modulation wheel	v=0~127
+c=2	Breath control	v=0~127
+c=4	Foot control	v=0~127
+c=5	Portamento time	v=0~127
+
+Status ID No.
+Substatus/ device No. Parameter group No. Parameter No. Data
+
+EOX
+
+1 1 1 1 0 0 0 0	(FO)
+0 100	0 0 1 1	(43)
+
+0 0 0 1 n n n n	(1n)
+0ggggghh 0ppppppp
+0ddddddd} Single or multiple 0ddddddd bytes
+1 1 1 1 0 1 1 1  (F7)
+
+c=7	Volume	v=0~127
+c=5~ c=31
+c=64
+Continuous slider
+
+Sustain SW
+v=0~127
+
+v=0: OFF, 127: ON
+c=65
+Portamento SW
+v=0: OFF, 127: ON
+c=66
+Sostenuto
+v=O: OFF, 127: ON
+c=67
+Soft
+v=0: OFF, 127: ON
+
+3 Program change
+Status	1100nnnn (Cn) n = channel No. Program No.	0ppppppp	p=0~63:
+ INTERNAL p=64~127:
+CARTRIDGE
+
+
+There are seven parameter group Nos. and parameter Nos.
+
+
+4 After touch
+Status	 1101nnnn (Dn) n = channel No. Value	0vvvvvvv	v=0~127
+5 Pitch bender
+Status	 1 1 1 O n n n n	(En) n = channel No. Value (LSB)	0uuuuuuu
+Value (MSB)	0vvvvvvv Resolution 7bit
+The transmission data are as follows:
+
+
+
+
+
+NOTE1 	-,
+
+
+MSB
+
+
+LSB
+
+
+0O000ppp
+00kkkkkk
+operator number
+key group number	total of
+00000000
+(00)
+00000000
+(00)
+Min.
+0hhhhhhh
+data (high)	0-1	binary  4 byte
+01000000
+(40)
+00000000
+(00)
+Mid.
+01111111
+data (low)	0-127 binary
+01111111
+(7F)
+01111110
+(7E)
+Max.
+
+
+
+NOTE 3-----------------
+Under the Supplement parameter change, DX? function parameter change will be transmitted along with the above.
+
+Add-2
+
+
+
+
+.	l,_ _ -
+
+
+
+ï Fractional Scaling Parameter Change	2 Bulk data
+
+
+Operator number
+
+
+For
+
+
+Voice edit buffer Supplement edit buffer Packed 32 supplement
+Packed 32 voice
+
+
+Status
+11110000
+(F0)
+ID No.
+01000011
+(43)
+
+
+
+
+
+
+
+
+Key group number
+
+K
+Key
+Data
+0
+offset
+-127 ~ 127
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+C -2- C-1
+C#-1-D#-1
+E-1 -F#-1
+ G-1 - A-1 A#-1- co
+C#O - D#O
+EO - F#O GO - AO
+A#O- Cl C#l-D#l
+El - F#l Gl -  Al
+A#l- C2
+C:112 - D:112 E2 -F:112
+G2 - A2
+A:112- C3 C:113 - D:113
+E3 - F:113 G3 - A3
+A:113- C4 C:114 - D:114
+ E4 - F:114 G4 - A4 A:114- cs
+C:115 - D:115
+ES - F:115 GS - AS
+A#S- C6 C:116 - D:116
+E6 - F:116 G6 - A6
+A:116- C7 C:117 - D:117
+ E7 - F 7 G7 - A7 A:117 - cs
+C:118 - D:118
+ES - F:118 GS
+0 -255
+
+
+
+
+
+Substatus/	0000nnnn (On) device No.
+Format No.	 0fffffff Byte count (MSB) 0 b b b b b b b Byte count (LSB) 0bbbbbbb Data	0ddddddd
+!
+                       0ddddddd
+(Complement of 2) Checksum	0eeeeeee (Binary)	EOX	1 1 1 1 0 1 1 1 (F7)
+
+Format No.
+
+Data
+ Byte count
+0
+Voice edit buffer
+155
+5
+Supplement edit buffer
+49
+6
+Packed 32 supplement
+1120
+9
+Packed 32 voice
+4096
+
+ï When using universal Bulk Damp
+Status	11110000  (F0)
+ID No.	01000011   (43)
+Substatus/	0000nnnn (On) device No.
+Format No.	0 1 1 1 1 1 1 0  (7E)
+
+Byte count (MSB) 0 b b b b b b b Byte count (LSB) 0bbbbbbb
+Classification	0aaaaaaa   ASCll'L
+name	0aaaaaaa	'M
+(4 bytes)
+0aaaaaaa
+0aaaaaaa
+
+Repeat group
+Data format
+0mmmmmmm
+ASCII
+name (6 bytes)
+!
+
+
+0mmmmmmm
+
+Data
+0ddddddd
+
+
+!
+
+
+0ddddddd
+
+Checksum
+0eeeeeee
+
+EOX
+11110111
+(F7)
+
+
+
+
+
+
+
+
+
+
+Add-3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Data
+ Byte count
+Classification name
+Data format name
+ No. of repeats
+DX7 II Performance Edit Buffer
+61
+LM--
+8973P E
+1
+DX7 II Packed 32 Performance
+1642
+LM--
+8973P M
+1
+DX7 II System Set-up
+112
+LM--
+8973 S-
+1
+Micro Tuning Edit Buffer
+266
+LM--
+MCRYE
+1
+Micro Tuning with Memory #x
+266
+LM--
+MCRYMx
+1
+Micro Tuning Cartridge
+266
+LM--
+MCRYC-
+64
+Fractional Scaling Edit Buffer
+502
+LM--
+FKSYE -
+1
+Fractional Scaling in Cartridge with Memory#
+502
+LM--
+FKSYC-
+32
+
+Note 1) The x of MCRYMx is a memory No. expressed in binary form, 0 or 1.
+Note 2) When the number of repeats is 64, the data group from byte count to checksum will be transmitted 64 times.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Add-4
+
+
+
+
+
+3. Reception Requirements
+
+
+
+
+
+
+
+
+
+
+OMNI
+
+
+OFF ON
+
+
+
+MIDI
+IN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$43, $OS, $09	PACKED 32 VOICE
+MPREOMTEOCTR $F$FO0  $43,  $OS,  $06	PACKED 32 SUPPLEMENT
+ON	'
+$F0, $43, $OS, $7E	PACKED 32 PERFORMANCE
+OFF	$F0, $43, $OS, $7E	SYSTEM SETUP
+$F0, $43, $OS, $7E	MICRO TUNING IN MEMORY
+ON.	$F0, $43, $OS, $7E	MICRO TUNING IN CARTRIDGE
+   o!-C$FO, $43, $OS, $7E	FRACTIONAL SCALING IN CARTRIDGE CARTRIDGE
+PROTECT
+$F0,
+$43,
+$OS,
+$00
+VOICE EDIT BUFFER
+$F0,
+$43,
+$OS,
+$05
+SUPPLEMENT EDIT BUFFER
+$F0,
+$43,
+$OS,
+$7E
+PERFORMANCE EDIT BUFFER
+$F0,
+$43,
+$OS,
+$7E
+MICRO TUNING EDIT BUFFER
+$F0,
+$43,
+$OS,
+$7E
+FRACTIONAL SCALING EDIT BUFFER
+$F0,
+$43,
+$IS,
+$00-$01
+VOICE PARAMETER CHANGE
+$F0,
+$43,
+$1S,
+$18
+SUPPLEMENT PARAMETER CHANGE
+$F0,
+$43,
+$1S,
+$19
+PERFORMANCE PARAMETER CHANGE
+$F0,
+$43,
+$IS,
+$18
+REMOTE SWITCH
+$F0, $43, $1S, $18, $7E	MICRO TUNING PARAMETER CHANGE
+$F0, $43, $IS, $18, $7F	FRACTIONAL SCALING PARAMETER CHANGE
+
+	F0,  $43, $2S	DUMP REQUEST
+
+
+
+Add-5
+
+4. Reception Data
+
+4-1. Channel Information	4  Program change
+
+There are two types of MIDI reception channels for channel messages: A and 8.
+
+
+Status Program No.
+
+1100nnnn 0ppppppp
+
+(Cn) n = channel No. p=0~127
+
+Single mode Dual mode Split mode
+
+: Only A is effective
+: Only A is effective
+: A, 8 independent
+The split point function is effective when A= 8, assigning A to the lower half and 8 to the upper half.
+
+0~31 select internal PERFORMANCE combinations in PERFORMANCE mode.
+32~63 select cartridge PERFORMANCE combinations. Values over 63 repeat this order of selection (INT 1 ~32 ... CRT 1 ~32).
+In Single, Dual or Split mode, 0~63 select INT voices,
+
+1) Channel voice me11age
+
+1  Key OFF
+
+64~127 CRT voices.
+
+5  After touch
+
+
+Status Note No. Velocity
+
+
+100 0 n n n n (8n) 0 k k k k k k k 0vvvvvvv
+
+
+n = channel No.
+k = 0(C.2) ~ 127(Gs)
+Ignore vs
+
+
+Status Value
+6 Pitch bender
+1 
+0 1 1 n n n n  (Dn)  n=channel No. 0 V V V V V V V	V = 0 ~ 127
+
+2 Key ON/OFF
+Status	 1 0 0 1 n n n n (9n)	 n = channel No. Note No.	 0 k k k k k k k	 k = 0(C.2) ~ 127(Gs) Velocity	0vvvvvvv	v=1~127 Key ON
+00000000	Key OFF
+3 Control change
+
+
+Status		1 1 0 n n n n (En) n = channel No. Value (LSB)	0 u u u u u u u
+Value (MSB)	0 v v v v v v v Operates with only the MSB data.
+
+00000000	Min.
+
+
+Status
+1 0 1 1 n n n n
+(Bn)
+01000000
+Mid.
+Control No.
+0ccccccc
+
+0 1111111
+Max.
+
+Control Value	0 v v v v v v v
+c=1	Modulation wheel	v=0~127
+c=2	Breath control	v=0~127
+c=4	Foot control	v=0~127
+c=5	Portamento time	v=0~127
+c=B Balance	v=0~127 C = 9-31	Continuous slider	v=0~127 C = 9-31	 MIDI control	v=0~127
+
+
+2) Channel mode me11age
+1  MONO/All note off
+
+1 0 1 1 n n n n	(Bn)
+0 1 1 1 1 1 1 0	(7E) Mono/All note off
+0 mmmmmmm  Set to the Mono mode with only m=1
+recognized.
+Ignore when m ;,i 1.
+
+c=64
+Sustain SW
+v=0~63: OFF,
+64~127: ON
+2 POLY/ All note off
+c=65
+Portamento SW
+v=0~63: OFF,
+1 0 1 1 n n n n	(Bn)
+
+
+64~127: ON
+0 1 1 1 1 1 1 1	(7F)
+c=66
+Sosutenuto
+v=0~63: OFF,
+64~127: ON
+00000000
+Poly/Ali note off
+c=67
+Soft
+v=0~63: OFF,
+64~127: ON
+
+4-2.  System Information
+
+
+The continuous sliders can be assigned to certain internal effects.
+MIDI control can be assigned in the same way as foot control.
+1) 
+System real time me11ages
+
+Active sensing
+Status	1 1 1 1 1 1 1 o  (FE)
+Upon reception of the code, sensing will start. When there is no status byte or data for 300 msec, the MIDI reception buffer is cleared and the on-going sound turned OFF.
+
+
+
+
+
+
+
+Add-6
+
+
+
+
+
+2) System exclualve meaugea
+
+1 Parameter change (Switch remote)
+
+Status
+1 1 1 1 0 0 0 0
+(F0)
+ID No.
+01000011
+(43)
+Substatus/	0001nnnn (1n) device No.
+
+Parameter group No.
+Switch No.
+00011011
+
+0mmmmmmm
+(18)
+Data
+0ddddddd
+d=0:OFF d=127:ON
+EOX
+1 1 1 1 0 1 1 1
+(F7)
+
+All the panel switches are controlled. The switch numbers are follows:
+2 Parameter change
+Same as for transmission
+
+3 Bulk data
+Same as for transmission
+
+4 Dump request
+
+For
+
+Voice edit buffer	(f = 0) Supplement edit buffer (f= 5) Packed 32 supplement   (f = 6)
+Packed 32 voice	(f = 9)
+
+
+Status
+1 1 1 1 0 0 0 0
+(F0)
+ID No.
+0 1 0 0 0 0 1 1
+(43)
+
+Substatus/ device No. Format No. EOX
+
+0 0 1 0 n n n n	(2n)
+
+0 f f f f f f f	f = 0, 5, 6, 9
+1 1 1 1 0 1 1 1  (F7)
+
+ï Unlversal bulk dump
+
+Status
+1 1 1 1 0 0 0 0
+(F0)
+ID No.
+0 1 0 0 0 0 1 1
+(43)
+Substatus/	0010nnnn (2n) device No.
+Format No.	0 1 1 1 1 1 1 0  (7E)
+Classification	0aaaaaaa name		!
+(ASCII 4 letters)
+0aaaaaaa
+Data format	0mmmmmmm name		!
+(ASCII 6 letters)
+0mmmmmmm
+EOX	1 1 1 1 0 1 1 1
+Classification name and data format name are same as for transmission.
+Add-7
+
+
+
+
+
+5-1. Voice Parameter (VCED format)
+
+
+g
+h
+P.NO
+PARAMETER
+DATA
+
+NOTES
+
+INIT
+0
+0
+0
+Rl
+0
+-
+99
+EG RATE!	21 42 63 84  105
+99
+
+
+1
+R2
+0
+-
+99
+EG RATE2	22 43 64 85 106
+99
+
+
+2
+R3
+0
+-
+99
+EG RATE3	23 44 65 86 107
+99
+
+
+3
+R4
+0
+-
+99
+EG RATE4	24 45 66 87 108
+99
+
+
+4
+L1
+0
+-
+99
+EG LEVEL!	25 46 67 88  109
+99
+
+
+5
+L2
+0
+-
+99
+EG LEVEL2	26 47 68 89  110
+99
+
+
+6
+L3
+0
+-
+99
+EG LEVEL3	27 48 69 90  111
+99
+
+
+7
+L4
+0
+-
+99
+EG LEVEL4	28 49 70 91  112
+00
+
+
+8
+BP
+0
+-
+99
+BREAK POINT	29 50 71 92  113
+39
+
+
+9
+LD
+0
+-
+99
+LEFT DEPTH	30 51 72 93  114
+0
+
+
+10
+RD
+0
+-
+99
+RIGHT DEPTH	31 52 73 94  115
+0
+
+
+11
+LC
+0
+-
+3
+LEFT CURVE	32 53 74 95 116
+0
+
+
+12
+RC
+0
+-
+3
+RIGHT CURVE	33 54 75 96  117
+0
+
+
+13
+RS
+0
+-
+7
+RATE SCALING	34 55 76 97 118
+0
+
+
+14
+AMS
+0
+-
+3
+MODULATION SENSITIVITY	35 56 77 98 119
+0
+
+
+15
+TS
+0
+-
+7
+TOUCH SENSITIVITY	36 57 78 99  120
+0
+
+
+16
+TL
+0
+-
+99
+TOTAL LEVEL	37 58 79 100 121
+(OPl:99)0
+
+
+17
+PM
+0
+-
+1
+FREQUENCY MODE	38 59 80 101 122
+0
+
+
+18
+PC
+0
+-
+31
+FREQUENCY COURSE	39 60 81102123
+1
+
+
+19
+PF
+0
+-
+99
+FREQUENCY FINE	40 6182103 124
+0
+
+
+
+PD
+0
+-
+14
+DETUNE	41 62 83 104 125
+7
+
+. ------- ---
+-	------∑-----
+- -ïï  --------
+------------	∑-------------------- ------- ------------ ---------------∑∑∑∑∑∑∑∑---------
+∑∑∑∑∑---------------
+
+
+126
+PR!
+0
+-
+99
+PEG RATE!
+99
+
+
+127
+PR2
+0
+-
+99
+PEG RATE2
+99
+0
+1
+128
+PR3
+0
+-
+99
+PEG RATE3
+99
+
+
+129
+PR4
+0
+-
+99
+PEG RATE4
+99
+
+
+130
+PLl
+0
+-
+99
+PEG LEVEL!
+50
+
+
+131
+PL2
+0
+-
+99
+PEG LEVEL2
+50
+
+
+132
+PL3
+0
+-
+99
+PEG LEVEL3
+50
+
+
+133
+PL4
+0
+-
+99
+PEG LEVEL4
+50
+
+
+134
+ALS
+0
+-
+31
+ALGORITHM SELECTOR
+0
+
+
+135
+FBL
+0
+-
+7
+FEED BACK LEVEL
+0
+
+
+136
+OP!
+0
+-
+1
+OSC.PHASE !NIT
+1
+
+
+137
+LFS
+0
+-
+99
+LFO SPEED
+35
+
+
+138
+LFD
+0
+-
+99
+LFO DELAY TIME
+0
+
+
+139
+LPMD
+0
+-
+99
+PITCH MODULATION DEPTH
+0
+
+
+140
+LAMD
+0
+-
+99
+AMPLITUDE MODULATION DEPTH
+0
+
+
+141
+LFKS
+0
+-
+1
+LFO KEY SYNC
+1
+
+
+142
+LFW
+0
+-
+5
+LFO WAVE
+0
+
+
+143
+LPMS
+0
+-
+7
+LFO PITCH MODULATION SENSITIVITY
+3
+
+
+144
+TRNP
+0
+-
+48
+TRANSPOSE
+24
+
+
+145
+VNAMI
+ASC
+VOICE NAME
+I
+
+
+146
+VNAM2
+ASC
+VOICE NAME
+N
+
+
+147
+VNAM3
+ASC
+VOICE NAME
+I
+
+
+148
+149
+VNAM4
+VNAM5
+ASC
+ASC
+VOICE NAME
+VOICE NAME
+T
+
+
+150
+VNAM6
+ASC
+VOICE NAME
+V
+
+
+151
+VNAM7
+ASC
+VOICE NAME
+0
+
+
+152
+VNAM8
+ASC
+VOICE NAME
+I
+
+
+153
+VNAM9
+ASC
+VOICE NAME
+C
+
+
+154
+VNAMlO
+ASC
+VOICE NAME
+E
+
+
+-  ∑∑∑∑∑∑-∑∑
+∑∑-ï∑- ..... -------
+
+
+∑∑∑∑∑∑∑∑∑∑∑∑-∑∑-----
+
+
+
+
+--∑ ∑ï------------ ----------	------------ ∑∑∑∑∑--------∑∑-∑∑∑∑∑	∑-
+
+
+
+155
+OPE
+0
+-
+63
+OPERATOR ENABLE B5:0Pl.∑∑,BO:OP6
+
+
+
+156
+OPSEL
+0
+-
+5
+OPERATOR SELECT O:OPI,--,5:0P6
+
+
+5-2. Additional Parameters (ACED format)
+
+g
+h	P.NO	PARAMETER	DATA	INIT	NOTES
+6
+0	0	SCM	0 -	1	0	OP6 scaling mode normal/fraction
+
+
+1 SCM	0 -	1	0	OP5 scaling mode normal/fraction
+2 SCM	0 -	1	0	OP4 scaling mode normal/fraction
+3 SCM	0 -	1	0	OP3 scaling mode normal/fraction
+4 SCM	0 -	1	0	OP2 scaling mode normal/fraction
+5 SCM	0 -	1	0	OPl  scaling mode normal/fraction
+6 AMS	0 -	7	0	OP6 amplitude modulation sensitivity
+7 AMS	0 -	7	0	OP5 amplitude modulation sensitivity
+8 AMS	0 -	7	0	OP4 amplitude modulation sensitivity
+9 AMS	0 -	7	0	OP3 amplitude modulation sensitivity
+10 AMS	0 -	7	0	OP2 amplitude modulation sensitivity
+11 AMS	0 -	7	0	OPl amplitude modulation sensitivity
+---∑-∑∑∑∑∑∑ ∑---∑∑∑--------- ------ ∑∑∑∑∑∑-------- ...  ...  ------- --------- ------------------ -------------∑	------- ∑∑-∑∑∑∑
+12 PEGR	0 -	3	0	pitch EG range 8va/4va/lva/l/2va
+13 LTRG	0 -	1	0	LFO key trigger (delay) single/multi
+14 VPSW	0 -	1	0	pitch EG by velocity switch off/on:0/1
+15 PMOD	0 -	3	0	bit0;poly/mono , bitl;unison off/on
+---∑∑∑----- ∑∑∑-∑∑∑∑∑∑------∑∑ ---- ---- ∑∑∑∑-	∑∑-----∑∑  -------- -------
+16 PBR	0 -  12	2	pitch bend range
+17 PBS	0 -  12	0	step
+18 PBM	0 -	2	0	mode low/high/k.on
+19 RNDP	0 -	7	0	ramdom pitch fluctuation off/5c-4lc
+∑---------- ----------------∑∑ ---- ---- ...  ----- - ...  ..  ------
+20 PORM	0 -	1	0	portamento mode rtn/fllw fngrd/flltm
+21 PQNT	0 -  12	0	step
+22 POS	0 -  99	0	time
+---∑∑∑----- ∑∑--------------∑∑ .. - ---- ------	---------
+23 MWPM	0 -  99	0	modulation wheel pitch mod range
+24 MWAM	0 -  99	0	amplitude mod range
+25 MWEB	0 -  99	0	EG bias range
+26 FClPM	0 -  99	0	foot controler 1 pitch mod range
+27 FClAM	0 -  99	0	amplitude mod range
+28 FClEB	0 -  99	0	EG bias range
+29 FClVL	0 -  99	0	volume range
+----------- -----------------∑∑∑ -- ∑∑∑-∑ -----
+30 BCPM	0 -  99	0	breath controler pitch mod range
+31 BCAM	0 -  99	0	amplitude mod range
+32 BCEB	0 -  99	0	EG bias range
+33 BCPB	0 - 100	50	pitch bias range
+∑∑∑∑∑--∑∑∑∑ ----∑∑-∑∑∑∑∑∑∑ ---- ...  -----------	-------
+34 ATPM	0 -  99	0	after touch	pitch mod range
+35 ATPM	0 -  99	0	amplitude mod range
+36 ATEB	0 -  99	0	EG bias range
+37 ATPB	0 - 100	50	pitch bias range
+38 PGRS	0 -	7	0	pitch EG rate scaling depth
+39-63	reserved
+64 FC2PM	0 -  99	0	pitch mod. range
+65 FC2AM	0 -  99	0	amp  mod. range
+66 FC2EB	0 -  99	0	EG	bias range
+67 FC2VL	0 -  99	0	volume	range
+∑∑∑∑∑∑∑∑∑-- ∑∑∑∑∑∑∑--∑∑∑----∑∑-∑--- --------------
+68 MCPM	0 -	99	0	pitch mod. range
+69 MCAM	0 -	99	0	amp  mod. range
+70 MCEB	0 -	99	0	EG	bias range
+71 MCVL	0 -  99	0	volume	range
+----------- ----------------∑------ ∑∑---- ---∑---
+72 UDTN	0 -	7	0	unison detune depth
+73 FCCSl	0 - 1 0	foot cntl.l use as CS! switch off/on:0/1
+
+
+
+
+
+--∑∑∑
+
+
+
+
+
+∑∑---
+
+
+
+---∑-
+
+
+-----
+
+
+
+
+---∑∑
+
+
+-----
+
+
+---∑∑
+
+-----
+
+
+
+
+
+.....
+
+
+
+
+---∑-
+
+
+-----
+
+
+
+∑∑∑∑∑
+
+
+
+
+
+-----
+
+
+
+
+
+
+-----
+
+
+-----
+
+-----
+
+
+
+
+
+5-3. PERFORMANCE Parameters (PCED, PMEM format)
+
+
+g
+
+h
+
+P.NO
+
+PARAMETER
+
+DATA
+
+NOTES
+
+INIT
+6
+1
+0
+PLMD
+0 -	2
+0/1/2 : SINGLE/DUAL/SPLIT
+
+1
+
+
+1
+2
+VNMA VNMB
+0 - 127
+0 - 127
+A-CH VOICE NUMBER B-CH VOICE NUMBER
+0
+0
+
+
+3
+MCTB
+0 -  74
+MICRO TUNING TABLE SELECT
+0
+
+
+4
+MCKY
+0 -  11
+MICRO TUNING KEY
+0
+
+
+5
+MCSW
+0 -	3
+MICRO TUNING SWITCH BIT0:A,BITl:B 0/1:OFF/Ofll
+0
+
+
+6
+DDTN
+0 -	7
+DUAL DETUNE
+0
+
+
+7
+SPPT
+0 - 127
+SPLIT POINT
+60
+
+
+8
+FDMP
+0 -	1
+EG FORCED DAMPING SWITCH 0/1:OFF/ON
+0
+
+
+9
+SFSW
+0 -	3
+SUSTAIN FOOT SWITCH BIT0:A,BITl:B 0/1:OFF/ON
+3
+
+
+10
+FSAS
+0 -	3
+FOOT SWITCH ASSIGN 0:SUS,l:POR,2:KHLD,3:SFT
+1
+
+
+11
+FSW
+0 -	3
+FOOT SWITCH BIT0:A,BITl:B 0/1:OFF/ON
+3
+
+
+12
+SPRNG
+0 -	7
+SOFT PEDAL RANGE
+0
+
+
+13
+NSFTA
+0 -	48
+NOTE SHIFT RANGE FOR SINGLE,DUAL,SPLIT(A)
+24
+
+
+14
+NSFTB
+0 -	48
+NOTE SHIFT RANGE FOR SPLIT(B)
+24
+
+
+15
+BLNC
+0 - 100
+VOLUME BALANCE	(-50 -+50)
+0
+
+
+16
+TVLM
+0 -  99
+TOT AL VOLUME
+99
+
+
+17
+CSLDl
+0 - 105
+CONTINUOUS SLIDER 1
+0
+
+
+18
+CSLD2
+0 - 109
+CONTINUOUS SLIDER 2
+0
+
+
+19
+CSSW
+0 -	3
+CONTINUOUS SLIDER ASSIGN SWITCH bl,3:B,b0,2:A
+0
+
+
+20
+PNMD
+0 -	3
+PAN MODE 0:MIX,1:ON-ON,2:ON-OFF,3:OFF-ON
+1
+
+
+21
+PANRNG
+0 -  99
+PAN CONTROLL RANGE
+0
+
+
+22
+PANASN
+0 -	2
+PAN CON TROLL ASSIGN 0/1/2:LFO/VELOCITY/KEY#
+0
+
+
+23
+PNEGRl
+0 -  99
+PAN EG RATE 1
+99
+
+
+24
+PNEGR2
+0 -  99
+PAN EG RATE 2
+99
+
+
+25
+PNEGR3
+0 -  99
+PAN EG RATE 3
+99
+
+
+26
+PNEGR4
+0 -  99
+PAN EG RATE 4
+99
+
+
+27
+PNEGLl
+0 -  99
+PAN EG LEVEL 1
+50
+
+
+28
+PNEGL2
+0 -  99
+PAN EG LEVEL 2
+50
+
+
+29
+PNEGL3
+0 -  99
+PAN EG LEVEL 3
+50
+
+
+30
+PNEGL4
+0 -  99
+PAN EG LEVEL 4
+50
+
+
+31
+PNAM
+ASCII
+PERFORMANCE NAME
+I
+
+
+32
+II
+II
+fl
+N
+
+
+33
+II
+fl
+fl
+I
+
+
+34
+II
+fl
+fl
+T
+
+
+35
+II
+II
+fl
+
+
+
+36
+II
+II
+
+fl
+p
+
+
+37
+II
+II
+fl
+E
+
+
+38
+II
+fl
+II
+R
+
+
+39
+II
+fl
+fl
+F
+
+
+40
+II
+II
+II
+
+
+
+I
+II
+II
+II
+
+
+
+50
+II
+fl
+II
+
+
+
+
+
+
+
+Add-IO
+
+5-4. Voice Data (VMEM format)
+
+NO
+
+BIT&	BITS	BIT4	BIT3	BIT2
+
+BITI
+
+BITO
+
+0
+Rl
+
+
+
+
+
+
+
+
+
+- I	-	I
+PD
+- I	-	I
+- I
+- .......... --------∑∑-------
+
+
+
+
+
+
+
+
+
+
+- I	-	I
+- I	-	I
+
+
+
+LPMS
+Rl R2 R3 R4 L1 L2 L3 L4
+BP LD RD
+- I	RC
+I
+TS TL PC PF
+-------- ∑∑------- ∑∑------ ------
+PRl PR2 PR3 PR4
+PLl PL2 PL3 PL4 ALS
+- I OPl	I
+LFS LFD LPMD LAMD
+I	LFW
+TRNP VNAMl VNAM2 VNAM3 VNAM4 VNAM5 VNAM6 VNAM7 VNAM8 VNAM9 VNAMl0
+
+
+
+
+
+
+
+
+
+
+I RS I
+
+
+
+
+
+
+
+
+
+
+
+FBL
+
+
+
+
+
+
+
+
+
+
+LC AMS I PM
+
+
+
+
+
+
+
+
+
+
+
+
+I LFKS
+17 34 51 68 85
+1
+R2
+
+
+
+
+18 35 52 69 86
+2
+R3
+
+
+
+
+19 36 53 70 87
+3
+R4
+
+
+
+
+20 37 54 71 88
+4
+L1
+
+
+
+
+21 38 55 72 89
+5
+L2
+
+
+
+
+22 39 56 73 90
+6
+L3
+
+
+
+
+23 40 57 74 91
+7
+L4
+
+
+
+
+24 41 58 75 92
+8
+BP
+
+
+
+
+25 42 59 76 93
+9
+LO
+
+
+
+
+26 43 60 77 94
+10
+RD
+
+
+
+
+27 44 61 78 95
+11
+RC
+
+
+
+
+28 45 62 79 96
+12
+PD
+
+
+
+
+29 46 63 80 97
+13
+TS
+
+
+
+
+30 47 64 81 98
+14
+TL
+
+
+
+
+31 48 65 82 99
+15
+PC
+
+
+
+
+32 49 66 83 100
+16
+PF
+
+
+
+
+33 50 67 84 101
+--∑∑∑∑- --- ∑---∑∑∑∑∑------------
+
+
+
+
+
+
+
+
+
+
+... --- ........
+102
+PRl
+
+
+
+
+
+103
+PR2
+
+
+
+
+
+104
+PR3
+
+
+
+
+
+105
+PR4
+
+
+
+
+
+106
+PLl
+
+
+
+
+
+107
+PL2
+
+
+
+
+
+108
+PL3
+
+
+
+
+
+109
+PL4
+
+
+
+
+
+110
+ALS
+
+
+
+
+
+111
+OPI
+
+
+
+
+
+112
+LFS
+
+
+
+
+
+113
+LFD
+
+
+
+
+
+114
+LPMD
+
+
+
+
+
+115
+LAMD
+
+
+
+
+
+116
+LPMS
+
+
+
+
+
+117
+TRNP
+
+
+
+
+
+118
+VNAMl
+
+
+
+
+
+119
+VNAM2
+
+
+
+
+
+120
+VNAM3
+
+
+
+
+
+121
+VNAM4
+
+
+
+
+
+122
+VNAM5
+
+
+
+
+
+123
+VNAM6
+
+
+
+
+
+124
+VNAM7
+
+
+
+
+
+125
+VNAM8
+
+
+
+
+
+126
+VNAM9
+
+
+
+
+
+127
+VNAMl0
+
+
+
+
+
+
+
+
+
+
+
+Add-11
+
+
+
+
+
+-  - 	
+
+
+
+5-5. Additional Data (AMEM format)
+
+NO
+
+
+BIT6
+
+BITS
+
+
+BIT4
+
+BIT3	BIT2	BITI	BITO
+
+(I
+SCM
+-	I
+OPl
+I
+OP2
+I
+OP3	I	OP4	I	OP5	I	OP6
+I
+AMS
+-	I
+
+
+OP5
+
+I	OP6
+2
+AMS
+-	I
+
+
+OP3
+
+I	OP4
+3
+AMS
+-	I
+
+
+OPl
+
+I	OP2
+4
+s
+PEGR
+PMOD
+
+-	I
+RNDP
+
+
+PBR
+
+I
+VPSWI	LTRG I	PEGR
+I	PMOD
+6
+PBS
+-	I
+
+
+PBM
+I
+PBS
+7
+RNDP
+-	I
+-
+I
+
+
+PQNT	I	PORM
+!l
+POS
+
+
+
+
+
+POS
+9
+MWPM
+
+
+
+
+
+MWPM
+JO
+MWAM
+
+
+
+
+
+MWAM
+II
+MWEB
+
+
+
+
+
+MWEB
+12
+FC!PM
+
+
+
+
+
+FClPM
+13
+FC!AM
+
+
+
+
+
+FClAM
+14
+FCIEB
+
+
+
+
+
+FCIEB
+l:i
+FC!VL
+
+
+
+
+
+FClVL
+Hi
+BCPM
+
+
+
+
+
+BCPM
+17
+BCAM
+
+
+
+
+
+BCAM
+JR
+BCEB
+
+
+
+
+
+BCEB
+19
+BCPB
+
+
+
+
+
+BCPB
+20
+ATPM
+
+
+
+
+
+ATPM
+21
+ATAM
+
+
+
+
+
+ATAM
+22
+ATEB
+
+
+
+
+
+ATEB
+23
+ATPB
+
+
+
+
+
+ATPB
+24
+2S
+PGRS
+----
+
+
+
+
+
+I	PGRS
+RESERVED
+
+
+
+
+
+
+
+-------- ------- --------∑∑∑∑ ---- ----∑-∑∑∑∑∑∑∑∑∑∑------------
+26
+FC2PM
+
+
+
+
+
+FCZPM
+27
+FC2AM
+
+
+
+
+
+FCZAM
+28
+FC2EB
+
+
+
+
+
+FCZEB
+29
+FC2VL
+
+
+
+
+
+FCZVL
+30
+MCPM
+
+
+
+
+
+MCPM
+31
+MCAM
+
+
+
+
+
+MCAM
+32
+MCEB
+
+
+
+
+
+MCEB
+33
+MCVL
+
+
+
+
+
+MCVL
+34
+lJDTN
+
+
+
+
+I
+FCCSl I	UDTN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Add-12
+
+5-6. System Set-up Parameters
+* ...... SYSTEM memory 102 bytes g=6.h= I
+pl
+name
+data
+lnlt
+notes
+64  0
+TXCH
+0-15
+0
+* MIDI TX channel
+* MIDI channel voice message TRANS switch
+* MIDI RX channel 16:off
+* MIDI RX channel 16:off
+* MIDI OMNI MODE SWITCH 0/1:OFF/ON
+* MIDI CONTROLER NUMBER
+* MIDI CONTROLER NUMBER
+* CONTINUOUS SLIDER 1 CONTROLL MUMBER
+* CONTINUOUS SLIDER 2 CONTROLL NUMBER
+* MIDI key on/off normal/odd/even:0/1/2 flag
+* PROGRAM CHANGE TRANS MODE FLAG 0/1/2:of/nor/prg
+* LOCAL SWITCH 0/1:OFF/ON
+* MIDI transmit block flag
+* MIDI recieve block flag
+* MIDI system common message RX channel (device No.)
+* MIDI system common message switch
+* cartridge appoint bank number
+* cartridge appoint bank number
+* cartridge appoint bank number
+* memory protect --- bitOaINT. bitlaCRT.
+* master tune
+* PROGRAMMABLE PROGRAM CHANGE TRANS SET BUFFER
+65 1
+CVMSW
+0-1
+1
+
+66 2
+RXCHA
+0-16
+0
+
+67 3
+RXCHB
+0-16
+0
+
+68 4
+OMNI
+0-1
+1
+
+69 5
+MCONTA
+11-31
+12
+
+70 6
+MCONTB
+11-31
+13
+
+71  7
+MCSNUMl
+11-31
+14
+
+72 8
+MCSNUM2
+11-31
+15
+
+73 9
+MKOEFG
+0-2
+0
+
+74 10
+PPCMOD
+0-2
+1
+
+75 11
+LOCAL
+0-1
+0
+
+76 12
+MTBFLG
+0-1
+0
+
+77 13
+MRBFLG
+0-1
+0
+
+78 14
+SCMCH
+0-15
+0
+
+79 15
+SCMSW
+0-1
+1
+
+80 16
+APTBNKl
+0-15
+0
+
+81 17
+APTBNK2
+0-15
+2
+
+82 18
+APTBNK3
+0-15
+3
+
+83 19
+PROTECT
+0-3
+3
+
+gal,haO
+
+
+
+
+64 37
+MSTUNE
+0-127
+64
+
+-38-101
+PPCBUF
+0-127
+sw#
+
+
+
+
+
+
+
+5-7. Micro Tuning Parameters
+
+
+BYTE
+
+KEY NAME
+
+DATA
+
+NOTES
+0
+C-2
+0 - 84
+MSB LSB MSB LSB MSB LSB MSB LSB MSB LSB MSB LSB MSB LSB MSB LSB MSB LSB MSB LSB MSB LSB MSB LSB
+48 co
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72 Cl
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96 C2
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120 C3
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144 C4
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168 cs
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192 C6
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216 C7
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240 C8
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+l
+C-2
+0 -127 0-10794
+
+
+
+
+
+
+2
+C#-2
+0 - 84
+
+
+
+
+
+
+3
+C#-2
+0 -127 0-10794
+
+
+
+
+
+
+4
+D-2
+0 - 84
+
+
+
+
+
+
+5
+D-2
+0 -127 0-10794
+
+
+
+
+
+
+6
+D#-2
+0 - 84
+
+
+
+
+
+
+7
+D#-2
+0 -127 0-10794
+
+
+
+
+
+
+8
+E-2
+0 - 84
+
+
+
+
+
+
+9
+E-2
+0 -127 0-10794
+
+
+
+
+
+
+10
+F-2
+0 - 84
+
+
+
+
+
+
+11
+F-2
+0 -127 0-10794
+
+
+
+
+
+
+12
+F#-2
+0 - 84
+
+
+
+
+
+
+13
+F#-2
+0 -127 0-10794
+
+
+
+
+
+
+14
+G-2
+0 - 84
+
+
+
+
+
+
+15
+G-2
+0 -127 0-10794
+
+
+
+
+
+
+16
+G#-2
+0 - 84
+
+
+
+
+
+
+17
+G#-2
+0 -127 0-10794
+
+
+
+
+
+
+18
+A-2
+0 - 84
+
+
+
+
+
+
+19
+A-2
+0 -127 0-10794
+
+
+
+
+
+
+20
+A#-2
+0 - 84
+
+
+
+
+
+
+21
+A#-2
+0 -127 0-10794
+
+
+
+
+
+
+22
+B-2
+0 - 84
+
+
+
+
+
+
+23
+B-2
+0 -127 0-10794
+
+
+
+
+
+
+24
+C-1
+
+
+
+
+
+
+
+25
+
+
+
+
+
+
+
+
+26
+
+
+
+
+
+
+
+
+27
+
+
+
+
+
+
+
+
+28
+
+
+
+
+
+
+
+
+29
+
+
+
+
+
+
+
+
+30
+
+
+
+
+
+
+
+
+31
+
+
+
+
+
+
+
+
+32
+
+
+
+
+
+
+
+
+33
+
+
+
+
+
+
+
+
+34
+
+
+
+
+
+
+
+
+35
+
+
+
+
+
+
+
+
+36
+
+
+
+
+
+
+
+
+37
+
+
+
+
+
+
+
+
+38
+
+
+
+
+
+
+
+
+39
+
+
+
+
+
+
+
+
+40
+
+
+
+
+
+
+
+
+41
+
+
+
+
+
+
+
+
+42
+
+
+
+
+
+
+
+
+43
+
+
+
+
+
+
+
+
+44
+
+
+
+
+
+
+
+
+45
+
+
+
+
+
+
+
+
+46
+
+
+
+
+
+
+
+
+47
+
+
+
+
+
+
+
+
+
+5-8. Fractional Key Scaling Parameters
+
+
+OPG
+
+
+OPS
+
+OP4
+
+OP3
+
+OP2
+
+OPI
+
+DATA
+0
+OFS
+C-2	-	C-1
+C#-1	-	D#-1
+E-1	-	F#-1∑
+G-1	-	A-1
+A#l	-	co
+C#O	-	D#O
+EO	-	F#O
+GO	-	AO
+A#O	-	Cl
+C#l	-	D#l
+El	-	F#l
+Gl	-	Al
+A#l	-	C2
+C#2	-	D#2
+E2	-	F#2
+G2	-	A2
+A#2	-	C3
+C#3	-	D#3
+E3	-	F#3
+G3	-	A3
+A#3	-	C4
+C#4	-	D#4
+E4	-	F#4
+G4	-	A4
+A#4	-	C4
+C#5	-	D#5
+E5	-	F#5
+G5	-	A5
+A#5	-	C6
+C#6	-	D#6
+E6	-	F#6
+G6	-	A6
+A#6	-	C7
+C#7	-	D#7
+E7	-	F#7
+G7	-	A7
+A#7	-	CB
+C#8	-	D#8
+E8	-	F#8
+GB	-
+41
+82
+123
+164
+205
+-128
+-127
+1
+
+42
+83
+124
+165
+206
+0
+-255
+2
+
+43
+84
+125
+166
+207
+0
+-255
+3
+
+44
+85
+126
+167
+208
+0
+-255
+4
+
+45
+86
+127
+168
+209
+0
+-255
+5
+
+46
+87
+128
+169
+210
+0
+-255
+6
+
+47
+88
+129
+170
+211
+0
+-255
+7
+
+48
+89
+130
+171
+212
+0
+-255
+8
+
+49
+90
+131
+172
+213
+0
+-255
+9
+
+50
+91
+132
+173
+214
+0
+-255
+10
+
+51
+92
+133
+174
+215
+0
+-255
+11
+
+52
+93
+134
+175
+216
+0
+-255
+12
+
+53
+94
+135
+176
+217
+0
+-255
+13
+
+54
+95
+136
+177
+218
+0
+-255
+14
+
+55
+96
+137
+178
+219
+0
+-255
+15
+
+56
+97
+138
+179
+220
+0
+-255
+16
+
+57
+98
+139
+180
+221
+0
+-265
+17
+
+58
+99
+140
+181
+222
+0
+-255
+18
+
+59
+100
+141
+182
+223
+0
+-255
+19
+
+60
+101
+142
+183
+224
+0
+-255
+20
+
+61
+102
+143
+184
+225
+0
+-255
+21
+22
+
+62
+63
+103
+104
+144
+145
+185
+186
+226
+227
+0
+0
+-255
+-255
+23
+24
+
+64
+65
+105
+106
+146
+147
+187
+188
+228
+229
+0
+0
+255
+-255
+25
+
+66
+107
+148
+189
+230
+0
+-255
+26
+
+67
+108
+149
+190
+231
+0
+-255
+27
+
+68
+109
+150
+191
+232
+0
+-255
+28
+
+69
+110
+151
+192
+233
+0
+-255
+29
+
+70
+111
+152
+193
+234
+0
+-255
+30
+
+71
+112
+153
+194
+235
+0
+-255
+31
+
+72
+113
+154
+195
+236
+0
+-255
+32
+
+73
+114
+155
+196
+237
+0
+-255
+33
+
+74
+115
+156
+197
+238
+0
+-255
+34
+35
+
+75
+76
+116
+117
+157
+158
+198
+199
+239
+240
+0
+0
+-255
+-255
+36
+
+77
+118
+159
+200
+241
+0
+-255
+37
+
+78
+119
+160
+201
+242
+0
+-255
+38
+
+79
+120
+161
+202
+243
+0
+-255
+39
+
+80
+121
+162
+203
+244
+0
+-255
+40
+
+81
+122
+163
+204
+245
+0
+-255
+
+NOTE: 	-,
+
+
+
+
+Add-15
+
+
+
+
+
+d  I I	nn ran	-
+
+SPECIF/CATIONS
+
+
+
+
+
+¶ Keyboard
+¶ Tone Generator
+
+61 keys (C1~C6), with Initial/After touch
+
+FM tone Generator (6 operators 32 algorythms)
+
+¶ Simultaneous Note Output (Reverse priority)
+1- voice: 16 notes (single play)
+2- voice: 8 notes (Dual play) 2-voice: 16 notes (Split play)
+
+¶ Internal Memory
+¶ External ROM Memory
+
+¶ External Memory
+
+64 voices/32 performances, 2 micro tunings, 1 system set-up
+
+128 voices/64 performances, micro tuning, fractional level scaling RAM cartridge (Optional, RAM4) = Internal Memory x 1
+ï Micro floppy disk (Optional, MF2DD) = Internal Memory x 40, MIDI exclusive data
+
+¶ Control Sliders and switches
+Volume slider, Continuous sliders CS1, CS2 (Data entry)
+Data entry switch x 2, Mode setting switch x 12, Voice switch x 32
+
+¶ Controls
+
+
+PITCH BEND WHEEL, MODULATION WHEEL
+
+¶ External Control Terminals
+BREATH CONTROL, SUSTAIN, FOOT SWITCH (Sustain, Portamento, Key hold, Soft), FOOT CONTROL 1 (Volume, Modulation, Voice parameter), FOOT CONTROL2 (Volume, Modulation).
+RAMïROM CARTRIDGE SLOT MIDI IN - OUT - THRU
+
+¶ Output Terminals
+¶ Diak Drive
+
+¶ Display
+
+Output A/MIX-B, Headphones
+
+3.5" Micro Floppy Disk Drive, built-in.
+2DD IM Bytes (720K bytes when formatting)
+
+LC: 40 letters x 2 lines (illuminated) LED: 7 segments x 2
+
+¶ Dimensions (W x H x D), Weight
+999 x 85.8 x 333.7 mm, 10.5 kg/11.2 kgï (ï DX? II FD)
+¶ Power Supply, Power Consumption
+U.S & Canadian Models: 120V, 50/60Hz General Model: 110V/220V/240V 50/60Hz
+
+¶ Standard AcceHorles
+
+¶ Optional AcceHorles
+
+
+Music holder, ROM cartridge, 3.5" Micro floppy disk (MF2DD)
+
+RAM Cartridge Flight Case Hard Case Soft Case
+Cartridge Adaptor
+
+RAM4 LC-7IIF LC-7IIH SC-7IIS ADP1
+
+Foot Switch FC4/FC5, Foot Controller FC7, Breath Controller BC1, Head Set Breath Controller BC2, Stand LG-100, MIDI Cable MIDI 01/03/15, 3.5" Micro Floppy Disk MF2DD.
+
+
+
+Add-16
+
+
+
+
+
+
+
+
+
+
+
+
+
+,,.
+
+
+
+SINCE 1887 ï	YAMAHA
+NIPPON GAKKI CO., LTO. HAMAMATSU, JAPAN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+IOMD-209UI 87 1 2.0 CR Printed in Japan

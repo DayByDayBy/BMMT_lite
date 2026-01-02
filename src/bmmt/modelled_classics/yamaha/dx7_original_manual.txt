@@ -1,0 +1,3651 @@
+
+
+
+
+CONGRATULATIONS
+
+Thank you for choosing the YamaJ1a DX7 Digital Programmablt; Algorithm Synthesizer. The DX7 employs w1iflue and sophisticated FM digital tonegeneration technology com≠ bined with microcomputer control to pennit creation of voices chatare more "live" than voices available witlt any other s;1stem a11ai/able.
+Hie urge you to read this owner's manual thoroughly ro ensure proper operation and maximum performance of the instrument.
+
+ï
+
+CONTENTS
+
+
+
+
+
+
+
+
+PRECAUTIONS
+LOCATION
+Avoid placing your synthesizer in direct sunlight or close to a source of heat. It is also importan∑c to avoid locations in which the instrument is likely to be subjected to vibration, excessive dust. cold or moisture.
+
+HANDLING
+Avoid applying excessive force to the instruments's knobs and switches.
+
+POWER CORD
+Always grip the power plug directly when unplugging. Removing the power plug from the wall socket by pulling on the power cord can result in damage to or shorting of the l)ower cord.
+Be sure to unplug your synthesizer If you wlll notbe using
+It for an extended period of time.
+
+RELOCATION
+When moving the synthesizer once it has been set up, be sure to disconnect all cords -chat connect to other equipment. This will help prevent accidental damage to or shorting of Interconnection cables.
+
+PRECAUTlCNS . . . . .ï	1
+DX7 OUTLINE ...ï..ï.......ï...ï.ï	2
+CONN-ECTIONS ..................ï.ï..ï	4
+PLAY MODE	5
+FUNCTION MODE. . . . . . . . .ï	. . . . . . . . ï	6
+FM TONE GENERATION ..........ïï	9
+EDIT MODE	12
+KEY TRANSPOSEï	. . . . . . . . . . . . . . . . . . . . . . ï	18
+STORE/SAVE/LOAD . . . . . . .ï	19
+MlDI ............	21
+LET'S ACTUALLY CREATE A VOICE .ïï.,. ï	23
+LFO BLOCKDIAGRAM	...............ï..ï.  26
+SPECIFICATIONS .ï.....ï	27
+VOICE DATA LIST .......ï	28
+
+
+
+
+
+
+
+
+CONNECTION
+Carefully follow the "CONNECTION" Instructions given in this manual when setting up your synthesizer.
+Connection errors can lead to serious damage to the Instru≠	 ment, amplifier, and speakers.
+
+CLEANING
+Do not use solvents such as benzine or thinner to clean your synthesizer as these may cause discoloration or staining of the Instrument's ex,erfor. Use a soft. dry cloth.
+
+SAVE THIS MANUAL
+Ahe:r studying this manual thoroughly, it should be stored in a sate place for future reference-.
+
+LIGHTNING
+In the event of an electrical storm, the instrumenr∑s power cord should be unplugged to eliminate the possibility of serious damage.
+
+OTHER APPLIANCES
+Use your synthesizer  where its  digital circuitry cannot be influenced by electromagnetic radiation from appliances such as televisions, radios, etc.
+
+<I>
+ï
+
+DX7  OUTLINE
+
+As stated in the feature summary on page 1, the DX7 can be used to play pre-programmed voices, pre-programmed voices can be edited to alter their character, or completely new voices can be created from scratch. Newly created voices can be memorized for future use.
+To accomplish all this, the OX7 has four main operating modes:
+
+ï PLAY-MEMORY SELECT Mode
+This is the normal performance mode, and the mode in which pre-programmed voices can be selected.
+
+
+ï FUNCTION Mode
+This mode permits setting parameters pertaining to the effect of the controllers (thUmbwheel, foot controller, breath controller, key after touch) and isalso used for loading and saving data.
+ï EDIT Mode	}
+This mode permits editing existing voice dara to create new sounds as well as creation of entirely new voices.
+
+
+ï STORE Mode
+Edited or newly created voices can be programmed into the memory in this riode.
+
+All functions of the DX7 are performed in one of the above modes. Proper understanding of the functions of each mode is the key to successful operation of and performance with the DX7.
+
+
+2_ DATA ENTRY section
+3. 
+Mode select key section	6. VOICE CARTRIDGE
+
+1. Volume
+4. 
+Display panel	5. Voice/parameter
+select key section
+
+Power
+
+switch
+
+Connector  jacks
+l_
+L--ï -- --- _,
+
+
+j--:f	iHJ ..:Pï::"-"r,
+
+i l'.
+- - - .
+-
+
+
+=,-
+- --
+
+
+I
+
+ --------
+-
+
+
+
+I	I
+-	- -
+
+.-.	.... -... .r-1- - - ,_ :::P ∑- _..:-_	'	ï
+I	,.. r	;. - :-	-!"..: .:: .e-!I
+-	-- - - -  -	-	- - -- - -
+
+,
+
+
+
+
+
+
+
+
+1 VOLUME
+
+8. Modulation wheel
+7. Pitch bend wheel
+Headphone, breath controller connector jacks
+
+
+
+
+9. Keyboard
+
+OATA  ENTRY	
+
+This controls the output level of	the DX7 and at the same time controls the volume of theheadphones.
+
+2 DATA ENTRY
+This combination of keys and linear control is used to enter
+and modify data.
+
+MAx.F===,i
+
+.-:	-
+
+MIN.	-
+
+These keys are for increa,lng or decreasing the values by 1, for turning II function on or oft and for moving the cursor when writing a voice name.
+I
+
+NO
+
+YES
+
+ï 1
+-
+
+ïI
+-
+OFF	ON
+
+
+This control is used for coarse value adjustment. This slide controller covers theentire range for ea h parameter from minimum  lO rn11ximum.
+
+
+
+<2>
+
+
+
+
+
+ï
+
+
+
+
+3 MODE SELECT KEY
+Selects the operating mode. "operators" (these will be el<≠ plalned later) and mer,ory protect functions.
+
+
+
+
+This		key		Is used tor copying	 EG		data		end 	 for	storing		your	own original	voices In		the internal		or			external memory system,
+
+
+
+
+
+This key seu the EDIT
+mode.
+
+MEMORY PROTECT	Of'e'lATOR
+
+
+
+
+
+
+EDIT/	MEMORY SElECT
+COMPARE	INTEflNAL	CARTfUOGE	fUNCTION
+CHAR,.CTER
+-
+ï 
+SPACE
+
+
+
+75i
+
+AT
+
+
+
+
+
+
+
+
+I
+These	keys	select  the
+memory	and	activate
+the PLAY mode.
+
+
+Thfs	key	selects	the
+opcr.itor	while	in	the
+EDIT mode.	ï
+This key calls out	the
+MEMORY	PROTECT
+mode.
+
+
+
+This key sets the	ï
+FUNCTION mode.
+
+
+
+
+
+4 DISPLAY PANEL
+This Liquid Crystal Disp1ay panel displays the parameters In
+each mode and the narne of the selected pre-programmed vo.ice.
+Preset voice number display
+	
+Displays the current st'ate of the system.
+
+5 VOICE/PARAMETER SELECT KEV
+These keys select either the voices in the instrument's inter≠ nal memory or those in an external voice cartridge. The same keys are also used to select parameters In the FUNC≠ TION or EDIT modes. One key can have a maximum of four different functions.
+The function of these keys Is determined by the MODE SE≠ LEC:T key.
+
+Voice parameter
+
+
+MOO SENSITMTY
+PITCH	AMPUT\JOE
+Voice number -- s   el116   11131---Name character
+SAVE	LOAD CARTRIDGE
+t
+Fu11ction parameter
+6 
+VOICE CARTRIDGE
+External voice cartridges can be plugged into the receptacle in the DX7 panel. The DX7 is supplied with two ROM (pre-programmed)  voice  cartridges,  each  contain'ng  64
+voices.
+An optional RAM (user programmable) voice cartridge can contain 32 voices.
+
+7 PITCH BEND WHEEL
+The pitch bend range is set in the FUNCTION mode. The pitch bend wheel then permits upward and down.,,,ard pitch bend throughout the set range.
+
+8 MODULATIONWHEEL
+The modulation depth range is set in the function mode. The modulation wheel then permits variation of wodu≠ lation depth throughout the set range.
+
+9 KEYBOARD
+The DX7 has a 61-key keyboard with 16-voice polyphonic capability (a monophonic mode is also selectable).
+
+ï Initial/After Touch response provided.
+
+
+
+
+
+
+
+
+-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+...
+
+
+ï
+
+
+
+
+
+
+
+
+
+
+(3)
+
+CONNECTIONS	
+
+ï Setting Up and Applying Power
+The DX7 does not have an internal power amplifier, therefore either headphones or an external amplifier/speaker system are required. A high-quality keyboard amplifier system is recommended.
+Hook up your DX7 as shown In the diagram below.
+ï
+Connections	For details concerning the
+MIDI connectol'1 refer to
+page 21.
+00	00
+
+
+
+
+
+
+@J+::[g):?
+AC wall outlet
+
+
+Power cord
+
+
+
+
+
+
+
+
+
+
+(FC-4orFC-5)
+
+)
+
+
+
+,----------
+I I I I
+
+
+
+
+
+
+
+
+Speaker svstem with
+built-In amplifier
+
+
+
+
+
+
+
+ï Tum POWER ON
+The DX7 power switch is located to the right of the rear panel (viewed from keyboard side}. Turn the power switch ON only after all connections to other equipment (and to the AC supply) have been properly made. The display panel will appear as in the illustra1ion below immediately after power is switched on.
+After a few seconds. the same mode that was engaged bAfore power was turned oft is re-engaged. For example. if the PLAY mode was previously engaged, the PLAY mode will be re-engaged and the previously selected voice will be ready for performance. The same applies to the EDIT and FUNCTION modes.
+
+
+
+
+
+(4)
+
+
+ï
+
+
+PLAY  MODE
+
+
+
+
+
+ï Playing the Internal Voices
+The DX7 has 32 internal voices, any one of which can be selected slmply	by  pressing	the I INTERNALi key in  the
+lv1EMORY SELECT group, and then by pressing the ap≠ propriate VOICE SELECT key.
+Each VOICE SELECT kev has a large numeral that corre≠ sponds to the voice number at its left edge.
+Select the loternal voices
+MEMOflY SELECT	
+NTE!'INAL	CARTRIDGE
+Ls "'""""'-JI	I
+ï 
+Playing the Cartridge Voices
+An exi:ra 64 voices can be added to the available selection simply by plugging in one of the supplied external voice cartridges.
+Insert a cartridge as shown in the figure.
+Select   the  cartridge  voices  by  first  presseing  the
+ICARTRIDGE I key in the MEMORY SELECT group, and
+then select the desired voice by	pressing the appropriate
+VOICE SELECT kev. just as in internal voice selection. Selection  of cartridge voice groups A1 -	A32 and a1 -
+832	is	acco'Tlplished	using	the	se1ecror switch on	the
+cartridge.
+
+
+
+
+Press "INTERNAL'"
+
+voice number
+
+
+~
+
+
+The A voice bank, voices A1 through A32 of the cartridge memory can be used.
+Supplied voice
+
+
+ï
+
+....
+
+and then press the voice select key correspondlng to the number of the de5ired voicos.
+
+ï Set the desired VOLUME level
+Vvith power to the DX7 and your amplifier system ON, gradually raise the volume control while playing a note on the keyboard until the desired volume level is reached. Set the volume control on your amplifier so the optimum vol≠ ume is attained with the DX7 volume control set about "8".
+
+
+
+
+The B voice bank, voices 81 ∑ through B32 of the cartridge. me.mo≠ ry can be used.
+
+!JIA1ï32	ROM cartridge
+IUa,.32;--.-I""=:::;/
+B
+
+
+
+
+
+
+
+
+
+Salect the r.anridge voices
+MEMORY SELECT	
+INTERNA.L	CA.RTFIIDGI:
+
+
+
+
+
+
+Press "CARTRIDGE"
+
+and then press the voice select: key corre∑
+sponding to thï  number of the desired voice_
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<S>
+
+
+FUNCTION  MODE
+
+
+
+
+
+ï FUNCTION Mode ....Applying Effecu
+The FUNCTION mode permits tuning. pitch band. modu≠ lation. and application of other effe s while playing, as well as voice data load/save operations.
+Press the I FUNCTION! key to enter the FUNCTION mode.
+Setting control er range parameters, etc.. is carried out using the DATA ENTRY controls.
+ï 	Function parameters are memorized and maintained even when power to th11 DX is cut off. Unlike voice data, however, function parameter$ cannot be saved in inter≠ nal or external memory.
+OPERATOR 01'1-0FF/EG	COPY	
+
+RANGE:
+The range of pitch bend can be set from O to 12. 0 range is equivalent to no pitch bend. A setting of 12 permits pitch bend over a ± 1200 cent (2 octave) range. If the range is set at 7. then pitch bend will be possible over a ±700 cent range (i.e. pl us or minus one fifth).
+STEP:
+The step parameter r.an be set from O to 12. A setting of 0 corresponds 10 0-cent steps. and a setting of 12 corresponds to 1200-cent (1 or.tave) steps. Jf STEP is set to 0. then a perfectly smooth pitch bend will result. 1f STEP is set to 1. the pitch will bend in 100-cent (semitone) steps,	ï
+
+,....1.-1, 12	130,--14	1E5
+ï 
+Pitch bend will not function if RANGE is set to 0.	I
+
+Pitch bend wheel
+
+MASTER	POLY/MONO	RANGE	STEP
+TIJNE AO.J	Prrc11 BENO
+
+MOOE PORTAM
+
+
+Add pitch bend effects
+
+O"S-CIL""LA'-'TO-"'-R	EG
+MOOE/	FREQUENCY	ffiEOU NCY
+SVNC	COARSE	FINE	DETUNE	RATE
+[=11===oll1a	HI 19	,	. 12_0
+
+
+
+
+ï MASTER TUNE
+
+FUNCTION Mode Parameter
+
+ï
+
+
+
+
+
+MASTER
+11JNE ADJ
+MASTER TUNE ad1usts the overall tuning of the DX7 to match  its pitch  with  other  instruments. Pi1ch is variable
+over a 160 cent range. PressIMASTER TUNE jand then use
+.	the liner DATA ENTRY contFol for tuning.
+
+ï POLY/MONO
+[2	,1
+POLY/MONO
+Determines whether the OX7 will function in the poly≠ phonic or monophonic mode. Press the DATA ENTRY GJ key for polyphonic operation, and the [TI] key for mono≠
+phonic operation.
+ï The range of the portamento effect is different in the polyphonic and monophonic modes. Refer to the POR∑ TAMENTO section below.
+
+ï DPITC,H -BE-ND1 1
+
+MOOE	 GLISSANDO	TIME	
+POAT,AMENTO
+The portamento effect varies according to whether the DX7 is in the polyphonic or monophonic mode.
+MONOPHONIC MODE:
+In this mode press the DATA ENTRY key to activate "FINGERED PORTA." In this mode portamento is applied only 10 legato notes.
+Press the DATA ENTRY GI) key to activa1e "FULL TIME
+PORTA." In this mode portamento is always applied.
+POLYPHONIC MODE:
+Press the DATA ENTRY I 11 key to activate "SUS-KEY P
+RETAIN.'' In this mode the pitch of keys released while the sustain pedal is on or of notes that have a long sustain time does not change. However, portamento is effected between two subsequently pressed keys.
+Press the DATA ENTRY GI]  key to activate "SUS-KEY P
+FOLLOW." In this mode the pitch of a key released while the sustain pedal is held slides (portamento) to a previously pressed key. There is no change with continuously pressed keys.
+GLISSANDO:
+
+RANGE	 STEP	
+PITCH BENO
+Two keys are used Lo determine the effect of the PITCH BEND thumbwheel.
+
+
+
+
+
+<6>
+
+The glissando functioïn is turned either ON or OFF. When it is OFF a normal portamento effect is produced.
+TIME;
+Adjusts the speed of the porta,nento/gli sancJo effect rrom
+0 to 99  A O set ting resul ls in no effect, while a setting 9 r
+99	produces Lhe longest (slowest) por tanaen to or gllssando.
+
+
+
+
+
+
+
+
+
+
+
+
+ï The	portamento/glissando effect can also be rurnf!d ON	ï	BATTERY CHECK
+or OFF using an optional FC-4 or FC-5 too, pAdal once		 the portamento/glissando function has been turnP.d on
+using lhe front-panel controls.
+
+Pressing the foot pedal turns the effect ON. The effect is
+0 FF v1hen the foot pedal is releaSAd.
+
+ï An FC-4 or FC-5 foot pedal can also be connected for sustain pedal control. In the monophonic mode, a key pressed \vhlle another key Is held wi II take priority, and the sustain effect \viii apply to the new key.
+Releasing the pedal turns the sustain effect OFF.
+
+ï EDIT RECALL
+
+EDIT RECALL
+This function makes it  possible to recall a voice that was
+
+
+
+
+BATTERY
+CHECK
+
+A backup battery power supply is built into the DX7 so that voice data will be maintained even when power to the instrument is off. Thestate of the backup system can be checked by pressing the!BATTERY CHECKIkey. The oper≠ ational battery voltage range is from 2.2 volts to 3 volts. If the backup battery voltage drops belo\v 2.2 volts, replace≠ ment of the backup system is necessary. The backup system consists of special batteries which can be replaced only by a Yamaha dealer. Contact your nearest Yamaha dealer when replacement becomes necessary.
+
+ï CARTRIDGE
+_eJ
+
+If, for example, the PLAY mode isaccidentally or purposely
+entered	vhile editing. the voice that was being edited can be recalled with this function
+If the I EDIT RECALL I key is pressed, the display shows "EDIT RECALL?". Pressing the  DAT/\ EN-RYIYES jlkey
+then causes the	"ARE	YOU SURE?" display. Verliy by pressing the I YES I key again, and the voice previously
+being edited will be restored.
+
+ï VOICE INIT (Voice Initialize)
+
+SAVE		LOAO	
+
+
+SAVE:
+32 voices contained in the internal memory system can be saved on an external programmable memory cartridge.
+LOAD:
+32 of the voices contained in an external voicecartridge can
+be loaded into theinternal memory at a time.
+ï Refer to  the STORE/SAVE/LOAD section on page 19
+for detailed instructions.
+
+
+
+
+
+VOICE INIT
+
+This function sets up the basic voice data for creating new voices. Press the!VOICE INIT]key and the disolay panel will read "VOICE IN IT?" Press the I YESJkey  and the D X7 will
+respond with "ARE YOUSURE?" Verify by pressing the IYES j key second time. This sets up the basic voice data and activates the DX7 EDIT mode.
+
+ï CARTRIDGE FORMATTING
+D
+Since the format of a RAM cartridge used for other purï poses such as DX 1 performance memories. etc., will vary from that of a cartridge used for voice memory. make sure you observe the following procedure when storing or saving DX7 internal voices into such a cartridge.
+Press "11" to select this function. The "CARTA IDGE FORM?" display will appear. Press IYES land the instru≠ ment v lll respond with "ARE  YOUSURE?". Press IYESI
+again and all 32 memorybank in the RAM cartridge are initialized to the basic voice data.
+
+
+<7>
+ï 
+MODULATION WHEEL!FOOT CONTROLLER/ BREATH CONTROLLER/AFTER TOUCH
+111	oll1e	Hll19	1!!20	JI
+RANGE	PITCH	At.'PLmJDE	EG BIAS		L.
+MOOULATION WHEa
+
+FOOT CONTROL
+
+ l3ANGE	PITCH	AMl>LIT\JOE	 EG BIAS	 BREA'lli CONTROL
+
+RANGE	PITCH	I\MPI.JruOE	EG BIAS	
+AFTEfl TOUCH
+
+The modulation wheel. foot controller. bre;:ith controller or kevboard after touch can be used to control LFO modulation depth applied :o pitch. amplitude or envelope producing controllable tremolo or vibrato effects while playing. Setting the RANGE. AMPLITUDE and ENVELOPE GENERATOR BIAS parameters for each controller is basically the same process. so we'll concentrate mainly on the MODULATION WHEEL
+
+
+
+
+
+
+
+
+
+
+
+
+1_ MODULATION WHEEL RANGE:
+Range can be set from O to gg_No effect is produced \vith
+a O setting, anda setting of 99 produces maximum effect_
+
+To odd	modulation
+2. 
+FOOT CONTROUER
+The LFO modulation effect programmed can be controlled using an optional FC-3A foot controller.
+Maximum effect is produced by pressing the foot controller all the way down, while raising the controller fully elimi≠ nates the effect.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+This value will change as follows for ditterent controllers (same for PITCH, AMPLITUDE 8nd EG BIASI.
+
+PITCH:
+
+This value wiII chllnge.
+
+ï FOOT (Foot controller)
+ï BREATH (Breath controller!
+ï AFTER (Aft9r touchl
+
+
+
+3. BREATH CONTROLLER
+The LFO modulation effect programmed can be controlled using an optional BCl bri>.ath controller. The affect iscon≠ trolled by  blowing Into the BCl  mouthpiece. The effect
+
+Determines whether LFO modulation is applied to pitch. Pitch is modulated if ON, and not modulated if OFF. AMPLITUDE:
+Determines whether LFO modulation is applied to ampli≠ tude. Amplitude is modulated if ON, and not modulated if OFF.
+EG (ENVELOPE GENERATOR) BIAS:
+\IVren EG BIAS is ON, volume or brilliance (wo,'V) variation effects can be added with the controllers by varying the level o1 each operator's envelope generator. MOD. SEN≠ SITIVITY (AMPLITUDE) ls used to set the sensitivity lrefer to page 14).
+Applying  EG  BIAS to a modulator results In brllliance
+effects, while applied to a carrier it results In volume variation effects. In some cases. if the carrier sensitivity is maximum and the controller is set to its minimum, no sound will be produced.
+ï These parameters wlll have no effect if the PITCH MODUL.ATION  SENSITIVITY  or  the  AMPLITUDE
+MODULATION SENSITIVITY of the voice used are zero.
+Refer to the MODULATION SENSITIVITY section on page 14 for details.
+
+will notbe audible unless breath ls applied to the coni:roller.
+
+
+
+
+4. AFTER TOUCH
+This feature makes it possible to vary the degree of modula≠ tion by varying pressure on the keys. No effect is produced with normal key pressure, but the effect can be introduced by pressing harder on the key(s). The amount of pressure applied determines the depth of 1he effect.
+
+
+
+
+
+
+
+
+
+
+
+ï
+
+<S>
+
+	ï	
+FM.TONE  GENERATION
+
+
+
+
+
+FM Tone Generation .... Understanding the Basics
+
+The DX7 is an P.ntirely new ,:ype of synthesizer employing An entirely new FM digital tone generation system. This unique Yamaha system permits finer control over subtle music.al nu;:incss and vastly expanded voice creation poten≠ tial compared to conventional synthesizers.
+
+1. The Meaning of FM
+FM stands for Frequency Modulation FM radio broadcasts use the same principle. One signal-the modulator-modu≠ lates a secondsignal-the r.arrier
+In FM radio the carrier is an extremP.ly high "ratio" fre≠ quency and the modulator is the music sional to be braod≠ cast. In effect. the carrier "carries" the modulator sional through tne atmosphere to your receiving antenna.
+2. 
+FM Tone Generation In the DX7
+In the DX7. the carrier signal determines rhe pi∑ch of thP. note produced and modulator determines the shape of the waveform produced and therefore its timbre. This explana≠ tion may make it look like the carrier and modulator are two entirely separate things. In fact. they are one and the same. A special oscillator unit called an "operator" can be used as either a carrier or modulator in the DX7.
+Operator
+Pitch
+frequency data
+
+Output
+
+Modulation data
+
+
+
+FM broadcasting
+
+The
+
+frequency data and
+
+Envelope data
+
+
+Carrier wave
+
+
+
+Sound signal
+
+ 
+FMsignal
+
+
+
+
+
+( gnat to bemodulated)
+
+
+
+
+(modulator  signalI
+Exuemely high carrier/
+
+modulation	data	are
+combined here
+
+1) Pitch frequency Data
+Pitch frequency data from 1he DX7's -nicrocomputer sys-∑ tern determines the operator's oscillation frequency. 1Nhen the operator is used as a carrier. this frequency is equivalen1 to the pitch of the note produced. When the operator is being used as a modulator, the ratio of its frequency to that
+of the carrier determines the timbre of the note produced.
+
+(modulated !ignal) modulator   frequency
+ratio. The "density" of the transmitted carrier waveform varies accordï ing to the  modulating
+Loose wave  Dense wave  signal.
+
+
+
+ï
+2) Modulation Data
+This is the modulation data received from the previous operator's (modulator) output.
+ï
+
+The FM torie generator system is similar in principle, but in this case both the carrier and modulator are audible signals, and their frequencies can be almost equal.
+FM tone generation
+
+carrier
+
+(sound to be modulated)
+
+Modulator
+3) 
+Envelope Data
+When the operator is used as a carrier the envelope data de≠ termines the volume envelope of the note produced. \'Vhen the operator Is used as a modulator the envelope data de≠ termines the timbre envelopeof  the note produced.
+For example, the pitch frequency data applied to an oper≠ ator used as a carrier determines the frequency of 1he sine wave output from the operator. Inputting envelope data results in an output waveform similar to that shown In the figure.
+
+
+
+(modulotor signol)
+
+FM sound (modulated sound)
+Close carrier/modulator fntquencv ratio results in FM sound.
+
+
+
+
+Numerical
+value
+PIT
+
+
+MO
+
+
+Operator
+
+fiJ\NIJ\, Sine wave
+
+
+
+
+
+
+
+
+
+f-"\ Envelope data
+
+
+
+
+<9>
+
+
+
+
+
+	ï	
+
+
+
+
+
+
+ï Basic Operator Functions
+1) Relationship of Carrier to Modulator
+An operator can be used as either a carrier or modulator. These two basic operator functions arethe basis for the FM tone generation system. Two operators can be combined in two different ways.
+1. Modulnor andcarrier combin111ions
+
+Modulator	Carrier
+2) 
+Carrier and Carrier
+This configuration results in a pure sine wave output from both operators. The combination of these waveforms can sound much like a conventional organ.
+ï Carrier and carrier combinations
+Operator 1
+
+PITCH
+
+
+
+
+PITCH-
+
+
+
+
+
+
+
+2. Carrier and carrier combinations
+
+_I"\ utput
+
+
+I
+Output
+
+
+
+
+
+PITCH
+
+
+
+
+
+
+PITCH
+
+
+
+
+
+
+
+
+
+Carrier
+
+
+
+
+
+Output
+
+
+PITCH
+
+
+
+
+
+
+
+EG
+
+
+
+
+
+
+
+
+3) Modulator and Carrier
+In the modulator/carrier configuration using two operators, shown in the figure, the operator on the left is the modu≠ lator and the operator on the right is the carrier. In the FM system, the  last operator in a chain of  two or more oper-
+ï Modul1tor and carrier combinations
+
+
+
+
+PITCH
+
+
+ators is the carrier. By varying the ratio of the modulator and carrier frequel"Cies, and by varying the en lope of the modulator, an extremely broad range of highly complex waveforms (complex harmonic structure! can be created.
+
+ï
+
+
+Output
+
+
+
+
+
+
+
+
+
+
+
+EG	EG
+
+
+
+
+
+
+
+
+
+<IO>
+
+
+
+ï 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Output
+..
+
+
+wave form
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3. Algorithms .... Combining Several Operators
+The DX7 has a total of six opera1ors. The way in which these operators are combined is kno,nn as an "algorithm." The DX7 has 32 different pre-programmed algorithms. The 32 algorithms are displayed graphically along the top of the
+conïtrol panel above 1:he selector keys. Taking algorithm number one a an example, the lowest two operators-1 and
+3-are carriers. The four operators above the carriers will function as modulators. The output of operator 6 is fed back (feedback) to its input.
+The above is a brief description of the internal workings of the Ffvl tone generator system. By varying the pitch fre≠ quency, nodulation and envelope data it is possible to edit pre-programmed voices or to create entirely new voices.
+
+Algorithm,-1---,	ï
+
+6
+
+
+
+
+
+
+
+
+	2 		
+
+
+1	3
+
+Divided in two sections
+
+,	,
+:	,........---,	I
+I	s
+5	,	Are modulated
+l) b	each one in
+Modulates ,-- ---: 	M_odu1a_t_o_r_: ,-4._,	l	succession
+J	L	----
+r∑-∑ ---,	:-∑	7
+I	1	'	,	3	,
+
+L 	J	Carrier	: -_-_-_...		J
+
+
+< I I >
+
+
+EDIT MODE
+
+
+
+
+
+ï EDIT MODE ....Creating Voices
+The	EDIT	mode  can	be used	to	edit	pre-programmed
+voices	or	to	create	entirely	new	voices.	Press	the IEDIT /COMPAREl function key to enter the EDIT mode.
+
+OPERATOR ON-OFF:
+Pressing keys	[I]	through	I 6	I wll	result in che
+corresponding operator being turned OFF, indicated by a "O" in  the appropriate location on the display panel (the
+group	of	six  1 's and/or O's corresponds to  operators 1
+
+ï - ...
+
+
+
+on-indicated by a "1" on the display.
+
+OPEJ'IATOR ON.OFF/E<l COPY
+I	2	3
+11	1}12	213
+MASTl:R	POI.Y/MONO RANG
+TUNE ADJ	PITCH
+
+OSCILLATOR
+
+
+
+
+3
+
+ENO
+ï 
+5
+14	4 
+ST'EI'	MOOE
+PORT.A
+
+EG
+
+
+1: Signifies that theoperator is activated
+0: Signifies that the
+operator is disabled
+
+ï
+)
+
+MOOE/	FREQUENCY	FREOvENCY
+SYNC	.;....CO:..A_'l.;..SE;; ,F_IN_E		OETUNE
+
+,--17Gll18	Hll19	11120
+-RA-N-G'-E-=---PI-TC-H--'----P-.M-P-U=TI.JO..Ec.ff.i ..B.IA.cS ...-RANG!
+
+
+ï No sound will be produced
+If	the	carrier	operators
+
+MOOUL/\TION  WHEEL
+
+FOOT
+
+have all been disabled.
+
+
+
+
+Setting and modifying parameters ls carried Ollt using the DATA ENTRY controls just as in the FUNCTION mode. A	small	dot		will	appear		next to	the voice numoer in the display	if any data	ls modified		 ThP. origln.=il voice can be recalled at any time while editing by pr@.ssing the 1 EDIT/COMPARE I	key  again_	The	preset	number will
+ilash	indicating	that you are hearing the original voice. To continue ediilng press the I EDIT/COMPARE I button
+again.
+Now for an explanation of the OX7's functions ano oper≠ ation.
+
+ï The indicators display for E_OIT mode
+
+
+EG COPY:
+This function copys the EG data from one operator to another. 1Nhile holding the	selector ISTORE I key, press
+the	number	of	the operator	trori which	you	want to copy EG data.
+STORE
+
+
+
+The	displ3Y panel when the
+STORI: key has  been pressed
+
+
+
+
+
+Voice number
+
+The number of the al≠ gorithm which is being used for that particular preset voice
+
+Displays the current state of the operators from OPl through OP6 beginning at the left
+
+6
+
+Press the key for  the
+   \ operator	number	that ',...,ï youwish to copy.
+
+ALG 4 111111 OP2
+F COARSE=100.0Hz
+
+ï
+
+ï ALGORITHM
+
+The	dot	will appear when
+any data has been modified.	Displays each
+parameter
+
+The Opt!("ator selected will be displayed on Iv for the parameters that can modified
+
+-'LGORITI-IM
+
+
+
+
+c:Thlsvalue will  change.
+ALG 4 111111
+ALGORITHM  SELECT
+
+
+
+
+
+ï OPERATOR ON-OFF/EG COPY
+OPERAT'OA  ON-Of'FIEG COPY	
+
+
+In the EDIT mode these keys permit 1urning any of the operators on or off, and copying the EG data of any oper≠ ator toany other operator (EG COPY).
+
+
+< 12)
+
+This key permits selection of one of the 32 algorithms. Press the DATA ENTRY [TI] kex to increment (advance) the number of the selected algorithm, and the G]  key to decrement the algorithm number. The slide control can be
+used for large variations.
+
+
+
+
+
+
+
+
+
+
+
+
+
+ï FEEDBACK
+ FEE08ACN;
+
+
+Thisdisplay will change---'
+
+
+
+
+One operator in each of the 32 algorithms has its output fed back to Its input. This is the feedback operator. The amount of feedback applied can be adjusted over a range of O to 7. By increasing the FEEDBACK level the harmon≠ ics are increased. resulting in the generation of noise-like
+sounds.
+
+
+
+T
+This value will change
+
+Sat the feedback
+level from "O" to
+
+
+
+
+Algorithm 1
+
+
+ï LFO
+LFO	
+
+
+The Low Frequency Oscillator produces low-fre uency sine. saw-tooth or square waves, or a SAMPLE/HOLD waveform. The LFO wavefonn can be used to apply vibrato, tremolo or " wow" effects to the voices, The amount of LFO n1odula.tion applied can be controlled using the 1nodulation v-,heel, foot controller, breath controller or keyboard after touch once appropriate WAVE, SPEED, DELAY and KEY SYNC parameters are set.
+
+SPEED:
+The speed (frequency) of the LFO can be set from O to
+99.	O is the slowest LFO speed while 99 is the fastest.
+DELAY:
+This creates a delay between initial key closure and ap≠ plication of LFO modulation. A setting of O results in no delay-LFO modulation begins the instant a key is pressed≠ and a setting of 99 creates the longest delay.
+PMD (Pitch Modulation Depth):
+Varies, over a O to 99 range, the depth of LFO modulation applied to pitch. AO setting produces no pitch modulation. anda setting of 99 produces maximum modulation.
+The P"10 function is separate from the effect of the con≠ trollers, and can be useo to apply vibrato effects that are entirely independent of the controller settings.
+AMO (Amplitude Modulation Depth):
+Varies, over a O to 99 range, the depth of LFO modula∑ tion applied to amplitude. AO setting produces no ampll∑ tude modulation. and a setting of 99 produces maximum modulation,
+The AMD function is separate from the effect of the con∑
+trol ers. and can be used to apply tremolo effects that are entirety independent of the controller senlngs.
+SYNC (Synchronize):
+Pressing the SYNC key alternately turns the SYNC function ON and OFF. When SYNC is ON LFO modulation beings at the same point in the LFO ,vaveform when a l<ey Is pressed. With SYNC OFF LFO modulation begins at a random point In the LFO waveform since the LFO is free
+running in this mode.
+
+
+This display will change
+
+
+
+
+
+
+
+
+...
+
+
+
+
+
+
+
+
+
+
+
+
+ï
+
+( Refer to page 26)
+WAVE:
+This selects the waveform outpU1 by the LFO. Any	of the six waveforms shown below can be selected.
+
+This display will ch11n911
+TRIANGL  :	A_	(Triangular wave)
+SAW OWN :	f"-..	 (Number 1 sawtooth waveform) SAW UP		..,........, (Number 2 '8wtooth waveform)
+SQUARE		 f""l_j Square wave SINE	:	I"'\._,, Sine wave S/HOLD		 Sample and hold
+
+
+
+
+
+
+
+
+
+<I 3>
+
+When KEY SYNC ON KEYON
+
+
+
+
+TAIANGL
+
+SAWDWN
+
+SAW UP
+
+SQUARE SINE
+
+When KEY SYNC OFF
+KEYON
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ï MOD. SENSITIVITY (Modulation Sensitivity)
+	SENSITMTY	
+ï 
+OSCILLATOR
+OSCILLATOR	
+
+PITCH	AMPll1\JOE
+l1s	ej!1s	Fl
+
+MOOE/	FREQUENCY
+S'l'NC	COARSE
+,--117-G1118
+
+FAECUENCY
+FINE	OE1'\JNE
+
+
+
+This adjusts the sensitivity (depth) of pitch and ampli tude modulation. This parameter must be greater than O before any amplitude or pitch modulation can be applied.
+Be sure to check this parameter before using the modula≠ tion wheel or other controllers.
+
+
+
+This dis;ilay will change---'
+PITCH:
+Sensitivity to	pitc'1 modulation is variable from Oto 7. Th∑s value sets the modulation	sansitlvi1y	for	all oper≠ ators. Applying pitch modulation results in vibrato type effects.
+AMPLITUDE:
+Sensitivity to amplitude modulation is variable from O to 3. Amplitude modulation sensl ivlty is sat independently for each operator. Applying amplitude modulation to a mod≠ ulator creates "wo\v" effects. while applied to a carrier it results in tremolo effects.
+
+These keys set the pitch data for each operator.
+
+
+
+MOOE/SYNC:
+Pressing this key alternately switches to tvlODE and SY C.
+MODE:
+Pressing the DATA ENTRY [ -1 I key sets the operators
+to	the FREQUENCY	!RATIO)  mode. in which operator
+pitch  is scaled to  the  keyboard as normal.  Pressing  the
+l +I  I key sets the Fl XED FREQ (HZ) mode in which
+a fixed frequency is produced no matter what key ii; pressed. The frequency is set using the IFREQUENCY COARSE J  and  I FREQUENCY FINE!functions in both
+modes.
+SYNC (Synchronize):
+When the SYNC function is ON, all oscillator begin oper≠ ation from the same phase angle (0 degrees). With SYNC OFF the phase angle at which an operator begins oscillation is carried over smoothly from Jhe preceding note. In the polyphonic mode, for example. maximum simultaneous output is 16 notes. If  a 17th key is pressed the first note
+makes a smooth transition to tlie 17th note.
+
+
+16notes at once	I
+I
+First
+11010------t Ftnmote fades away
+
+Second note
+ï	ï
+..
+.ïï
+
+I._
+	
+
+ï
+
+Sixteenth note----,4--------
+Se11enteen note
+
+When on, oscillation willalways begin from O pha.e
+
+
+
+
+
+:'-	Whe	ff,asmooth
+I	'\...,ransot,on occurs  to
+I	the next note
+I
+?	Previous note-	- Ne>C1 note--
+
+
+
+
+
+
+
+
+
+
+
+
+ï
+< 14)
+
+	ï	
+ï
+
+ï
+
+
+
+
+
+
+FREQUENCY  COARSE/FREQUENCY FINE:
+If MODE is set to FREQUENCY (RATIO) the operators are set to a standard frequency of r.OO {B feet) when the PITCH COARSE key is pressed. The frequency can then be varied from by one half (0.5 times) to 32 times. FINE adjustment is posslble over a range of from 1 to 1.99 times.
+ï 
+EG (Enve-lope-Generator)	eo	
+
+
+LEVEL 1
+RATE  I
+	LEVEL3	 RATE 4
+
+If the	frequency is increased by 2 times. for example, the pitch will increase by one octave.
+If MODE is set	to	FIXED FREQ (HZ). COARSE adjust∑ ment is possible in four steps-1, 10, 100 and 1000. FINE
+adjustment is possible from 1 to 9.772 times.
+
+
+
+ILEVEL4)
+t
+KEYON
+
+RATE 2
+
+r
+RATE3
+
+I
+I
+I
+I
+I
+
+KEY OFFt
+
+
+
+LEVEL4
+
+
+Frequency (ratio) displav
+
+
+
+
+
+ï	ï
+Just usi
+
+
+Select the operator
+
+
+
+
+
+Adjust using the fine control
+
+The envelope generator determines how the amplitude (volume) or timbre (tone) of a note will vary over time. Envelope modulation of a modulator results in time-ba d timbre variations, while envelope modulation of a carrier
+produces amplitude variations.
+,
+The parameters which determine the "shape" of the enve≠   I
+lope are  RATE 1 through RATE 4 and  LEVEL 1 through
+LEVEL 4. The RATE parameters determine how long it takes the envelope to reach one LEVEL from another. The
+
+Fixed (Hz) display
+Select the operator
+
+envel.ope. applied to each opAr;:itor can be set individually. permitting an essentially infinite range of envelope comb,≠ nation.c;.
+
+
+
+
+
+
+
+
+
+
+DETUNE:
+
+
+/
+Adjust	the	frequency
+using	the	coerM	and
+finecontrols
+
+pITCH
+Modulator	EG
+MOo.	PITCH
+EG
+carrier
+
+
+
+
+Tone will change
+
+
+
+
+
+The operator frequencies as determin?.d by thP, FREQUEN, CY COARSE and FREQUENCY FINE controls can be detuned over a -7  to +7 range,
+
+OUT,
+
+Volume will change
+
+
+
+Select th.a operator
+l
+
+
+
+T	Thisvalue will chenge --
+
+
+
++7
+
+Positive pitch detune
+
+T
+This value will change
+
+RATE:
+Pressing the I RATE I key successively selects RATE para≠
+meters 1 through 4. Each RATE parameters can be set from O to 99. A O setting produces the longest (slowest) RATE, and a 99 setting produces the fastest RATE.
+LEVEL:
+Pressing  the  I LEVEL )  key  successively  selects  LEVEL
+
+
+
+
+Negative pitch detune
+
+0 --		Frequency set with the frequency coarse&1'1d fine controls
+
+
+-7
+ 
+parameters 1	through 4.	Each	LEVEL parameter can be set from Oto 99. 0 is no output, while 99 is maximum level.
+
+ï Normally LEVEL 4 will be set at "O". In this case LEVEL 1 should be greater than "50" to ensure proper EG operation.
+
+
+
+
+
+< I 5>
+
+
+
+
+ï
+
+
+
+
+
+
+
+ï KEYBOARD LEVEL SCALING
+KEYBOARD LEVEi. SCALING
+
+
+ï 
+OPERATOR
+OPERATOR
+
+BREAK
+POINT	CURVE	DEPTH
+,--123---,M1,---124--,N1125
+
+OUTPUT
+LEVEL
+
+KEY	VELOCITY
+SENSITIVITY
+
+
+
+
+Permits raising or lowering the EG levels for keys to the left and right of any key specified as the "Break Point". This is basically a highly advanced version of the keyboard follower function found on someconventional synthesizers, permitting much finer scaling control.
+
+-	This velue will change	I
+BREAK POINT:
+The !BREAK POINTIkey-the reference key for the scaling
+function-can be specified anyV'1here between A-1 and CS. CURVE;
+Permits variation of	the scaling curve to the left and right of	the	BREAK POINT	key. Pressing	the  ICURVE I key
+alternates between R KEY SCALING and L KEY SCAL≠ ING displays. Four different curves are available, as shown in the figure.
+DEPTH:
+Varies the depth of each curve over a O to 99 range. A 0 setting results in a flat (no variation) curve, and a 99 setting produces maximum scaling depth.
+99	BREAK POINT
+
+Permits sP.tting the ou1put level and touch response effect
+of each op r;itor.
+
+
+This value will change
+
+)
+OUTPUT LEVEL:
+Controls overall EG level, like the EG DEPTH controls in conventional synthesizers. OUTPUT LEVEL can be set between O and 99.
+For example, if a specific operator is found lo be unnecesï
+sary once  a voice has been created, its ou tpul level can be
+Set  to 0.
+ï Since the OPERATOR ON∑OFF function operates only in the  EDIT mode and OPERATOR ON-OFF data is not stored in memory, the OUTPUT LEVEL of all un∑ necessary operators should be set to 0.
+KEYBOARD LEVEL SCALING depth is also set to "O".
+Setting a large DEPTH value and either the +LIN or
+-t-EXP curve will result in output from the operator even if the operator's output level is set to "O".
+In order to maintain the same total output level regard∑
+less of which algorithm is selected, the OUTPUT LEVEL of each carrier operator is initially set to 1/2 or 1/6 depending on the configuration of the algorithm. For example, the OUTPUT LEVEL of operators 1 through 3 of algorithm 1 are set to 1/2, while operators 1 through
+
+DEPTH O I	=;=;.
+
+
+
+99
+
++EXP
+E	≠
+
+6 of algorithm 32 are set to 1/6.
+
+KEY VELOCITY SENSITIVITY:	ï
+Permi1s adjustment of key touch response. That is, how the velocity with which the keys are played affects the sound. Since touch responce can be applied to carriers er modu≠
+
+LIN: LINEAR variation
+EXP : EXPONENTIAL variation
+
+ï KEYBOARD RATE SCALING
+
+KEYBOARD
+RATE
+SCALING
+126	pl
+The EG for each operator can be set for a long bass decay and short treble decay-as in an acoustic piano. RATE can be set from Oto 7.
+
+lators. variations in u mbre as well as level can be produced. Sensitivicy can be set from O to 7. No touch response will be produced with a o setting, while a setting of 7 produces
+maximum response.
+
+
+
+
+ï	ï
+
+
+
+< I 6>
+
+
+
+
+
+
+
+
+
+
+
+ï PITCH EG	ï	KEY TRANSPOSE
+	PITCH EG		ï
+KEY
+	A4TE	LE\1£1.		TRANSPOSE
+129	s1130	∑I	131	ul
+
+PITCH EG permits variation of pitch by ±4 octaves either side of standard pitch (50). The RATE and LEVEL para≠ meters of the PITCH EG can be set just as in the other DX7 envelope generators.
++4oct	L1
+
+Transposes pitch over a ±2 octave range In semitone steps with C3 as standard. Press the IKEY  TRANSPOSE l. and
+then the keyboard key corresponding to the desired amount of transposition according to the illustration on page 18. To transpose up one octave, for example, press the
+IKEY  TRANSPOSE I key and  then press C4 on the  key≠
+board.
+
+
+
+ï VOICE NAME
+\IOICE
+NAME	
+
+
+
+
+
+
+
+
+
+
+
+
+RATE:
+
+
+ALG 4 111111
+PEG LEUEL  1 =50
+This value will change --'
+ 
+Name for original voices can be specified using up to ten characters. Characters are chosen from those printed in small type to the right of the MODE SELECT and VOICE/
+PARAMETER SELECT keys. The available characters are 1 through 0, A through z. -, a period and a space. When the I VOICE NAME I key is pressed, a cursor appears over
+the first character of the current voice name. Input lhe new name by pressing the buttons with the appropriate characï
+
+Pressing the IRATE I key successively selects RATE para≠
+meters 1 through 4. Each RATE parameters can beset from
+0 to 99. AO setting produces the longest (slowest) RATE. and a 99 setting produces the fastest RATE.
+
+ters printed to the right of the button while holding the [CHARACTER  button.
+
+EOIT/
+
+LEVEL:
+
+Whllt pressing the
+
+ICOMMRE
+
+I key,
+
+Pressing the I LEVEL I key successively selects LEVEL parameters 1 through 4. Each LEVEL parameter can be set from Oto 99.
+With a setting of 50 as standard. a setting of 99 permits +4 octaves pitch variation While a setting of O permits -4 octaves pitch variation.
+Set LEVEL 1 through LEVEL 4 to 60 to defeat the PITCH EG function.
+
+CHARACTER
+
+
+NO	YES
+preu either	1-,	?1or r,-.-,?--,1 key
+-OFF---	ON
+
+
+
+
+cursor can be moved
+
+
+
+
+
+
+
+
+
+
+
+ï
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+< 17)
+
+
+
+
+
+
+ï KEY TRANSPOSE	c,"
+
+
+F1*	A1*
+
+D2-1t	G211	C:J*
+
+
+F3/f	Al-It
+
+
+04	G411
+
+o,#
+
+G1#	C2#
+
+F2#	A.lit	D311
+
+G3#
+
+c;..#	Fi1	A41
+
+
+
+
+
+
+
+
+
+
+
+
+C,	El	G1	81	In	f.	Ai	C3	E3	Ga	133	04	Fa	AA
+D,	F,	A,	C:,	E2	G2	B2	03	f3	A3	C.	E,.	G,	Bï
+
+c,,	Co
+
+
+
+
+
+
+You can transpose in semitones for -2 octaves
+
+Press the key that you wish to transpose.
+
+The DX7's keyboard (C1 to Cs)
+
+C5 through C6
+are all C5	You can transpose in
+semitones for +2 octaves
+
+r	r	r-	T	-r-r.,-,	T	i	7	,-,
+I	j	t	t	I	I	I	II
+I	'	I	I	I	I	,,
+I	I	I	I	I	I	I	ti
+I	j	I	l	I	I I	,,
+:	I	:	I	11
+11
+A	I	'l''''l'l11	,,,,,,	,1,1,
+1
+J_ ,I._	... _'--1.. ...J_J_	... _ t _..........._. ._.................. .......  ._.._._._.._....,....................... _.  ......,._._._.._..  ._.....,,..._......._.......	.	...,.J_.J_j_	_J_	L _ l _._.J-J_.. _ l _,	L.J
+
+I I I I I I I I
+C-I1
+
+c,	C2	CJ	C4	Cs	Cs
+I	I
+C1	I	I	Cs
+	I	
+I	I
+I	I
+C3	I
+Iï
+ I I C.
+
+
+
+
+
+ï For example, when transposing up 1 octave
+
+
+KEY
+lRANSPOSE
+31
+
+
+C4	Q,
+
+
+C6
+The display when transposing up 1 octave
+
+
+
+After pressing
+
+
+Play C4
+.
+
+STORE/SAVE/LOAD	
+
+
+
+
+
+STORE/SAVE/LOAD ... Storing the Voice Data
+
+With the DX7. voices you crea1e can be stored in 1he inter≠ nal memory or an external memory car1rldge. You can also save all the internal voices in a cartridge. In addition, you can load all the voices in a cartridge into the internal r,emory.
+
+1. Memory Protect .... Protec11ng Your Work
+The DX7's internal MEMORY PROTECTION function will prevent any accidental erasure of the INTERNAL or C/\ TRIDGE voice data. In addition, the voice cartridge itself has a protection switch so that the da:a Is doubly protected. You will first have to turn the DX7 MEMORY PROTECT OFF in order to STORE/SAVE/ LOAD tha voice data. .C..lso, do not forget to turn the MEMORY PROTECT function back ON after the STORE/SAVE/LOAD ooeration.
+MEMORY PROTECT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Note:  If  you save contents of  the DX7's internal mem≠ ory or newly-created sOt.Jnds in a cartridge that is al≠ ready full, the previous cartridge content3 of that particular preset number will be erased from the memory and the nevi voice data will replace it. Be sure to save new voice data in preset numbers that are empty or that are no longer needed.
+
+
+
+
+
+
+
+
+
+
+
+
+, ...
+1
+ï
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ï
+
+
+
+
+
+
+NO	YES
+
+
+
+
+
+Data Enrry controlt
+3. 
+Saving lnternaJ Voice Data
+You can save the entire data contents of the internal mem≠ ory in a separately available blank cartridge. This will open up the internal memory for original voices and will allow you to increase the number of  voices available. If  you
+should decide that all of the voice data contained in the	{.
+cartridge is unwanted. the entire contents of the Internal memory can be transferred to	the cartridge. You'll then
+
+2. Storing Newly Created Voices
+Newly created original sounds can be erased by selecting other preset voices or disconnecting the power supply. Please store any voice data that you wish to keep in the internal memory or in a voice cartridge.
+
+MEMORY SELECT
+
+have an entirely new voice cartridge. For this procedure, turn the protection switch of the cartridge off.
+MEMORY PflOTECT	 INlERNAL	CARTRIDGE
+I	xii	,...,... v] Pres ing 1he key
+
+
+
+
+Select tt"le memory to
+be STORED to
+
+
+
+STORE
+
+.	,'--"<"W-
+
+
+Wprehsilseing	.[_1
+
+_.1]	~
+
+1,._32	v [
+
+
+
+Press the key for the preset
+number to be stored
+
+
+
+
+< 19)
+
+
+
+
+
+
+
+
+
+
+
+
+Asking i' you \vant to SAVE all data (if MEMORY PRO≠ Tt:.CT is ON at this time. the "MEMORY PROTECTED" display aopears and SAVE will not function).
+YES
+
+Press ï:YES" key and
+
+Turn the protection switch oi the internal memory oii.
+
+MEI.ORY PROTECT	
+INTERNAL	CAR IOGE
+_,.,,.,_,II	vi	Pressing the	key
+
+ON
+
+
+
+
+
+
+tn isd isPlay appears.
+
+The internal microcomputer asl:s "SAVE I\IIEMORY, ARE	I
+YOU SURE?" tc  prevent accidental erasure of  important
+
+voice data ln	the RAM cartridge. Creek to see that the RAM cartridge inserted in the instrumeni does not contain
+important	voice data,  then press IYESIonce 11ore.  The
+"UNDER WRITING" display appears and the save opera≠
+
+
+
+
+Asklng if you want to LOAD all data (if MEMORY PRO≠
+
+tion begins (if the PROTECT S\vitch O'l the RAM cartridge is ON at this time, a "\I\IRITE ERROR" message will be displayed and the save operation will be terminated).
+When the SAVE operation ls finished, :he "COMPLETED" massage will appear. MEMORY PROTECT should now be turned ON.
+
+TECT is ON at this 1ime, the "MEMORY PROTECTED" display appears and LOAD will notfunction).
+
+'-"?]	Press "YES" key and 
+ON
+
+
+
+
+
+
+
+
+Press "YES" key and
+
+
+This display appears when
+SAVE is finished.
+
+
+this display appears indicating that SAVE ls In progress.
+
+thic display appeart.
+
+
+The microcomputer	askS "LOAD MEMORY, ARE YOU
+SURE?" to prevent accidental erasure of Important voice data in  the instfument's internal memory. If	it's OK  to
+LOAD, press IYESIa second time and wait for the "COM≠
+PLETED" display. MEMORY PROTECT should then be turned ON.
+
+
+
+
+Note:	If a "FOARMAT CONFLICT", "ID	CONFLICT",
+or "READ PROTECT" message is displayed during a STORE or SAVE operation using a RAM cart≠ ridge, it means the cartridge must be formatted. For
+
+YES
+
+
+ON
+
+Press "YES" key and	'
+
+details, please refer to	the Cartridge Formatting section on page 7.
+
+4. Loading cartridge Data
+You can load all the concents of a cartridge Into the internal memory of the DX7. First, Insert the cartridge that conï tains the voice data that you wish to load.
+
+thisdisplay appears lndicatln!J
+that LOAD has finislied.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(20)
+
+
+MIDI	
+
+
+
+
+
+MIDI {Musical Instrument Digital Interface)
+The f\!11DI terminal is for external control of electronic musical instruments. Any instrument equipped with aMIDI terminal can be connected using the MIDI cable and used for transmitting data to or from the instrument.
+MIDI can be used for  the following types of data transmis≠
+sion andcontrol:
+
+ï Real-Time Control
+This is used for controlling more than one electronic musi≠ cal instrument at once using a sequencer to form amusical ensemble. It can also be used to control a second electronic musical instrument via the keyboard of the main instru≠ ment.
+1, Key pitch ON/0FF, etc.
+2, Pitch bend, modulation wheel, sustain switch, etc.
+3. Voice number.
+ï 
+System Information
+Cenain lypes of data can be transferred betweeA certain groups of inslruments of the same manufacturer.
+The follovving types of data can be exchanged using the
+YAMAHA DX7 and/or DX9.
+1. Data for one voice or for all voices.
+2. The data for a single parameter within a certain voice.
+3. The da1a for a single parameter within the FUNCTIONS.
+
+
+
+
+
+
+
+
+
+.
+
+
+
+
+
+ï Connecting the Ml DI Cable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fig. 1
+ï
+
+
+As can be seen in figure 1. the data output from the se≠ quencer is transmitted via a single MIDI cable and input to synthesizer A. where it is sent to the next instrument to be controlled via the THAU terminal. In this case. these≠ quencer is outputting multi-channel data. Therefore. the desired channel number on the receiving side must be selected accordingly. Both the sending side and the receiv-
+ing channel numbers will have to  be specified ïNith the	Fig. 2
+system shown in figure 2.
+
+ï Selecting the Receiving Channel
+While the unit is in the FUNCTION mode, pressing
+will produce the display shown in the figure. The selection of the MI DI receivinQ channel number can be carried out using the  DATA ENTRY  controls. Select system infor≠
+mation YES/NO for both the receiver and the transmitter. Pressing je   ïI again will produce the display ''SYS INFO
+UNAVAIL". Press I∑ï  -I to change this to "AVAiL", and
+the instrument will enter the system information transmit/ receive mode.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FUNCTION
+
+
+
+
+
+pressing
+
+8
+
+
+press
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DATA  EN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Channel number con be carried out using the Data Entry controls.
+-
+
+
+
+
+
+OFF	ON
+
+
+
+
+
+<21 >
+
+
+
+
+
+
+
+
+
+
+
+
+USING MIDI.
+ï Real.Time Control
+1. Sequencer Controlled Automatic Performance
+With thA system shown in figure 1, IAt us use the DX7 as synthesizer A. and the DX9 assynthesizer 8. Specify the OX7 receiving channel as 1, and ,he OX9 receiving chan≠ nel as 2. This will enable automatic performance under sequencer control
+2. 
+Transmit Voice Data for All 32 Voices
+Press	la	when the display appears as shown in the upper area of the figure. The display will change to that
+shown in lower area of the figure. Pressing	I.,  -I wiII
+cause the voice data for all 32 voices to be output from
+MIDI OUT
+
+
+in thiscondition
+
+2. Remote Control Performance
+Hooking up rhe remote keyho,ird KX1 to a DX7 as sho1,vn in the figure. will enable you to remotely control the DX7 from the KXt keyboard. In addition. by con≠ necting a DX7 and a DX9. the OX9 can be controlled
+
+Pressing the 
+la
+
+
+
+
+key
+
+
+ the display will change to	
+FUNCTION	CONTROL	-
+ 1IDI  TRANSt∑lIT ?	J
+
+from	the	DX7	keyboard.	The	DX7's SP.nd channel number should also be specified as 1.
+
+
+
+
+
+
+
+OUT
+
+KXl (DX7)
+
+IN
+
+DX7 (OX9)
+
+
+
+ï Transmit System Information
+1. Transmit Single Voice Data
+When the display appears as shown in the figure, press either [ INTERNAL Ior [CARTRIDGE!. Then press the
+
+YES Pressing the
+key, the voice data for all 32 voices
+to be output from ch.1.
+
+
+
+
+
+3. Transmit Voice or FUNCTION Parameters
+When the display reads "SYS INFO AVAi L", press either I EDIT !or !FUNCTION!. Pressing the key correspondï ing to the parameter that you wish to transmit will outï
+put the dara for that parameter from Ml DI OUT.
+Note: For all of the above, the transmit channel number of the DX7 is 1.
+
+ï Receiving System Information
+Select the same number for both the receive and the transï mit channels. When the display reads "SYS INFO AVAl L".
+
+voice number key for the voice you wish to send. The corresponding voice data will be output from Ml DI OUT.
+
+
+in this condition
+
+MEMORY SELECT	
+NTERNAL	CA.RTRIOGE
+
+
+Press tne voice numoer key	tor
+the voice you wish to send.
+
+tre instrument will be ready to receive system information.
+1. Receiving Single Voice Data
+First. Set  the  INTERNAL  MEMORY  PROTECT to 0 FF. When single voice data is received. the panel disï plays the message "INTERNAL VOICE" and the received voice name. the first character of which will flash.
+
+2. Receiving the Voice Data for All 32 Voices
+Switching the PROTECT off for the INTERNAL memï ory, will cause the voice data for all 32 voices to be memorized into the internal memory.
+
+3. Receiving Voice or FUNCTION Parameters
+When rec.Riving this information. the unit will vary the d;ita for that particular parameter.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(22>
+
+	ï	
+LET'S ACTUALLY CREATE .A VOICE
+
+
+
+
+
+EDIT OPERA Tl ON
+Using the EDIT mode of the DX7, you can Modify the pre≠
+programmed voices or even create your own original voices.
+
+1. Modifying Q pre-progrQmmed voice
+1) 	First, select the pre-orogrammcd voice you wish to modify. Select ei:her the internal or cartridge memory, and then the preset number 1 to 32.
+2) Enter the EDIT mode by pressing thelEDIT\key.
+3) Select the parameters you wish to modify and change their values.
+A  small dot  will appear next to the display voice num≠
+ber when there is a data modification.
+Voice number
+
+The dot	will appear when any data has been modified.
+
+
+
+When you wish to hear what the original voice sounded like. press thP. l EDIT/COMPARE I key once again. The
+vniCP. number will flash and the sound of the original
+voice will be reproduced (during this procedure. you can not rr,odify da1a). Pressing the l EDIT/COMPARE! key
+will cause the DX7 to revert to the original voice. When you  wish  to  continue  your efforts in  voice creation,
+press the IEDIT/COMPARE I key again. In this manner.
+you can compare your sound with that of the original
+voice in order to see how your voice is progressing.
+2. 
+Creating an Original Voice.
+To create an entirely new voice, you can use one of the pre-programmed voices as the "raw material" for modi≠ fication. However. the feed-back and LFO parameters can complicate the procedure and make things quite difficult. Therefore. it Is advisablP. to use the "basic" voice parameters when beginning voice creatio from scratr.h.
+We'll ere.ate a CLAR INET  sound  to exemplify  this pro≠
+cedure.
+
+1) Press the !FUNCTION] key to set the DX7 to the FUNC≠ TION mode.
+ Press !VOICE lNIT] key. Next pres; thP. IYESj kP.y. Tha display will	then show "ARE YOU SURE?". Pressing the I YES] key once again will cause thP. voice data to be set to the basic settings. and the DX7 vvlll exit the FUNC≠ TION mode and enter the EDIT mode. It is now ready to create new sounos.
+
+2) Selecting the Algorithm
+Choo	one algorithm out of the 32 available. For exam≠ ple. we'll select Algorithm 3. Press the IALGORITHM I
+key. Set the DATA ENTRY section to 3.
+
+Set the respective valuesat the DATA ENTRY section,
+
+
+
+Algorithm 3
+
+
+EDIT/
+COMPARE
+]cH
+
+
+
+You	wish to hear the original voice, press the key again.
+
+3
+r-	::i
+
+Modulator --ïr......,  ,I	5
+I	l
+
+Carrier
+
+.., .............1 ...........
+
+1	1	4
+I	I
+
+
+
+
+the	voice number will flash
+
+L_!::-_-:::i-....
+I
+We will use only OPERATORs
+1 and 2. The other OPERATORs
+will not be used in this example.	ï
+
+eorr1
+COMPARE
+
+I ,9.I
+
+You wish to continue editing
+
+
+preSJ the key egain
+
+
+3) Disable all OPE RATORs that are not immediately neces≠ sary.
+The carrier parameters should be defined first. The car≠
+riers for algorithm 3 are OPERATORs 1 and 4. As we will only be using OPERATORs 1 and 2 for this exam≠ ple, OPERATOR 1 will act as the sole carrier. First, set the ou,put level of OPERATOR 1 to any value. Press the [ OPERATOR OUTPUT LEVEL J  key. Set OPERATOR
+
+4) Store the edited voice in the internal memory. See the STORE/SAVE/LOAD section on page 19, and carry out the store procedures using it as a reference.
+
+1 to 99.  Set OPERATOR  2 to 70. The unused OPER≠
+ATORs 3 through 6 should be set to 0. Pressing the
+I OPERATOR SELECT I key, select the OPERATORs.
+Disable all OPERATORs not immediately necessary.
+
+
+
+
+<23>
+
+
+
+
+
+
+
+
+
+
+
+
+Press the [OPERATOR ON-OFF! keys 2 through 6. OPERATORs 2 through 6 are now disabled.
+
+4) Determining the CARRIER FREQUENCY.
+VJhen attempting  to  create the  sound of  a clarinet,
+the CARRIER versus MODULATOR frequency ratio should be set to 1:2. Press the I FREQUENCY FINEIand
+!FREQUENCY COARSE! keys, and setthe pitch to 1.00.
+
+5) Determining the amount of DETUNE.
+In our attempt to create the sound of a clarinet, only OPERATOR 1 will be functioning as a carrier and there≠
+fore DETUNE should be set to  0. Press the IDETUNE I
+key. Set the value of "OSC DETUNE" to 0.
+
+6) Setting the ENVELOPE GENERATOR.
+First. we'll set the ENVELOPE GENERATOR of the carrier. For exariple, we∑ I set the parameters to the following values:
+Pressing each key In succession will cause the values to
+advance from 1 to 4.
+LEVEL 1
+(99)	RATE 2
+8) 
+Setting the MODULATOR FREQUENCY
+Set the MODULATION FREQUENCY to 2.00 using the IFREOUENCY COARSE! and 1£..B.EOUENCY FINEjkeys.
+Set the DETUNE for OPERATOR  210 0. Set the ∑∑osc
+DETUNE" to O using the !DETUNE! key,
+9) Setting the MODULATOR ENVELOPE GENERATOR.
+To create the sound of a clarinet, the parameters of the modulator's envelope generator should be identical to the parameters of the carrier's envelope generator. This process can be carried out in a few seconds by using the COPY function. Using the COPY function, copy  the OPERATOR  1 envelope  generator  dat.j' to
+OPERA TOR	2. Set the display to "OP 1" by presseing the IOPERATOR SELECT! key.
+While pressing the I STORE j key, press this key. The
+display will show the number of the operator that was selected	with	the ! OPERATOR	SELECT j key. Thi
+signifies that theenvelope generator parameters, keyboaro level scaling and keyboard rate scaling parameters of OPERATOR 1 are being copied to OPERATOR 2.
+STORE
+
+(50)	RATE 3
+(50)
+
+LEVEL 2
+(95)
+
+
+
+
+EG	
+
+LEVEL 3
+(95)
+
+
+
+
+LEVEL 4
+(0)
+
+
+
+
+While pressing the
+
+Prass
+
+
+
+10) Adjusting Tone
+
+/
+Display will show the OP number
+that was setecced with the
+OPERATOR SELECT key.
+
+This dgnltles that the EG data of
+OP1 are being copied to OP2.
+
+
+
+
+Pressing each key In
+succession
+
+ï
+1Nith the DX7  set in this mode, play on the keyboard
+and listen to the sound produced. The sound produced
+ïNill be a pure sine wave from the carrier only. Now set 1he envelope of the carrier for an appropriate sound. Next. we'll set up the modulator data.
+
+7) Using the modulator
+In this attempt to create the sound of a clarinet. OPER∑
+ATOR 2 will be functioning as the sole modulator. Press the! OPERATOR 2 ! key. OPERATOR 2 is now
+engaged.
+
+
+ï
+
+At this point. listen to the sound. The sound produced will probably be a little harsh. In this case, lower the
+OUTPUT LEVEL of OPERATOR 2 bY pressing on the I OPERATOR SELECT J  key. While pressing on the I OPERATOR OUTPUT LEVEL!.key, lower the value of the output level using the DATA ENTRY slTde control.
+With an output level setting of 61, the sound produced will approach that of an actual clarinet. Let's set the output level of OPERATOR 2 to 61. Later on, with more careful control of the envelope generators of OPERATORs 1 and 2, you can tailor the sound more precisely for your requirements.
+
+11I Adding Modulation
+Let's add a vibrato effect to the clarinet sound produced. Set the modulation controls so that the MODULATION wheel can be used to add a subtle touch of vibrato.
+1. Set the LFO Waveform.
+Pressing the [ LFO WAVE J key, set the wave form to "TR IANGLE".
+
+
+
+
+
+<24>
+
+	ï	
+
+
+
+
+
+
+
+
+
+
+
+2. Set the LFO Speed.
+Pressing	the	j SPEED I key, set  the  LFO's speed	to
+"28". Thls will produce a moderately slow vibrato.
+3. Set the LFO DELAY,
+Pressing the IDELAY I key, set the LFO DELAY to
+"36". The vibrato  effect	will	begin a few seconds
+after a key is played.
+4. The	modulation	controls should be set so that the
+vibrato effect will be controlled solely by the Modu≠ lation wheel. Pressing the IPMDI key, set the "LFO PM DEPTH" to "O". Pressing the IAMDIkey, set the
+"LFO	AM	DEPTH" to	"O". The	setting	'or	both OPERATORs 1 and 2 should be "O".
+5. Set the MODULATION SENSITIVITY.
+Pressing the IPITCH j key. set 1he "P MOD SENS" to
+"1".	This means that	the	pitch	will	be modulated slightly by the LFO.
+Pressing	the	-:-A7M-:-;:P,-:-L-:,IT=u:-:=o-=E"I key, set the "A MOD
+SENS" to "0". Thesettings for both OPERATORs 1 and	2 should be "O".
+6. Control	the Vibrato Effect with the  Modulation Wheel. Pressing the I FUNCTION I keys, set the DX7 to	the
+FUNCTION mode.
+7. 
+Set the Modulation Wheel RANGE.
+Pressing the jMODULATION WHEEL RANGE) key, set the RANGE to "33". This produces a slight amount of vibrato.
+8 Turn PITCH ON, AMPLITUDE OFF.
+Pressing the I PITCH I key. set the PITCH to "ON".
+This signifies th,it the modulation wheel controls the LFO modulation of the pitch.
+Pressing the !Afv1PLITUDEj key. set the AMPLITUDE to "OFF".
+9. Set the EG (Envelope Generator) BIAS to dFF _ Pressing the l EG	BIAS I key, set the EG BIAS to
+"OFF"
+Now, by rnanioulating 1he MODULA-JON WHEEL. you should be able to control 1he amount of vibrato on the clarinet while playing.
+
+12)  Naming the New Voice
+Nearly any riame can be given to a VOICE, as long as lt is within ten characters in length. As the sound pro≠ duced here is close  to  that of an actual clarinet. let
+us  call  this  VOICE:  "CLARINET-A''.  Pressing  the I EDIT/COMPARE I key, set the DX7 back to the EDIT mode. While pressing the  j NAMEI l:ey, press the char≠
+acter keys in succession as shown in the figure. The cur≠ sor will moveevery time you write in a newcharacter.
+
+
+
+
+
+
+
+
+
+
+3) Saving Your Original Voice In Memory.
+Refer to the STORE/SAVE/LOAD section on page 19 .
+
+
+
+
+
+
+
+ï
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ï
+
+
+
+
+
+
+
+
+
+
+<25>
+
+
+
+
+
+
+
+VOICE  MEMORY
+
+
+
+-	,
+
+M-)-O-S-EN-S-IT-IV-IT-Y,I
+I
+
+r-----------------------	PMD:	!	PITCH	t.1odulate lhe all OP Pitch
+
+
+II	----	,-----:-,	-O	99	ï I
+
+I	0-7	II	ïï
+
+II	-----,.--,	SPEED I-..--
+
+ïv D '"
+I 
+II	II
+1
+
+SYNC
+
+WW£
+
+AMPUTUOE	'	"'""'""'-'	OP
+
+:	ON/OFF	L----'	L---'	AND	.
+I	0~99	1	I 1
+
+OP:1,p
+6
+
+j	Output Level
+I
+
+II L
+
+
+
+
+
+FUNCTION
+
+
+
+	j	L	'
+
+r-------------------,	-
+I	I
+
+! II	I-P-ITC-H -I	I!
+I"'	ON/OFF	I
+I	I
+I
+------+-I	I	f
+
+
+I	..
+I
+I
+A
+
+ON/OFF	I	..
+'	I	?
+
+(\)
+(J)
+V
+
+I
+j
+I
+I
+I
+I	RANGE
+i	0-99
+
+EO BIAS	I
+ON/OFF t-t--t--<..
+I
+I
+I
+I
+I
+
+I		JI
+L-
+r._.------F-O-OT--CO-N-TROL 	;	'
+I	I "'
+I	I
+T	T
+I	I
+,I -	l	I  "'t
+L	J
++	t  ., 	BREATH  CONTROL	I -.j
+I	I
+I	I
++	,I..	I I	I	∑ï	ï
+I	I	I L-:	J I ∑t
+r	,
+ï I-. 	AFTER TOUCH	I .,1
+I	I
+I	I
+	....	I	T
+"T
+
+-∑-,
+-
+
+ï
+
+SPECl∑FICATIONS	
+
+
+
+
+
+Keyboard	. . , .ï	ï
+
+Sound Source , . , ,.	. , . . . . . .
+
+Simultaneous Output Nows ,	,
+
+Internal RAM Memory	..	, . , ..
+External ROM Memory	,. External RAM Memo.ry .......
+
+61 1<eys, c, ~C0 (Initial &
+After touch $endtlvel
+Flv1 Tone Generator:
+6 operators, 32 algorithms
+POLY mode: 16 notes MONO mode: 1 note 32 Bank (32 Memory)
+32 Bank x 2 (64 Memory)
+32 Sanft (32 Memory)
+
+
+Function Parameters
+MASTER TUNE .....ï... POLY/MONO
+PITCH BEND RANGE .
+STEP , . .	ï	ïï
+PORTAMENTO MODE
+POLY.		. .ï MONOï	, ï. GLISSANDO .
+
+
+
+±75 cents
+0 ~12
+0 ~ 12
+RETA!N/FOLLOW FULL TIME/FINGERED ON/OFF
+
+Mode Soloc1ors	,.	,.
+ï
+
+ï
+
+. .	STORE. MEMORY PROTECT
+(INTERNAL. CARTRIDGE).
+OPERATOR SELECT, EDIT/ COMPARE, PLAY-MEMORY SELECT (INTERNAL. CAR∑ TRIDGE), FUNCTION
+
+Tl ME ..... .
+MODULATION WHEEL
+RANGE ïï.ï , PITCH ïï... , AMPLITUDE .. EG BIAS	...
+
+0~99
+
+0 ~99
+ONfOFF ON/OFF ON/OFF
+
+ControJs	. .. . ï ï ï	. . .. . . ï . . .
+
+VOLUME, DATA ENTRY
+(lever, swicch; YES (ON)/NO
+
+FOOT CONTROL
+RANGE ...., 0 ~ 99
+
+
+
+Voice Parameten
+
+(OFFJ]. PITCH WHEEL. MODULATION WH£EL, OPERATOR ON-OFF, EG COPY
+
+PITCH ..... . AMPLITUDE ..
+EG BIAS	....
+BREATH CONTROL
+
+ON/OFF ON/OFF ON/OFF
+
+ALGORITHM ,	ï	, ,ï ï ï	. . .	1 ~32
+FEED BACK ,.	ïï.ï..ï..  0~7
+LFOWAVE ....... ,.ï. Ar--,. ......-1 rLJ 'v	S/H SPEED . . ,.	, . . . . . ï	0 ~ 99
+
+RANGE .....
+PITCH , .ï... AMPLITUDE ï.
+EG Bl AS	.ï.ï
+
+0 ~99	ï
+ON/OFF ON/OFF ON/OFF
+
+DELAY	.ï.	.,	...ï. 0~99
+PITCH MODULATION
+DEPTH	...	, . . . . . .	0 ~ 99
+AMPLITUDE MODULA-
+TION DEPTH ..ï.... 0 99 SYNC .ï	ï.. ONiOFF
+PITCH MODULATION SENSITIVITY.ï	ï . . ï .	0 -	7 AMPLITUDE MODULA-
+TION SENSITIVITY. ï .	0 ~3
+OSCILLATOR	MODE.,ï..	RATIO/FIXED (HZ)
+SYNC	. ,	ON/OFF
+FREQUENCY
+COARSE	ï.ï	0.5 ~ 31
+FREQUENCY
+Fl NEï ï	. .ï	.	(FREQ COARSE) >< 1 .O~ ,1QQ
+             DETUNE ... -7 -t7 EG	RATE (1 ~4)	, 0~99
+LEVEL (1 ~ 4) ....ï , 0~ 99
+KEYBOARD LEVEL SCALING
+BREAK POINT .......ï A-LCB CURVE (L/RI,ï ï ï ï	. . . .	t LIN/:1: EXP
+OEPTH (L/R I ,ï	. ï ï . . . , O ~99
+KEYBOARD RATE SCALINC, 0 - 7
+OPERATOR OUTPUT LEVEL. 0-99
+
+AFTER TOUCH
+RANGE .....
+PITCH	. , ..ï AMPLliUOE .. EG BIAS	.ï..
+EDIT RECALL VOICE INITIALIZE
+CARTRIDGE FORMATTING BATTERY CHECK CARTRIDGE SAVE/LOAD MIDI	CHANNEL	ï...ï ,..
+SYSTEM INFORMA≠
+TION	.....ï.ï ,ï. MIDI TRANSMIT
+Connecting Terminal . . . . . . , ..
+
+
+Con1rol     Terminal     ...........
+
+
+
+
+Others . . . . . . . . . . . . . . . . .
+
+0 ~99
+ON/OFF ON/OFF ON/OFF
+
+
+
+
+1 ~ 16
+AVAILABLE/UNAVAILABLE OUTPUT (600 n:
+UNBAI ANCED) PHONES (8-150 n)
+FOOT SWiTCH (SUSTAIN, PORTAMENTO).
+FOOT CONTROL (VOLUME. MODULATIONI
+BREATH CONTROL MIDI (IN.OUT, THAU)
+LCD DISPLAY CARTRIDGE INTERFACE
+
+KEY VELOCITY SENSI-
+   TIVITY . . . ,ï,	ï	. . . . .	U	7 P.ITCH EG RATE (1 ~4).	. . .	 0 ~ 99
+LEVEL (1 ~ 4) . .  .	0 ~ 99
+KEY TRANSPOSE ......ï , ±o2ctaves
+VOICE NAME	.ïïï , ...ïï wi1t11n 10 characters
+
+Diman,ions/Weight ..........
+
+Power   Consumption     .........
+Accessories	. . . . . . . . . . . . . .
+
+101.8W x 10.2H x 32.90 cm
+(40" X 4"X 13")/
+14.2 leg (31.2 lbs)
+40W
+ROM Cartridge x 2
+(64 voices x 2).
+Music Stand
+
+
+ï Specifications and design are subject to change without notice for Improvement.
+
+
+
+
+
+
+
+ï
+
+
+
+
+
+
+
+
+
+
+
+
+
+<27>	ï
+
+; .
+J
+
+
+
+
+
+This table shows all the data of the first sound (BRASS 1) in the internal memory. The upper part of each select button is the Voice parameter and the lower p3rt is the Function parameter. The Voice parameter is memorized as the table indicates.
+The Function parameter can be changed as you desire.
+-
+YAMAHA =	-7	VOICE  DATA  LIST	∑op:
+	0	 161
+DATE/PRESET No. :	/	I	I	I	I	I	I	I	I	I	I	0	15
+
+
+VOICE NAME:	BR-A-S∑-S∑-1∑	I
+
+22 I 7
+
+I SINE. I 37	I 0
+
+I  s	I 0
+
+I Off	I 3	r-1 14
+0
+
+
+
+"
+(X)
+
+PROGRAMMER :	 . 	.	I	I	I	I	I	I	I	I	I	I 	0	
+
+V	I			PITCH BENO	POHTAMENTO  MONO	RANGE	STEP		GLISS∑ I	TIME
+ANDO
+
+'	f()l'(	I	7	0
+P-	I	00	0	11-f
+
+I	0
+1,,J,,,1 19l,sl9, 0	C3	-EXP ïEXP !I/, !O	II-	gz	I	2
+
+5 IR	I	00	+/	'fl 1,
+
+7i 1'1,1 fB 0	C3  +WN	1..,r	()	0	0	98	2
+
+4 I R
+3 IR	OW
+2 I F?
+
+I	00	0
+
+,I,/(. ,J,I,,If/ 7111199,s ()	C3	LIN	LIii	0	0	0	'It/	2	-{8q.$jf'l1.tl,01Jc,l.rOl.rolfOI C3	I 81/fSS1
+.'f 7,,8,, tJ f
+
+1 I R	0	to	?	1'7.l1,91 'II	lilri1' 0	C3	LJN	Lfll	0	lt.f	0	'18	0
+
+MODEï/	FREQ.	FREO.	DETUNE	1	3 1.. 1	 2	 3	 4	BREAK 	L	R	L	A	 K.BOARD	OUTPUT	VELOC- 1121314	1l2l3l4	KEY
+SYNC	COARSE	FINE	RATE	LEVEL	POINT	CURVE	DEPTH	RATE	 LEVEL	ITV SENS.	RATE	LEVEL	 TRANS-
+
+VOIC
+NAME
+
+OSCILLATOR
+f	'
+
+.	t	r
+
+E; G..	..
+
+KEYBOARD  LEVEL SCALING	SCALING	OPEfRAT..O..R.
+
+PITCH EG	POSE	--
+
+i,	,.	,	-.,	I,	r∑	i:ï	'i,, j	'1-∑,..	1 1ïïïï -	;	:	ï	;	∑1:;
+
+..	_l. -,,.∑., _,. ∑-,∑
+
+' ' '...
+
+...f
+
+.,, ï
+
+'...ï.J' .- Pïlï,.'∑ ,.i.;-.,,	ï ..∑'
+
+'. ..,.
+
+.ï	',	J'
+
+
+
+
+
+
+
+ï MODE : R(RATIO). H(Hz)
+
+'----  ? ï---.	l	∑-	"-	-	,._ .......,.,..	L -∑	ï ï
+
+
+
+
+
+'
+
+I I,, ï-∑......
+I
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ï
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A
+I\)
+co
+'V
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MODULATION  WHEEL
+FOOT CONTROL
+AFTER TOUCH
+RANGE
+PITCH
+AMPLI∑ TUOE
+EG BIAS
+RANGE
+PITCH
+AMPLI∑
+TUDE
+EG BIAS
+RANGE
+PITCH
+AMPLI∑
+TUDE
+EG BIAS	RANGE
+PITCH
+I AMPLI TUDE
+EG BIAS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'
+
+
+
+MIDI	DATA FORMAT	
+
+
+
+1.   fi'r'-9
+1-1 . Channel lnformaton
+
+
+
+
+11110000	Status byte
+
+1001nnnn Okkkkkkk Ovvvvvvv
+
+Key ON & Channel number (n=O; ch1) Key number (k=36; C1 ~k=96; C6) Key velocity (v=O; Key OFF,
+v=l; PPP~ v=127; fff)
+
+0 iii  iii  i
+
+Os s s nnnn Offfffff
+Obbbbbbb
+
+Identification number ( i=67; YAMAHA)
+Sub status (s=O) & Channel number (n=O; chl)
+Format number (f=O ; 1 voice)
+Byte count MS byte
+
+
+1011nnnn
+
+Occccccc Ovvvvvvv
+
+
+Control change & Channel number (n=O; chl)
+Control number
+Control value
+
+Obbbbbbb Oddddddd
+
+Oddddddd
+
+Byte count LS byte Data 1st byte
+I
+Data 155th byte
+
+(b=l55 ; 1 voice)
+
+Oeeeeeee
+
+Check Sum (155 byte	:/JQl\J L, 2 O)'iilj!/&  c: -:i
+f=t,O))
+
+11110111	EOX
+1-2-3. 32'1,1' (7),<JJ.,7 ï 7-'7
+
+11110000	Status byte
+0 i i i i i i i	 Identification number ( i=67 ; YAMAHA) 0 s s s nnnn	Sub status (s=O) & Channel number
+(n=O; chl)
+0 f ff ff ff	 Format number (f=9 ; 32 voices) Obbbbbbb	Byte count MS byte
+
+Obbbbbbb	Byte count LS byte
+
+(b=4096 ; 32 voices)
+
+
+1100nnnn	Program change & Channel number (n=O; chl) (UNAVAIL 0)11\j,	ii)
+Oppppppp	Program number
+(p=O:INTl ~ p=31:INT32, p=32:CRT1 ~ p=63:CRT32)
+1101nnnn	After touch & Channel number
+(n=O:ch 1)
+
+Oddddddd
+I
+Oddddddd Oeeeeeee
+
+11110111
+
+Data 1st byte
+I
+Data 4096th byte
+Check Sum (4096 byte :/JQ:)!J: L, 2 O)'iilj!/& c:-:i
+f= t,O))
+EOX
+
+r	0 vvvvvvv	Touch value (0 ~ 127)
+11lOnnnn	Pitch bender & Channel number (n=O; chl) Ovvvvvvv	 Pitch bender value LS byte
+Ovvvvvvv	Pitch bender value MS byte (0 ~ 64 ~ 127)
+
+MS byte
+LS byte
+o~ 64
+0
+65 ~ 127
+2 (MS byte-64)
+
+
+1 - 2.  System exclusive Information
+1-2-1. MIDl77T1' 7  ï -1?:.,y:.,7'
+
+11111110	Status byte
+80mSec4lft=;'\';1#.is/HLii"0f1lL, /{JI,, ï :7";...,7"_is/±',,
+m rf11;1: l1/4't i'< i -to
+
+<30>
+
+11110000	Status byte
+0 i i i i i i i	 Identification number ( i=67 ; YAMAHA) 0 s s s nnnn	Sub status (s=l) & Channel number
+(n=O; chl)
+Ogggggpp	Parameter group number (g=O; DX :im Voice parameter, g=2 ; DX7 Function parameter)
+Oppppppp	Parameter number Oddddddd	 Data
+11110111	EOX
+
+
+
+
+
+
+
+
+g=O : DX ;It Voice parameter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,
+,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+g=2 ; DX7 Function parameter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<31 >
+
+
+
+
+
+
+
+
+2. f	7' -	9'
+2 -1  . Channel information
+,Q:11 -T"- 7 (7)Channel number C DX 7 -c-;&'J.:: L t Channel
+numberiJ'  ∑fx L t..:IIL  ∑;Z:t't't Z,	I:: IJ"'c∑ i" i To
+1000nnnn Key OFF & Channel number
+(n=0; chl ~ n=l 5; ch16)
+0kkkkkkk Key number (k=0. 1 ; C:'..2~ k=l 27 ; Gs) 0vvvvvvv Key velocity ( v ; !!\H )
+
+1001nnnn Key ON & Channel number
+(n=0; chl ~ n=15; ch16)
+0kkkkkkk Key number (k=0, 1 ; C:'..2 ~ k=l 27; Gs) 0vvvvvvv Key velocity
+(v=0 ; Key OFF, v=l ; PPP~ v=127 ; fff)
+
+
+1011nnnn Control change & channel number (n=0; ch1 ~ n=15; ch16)
+0ccccccc Control number 0vvvvvvv Control value
+
+
+
+
+
+2 - 2.	System  exclusive  information
+2 - 2 - 1 . MIDI7 7 r 1' 7" ï 7 ? ∑;., 7
+MIDI+ ,;,,, :t-11-, ï -J- :.0. ,- ,s:: J: ,, -f'_ 'ii';IIS"':l:i,; Li T" ,	,;1-,
+;, ï -r"- :7 ∑;Z;l[(1j1VJ.jj---C∑ c:,;, o ∑, ;, !1'666 m Sed'J l.'1111'.lr
+Lt..:JJ;r0∑,  4'Wiii2U,;fMl)c7J,,'7-. :T7, '71 ;..,01[:tlrmlil 'i'
+/.){	.., t..: I:: 'i"J[tJi∑ L'	Jj,;f,t:"C-'ie l'i'i' (7) N le''.' t..: A...rn L i
+To
+
+2-2-2. 1 'l,j'?-$3-0),,)1,7 ï 7-'7
+MIDl-f--'l";..,t-;1-,.-j-;..,,<-/;' ∑fXL, System information available /p-JMemory Protect off OJ I:: c", illfc';ll,\'0 I:: fµJ.llc:, 7ct-<', --c∑∑;Z:f,1Li'to
+
+2-2-3. 3211,j' -$3-0),,;1,7 ∑ 7'--7
+MIDI+ -;..,;y,;1-,. -j-;.., ,<-!;< ∑f'.c L,	System information available /p-JMemory Protect off OJ I:: c", ill f, ill.\'ï I:: [,r]-IJOJ
+7  ct-<', I∑ --C∑':l:i,i L i'to
+
+2-2-4. ,{7;,i-'7-ï7:,::::,,y
+,1s∑1;z-,,7,<-;7-,  7-r;..,;,:,-:,;..,-,<7;<-7-(j:
+MIDl-f--'l";..,;y,;1-,.-j-;..,,<-i.J' f".,cL, System information
+available(!) I:: c", illf.ill.\'ï I:: fi,Jffc:,7  ct-'?∑,	--C∑∑;Z:f,; Li
+To
+
+2-2-5.
+DX!c:,AfttiJc:,,,7 ct<';..,7   ∑ Y-	:7 ic∑'Z:f,1∑ Li	To
+11110000	Status byte
+0 i i i i i i i	 Identification number (i=67:YAMAHA) 0sssnnnn	Sub status (s=0) & Channel number
+(n=0:chl ~ n=15:ch16)
+
+0 fffffff 0bbbbbbb 0bbbbbbb 0ddddddd I
+0ddddddd 0eeeeeee
+
+Format number (f=2:1 performance)
+Byte count MS byte
+(b=94: 1 performance)
+Byte count LS byte
+Data 1st byte
+I
+Data 94th byte
+Check sum (94 byte :/mJI: L ,20J'llfi I::-:,
+t:t,OJ)
+
+
+
+
+1100nnnn Program change & Channel number (n=0; ch1 ~ n=15; ch16)
+0ppppppp Program number (p=0:INTl ~ p=31:INT32 p=32:CRT1 ~ p=63:CRT32)
+1110nnnn Pitch bender & Channel number
+          (n=0; chl ~ n=l 5; ch16) 0vvvvvvv	Pitch bender value LS byte ( !!\le1 )
+0vvvvvvv	Pitch bender value MS byte (0 ~ 64 ~ 127)	<32>
+
+11110111
+
+EOX

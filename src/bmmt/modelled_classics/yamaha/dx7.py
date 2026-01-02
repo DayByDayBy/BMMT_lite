@@ -12,38 +12,132 @@ from typing import Optional
 
 
 # =============================================================================
-# Helper Functions
+# DX7 Parameter Scaling (based on original Yamaha manual)
+# =============================================================================
+#
+# DX7 uses 0-99 integer parameters internally. Key curves:
+# - TL (Total Level / Output Level): 0-99, logarithmic, 99=max, 0=silent
+# - EG Rates: 0-99, exponential time, 99=instant, 0=very slow  
+# - EG Levels: 0-99, linear amplitude scaling
+# - Feedback: 0-7, maps to phase modulation amount
+# - Velocity Sensitivity: 0-7
+#
+# We accept normalized 0-1 floats externally but scale internally.
 # =============================================================================
 
-def level_map(level: float) -> float:
-    """
-    Convert normalized level (0..1) to logarithmic amplitude.
-    
-    FM spectra explode linearly; log scaling keeps timbres usable.
-    
-    Args:
-        level: Normalized level in [0, 1]
-        
-    Returns:
-        Logarithmic amplitude multiplier
-    """
-    return 10 ** ((level - 1.0) * 3)
+# Modulation index ceiling (radians). This controls max brightness.
+# DX7 can produce very bright timbres; ~13 radians gives strong harmonics.
+MOD_INDEX_MAX = 13.0
 
 
-def feedback_map(feedback: float) -> float:
+def tl_to_amplitude(tl: float) -> float:
     """
-    Convert normalized feedback (0..1) to bounded gain.
+    Convert DX7 Total Level (0-99) to linear amplitude.
     
-    Nonlinear curve prevents instability at high values.
+    The DX7 TL curve is approximately:
+    - TL 99 = maximum output (amplitude ~1.0)
+    - TL 0 = silence (amplitude ~0.001)
+    - Each step of ~8 TL ≈ 6dB change
     
     Args:
-        feedback: Normalized feedback in [0, 1]
+        tl: Total Level 0-99 (or normalized 0-1, auto-detected)
         
     Returns:
-        Bounded feedback gain (max 0.99)
+        Linear amplitude multiplier
     """
-    raw_gain = 0.5 * (2 ** (4 * feedback) - 1)
-    return min(0.99, raw_gain)
+    # Auto-detect: if <= 1.0, treat as normalized
+    if tl <= 1.0:
+        tl = tl * 99.0
+    # DX7 TL curve: amplitude = 10^((TL - 99) / 33.33)
+    # This gives ~0.001 at TL=0, ~1.0 at TL=99
+    return 10 ** ((tl - 99.0) / 33.33)
+
+
+def tl_to_mod_index(tl: float) -> float:
+    """
+    Convert DX7 Total Level to modulation index (radians).
+    
+    Modulators need to output phase deviation, not audio amplitude.
+    
+    Args:
+        tl: Total Level 0-99 (or normalized 0-1)
+        
+    Returns:
+        Modulation index in radians
+    """
+    return tl_to_amplitude(tl) * MOD_INDEX_MAX
+
+
+def rate_to_time(rate: float, sample_rate: int) -> float:
+    """
+    Convert DX7 EG rate (0-99) to smoothing coefficient per sample.
+    
+    DX7 envelope rates are exponential:
+    - Rate 99 = nearly instant (~1ms)
+    - Rate 0 = very slow (~40 seconds)
+    
+    Args:
+        rate: EG rate 0-99 (or normalized 0-1)
+        sample_rate: Audio sample rate
+        
+    Returns:
+        Exponential smoothing coefficient (0-1 per sample)
+    """
+    # Auto-detect normalized input
+    if rate <= 1.0:
+        rate = rate * 99.0
+    
+    # DX7 rate-to-time approximation (empirical curve)
+    # Rate 99 ≈ 1ms, Rate 50 ≈ 100ms, Rate 0 ≈ 40s
+    # time_seconds = 0.001 * (41 ^ ((99 - rate) / 33))
+    time_seconds = 0.001 * (41.0 ** ((99.0 - rate) / 33.0))
+    
+    # Convert to exponential smoothing coefficient
+    # coefficient = 1 - e^(-1 / (time * sample_rate))
+    # For ~63% completion in time_seconds
+    samples = time_seconds * sample_rate
+    if samples < 1:
+        return 1.0  # Instant
+    return 1.0 - np.exp(-3.0 / samples)  # 95% completion target
+
+
+def level_to_amplitude(level: float) -> float:
+    """
+    Convert DX7 EG level (0-99) to envelope amplitude (0-1).
+    
+    EG levels are roughly linear in the DX7.
+    
+    Args:
+        level: EG level 0-99 (or normalized 0-1)
+        
+    Returns:
+        Envelope amplitude 0-1
+    """
+    if level <= 1.0:
+        return level  # Already normalized
+    return level / 99.0
+
+
+def feedback_to_gain(fb: float) -> float:
+    """
+    Convert DX7 feedback (0-7) to phase modulation gain.
+    
+    DX7 feedback is applied to operator 6 only.
+    The gain curve is nonlinear to prevent instability.
+    
+    Args:
+        fb: Feedback level 0-7 (or normalized 0-1)
+        
+    Returns:
+        Feedback gain (bounded to prevent instability)
+    """
+    # Auto-detect normalized input
+    if fb <= 1.0:
+        fb = fb * 7.0
+    
+    # DX7 feedback curve (empirical): pi/2 at max
+    # fb=0 → 0, fb=7 → ~π/2 radians of self-modulation
+    return (fb / 7.0) * (np.pi / 2.0)
 
 
 def key_scale(freq: float) -> float:
@@ -51,6 +145,7 @@ def key_scale(freq: float) -> float:
     Keyboard scaling factor for modulators.
     
     Higher notes get brighter (more modulation).
+    Based on DX7 key scaling behavior.
     
     Args:
         freq: Note frequency in Hz
@@ -58,7 +153,23 @@ def key_scale(freq: float) -> float:
     Returns:
         Scaling factor in [0.5, 2.0]
     """
-    return np.clip((freq / 440.0) ** 0.5, 0.5, 2.0)
+    return np.clip((freq / 440.0) ** 0.3, 0.6, 1.5)
+
+
+# Legacy aliases for compatibility
+def level_map(level: float) -> float:
+    """Legacy alias for tl_to_amplitude."""
+    return tl_to_amplitude(level)
+
+
+def mod_index_map(level: float) -> float:
+    """Legacy alias for tl_to_mod_index."""
+    return tl_to_mod_index(level)
+
+
+def feedback_map(feedback: float) -> float:
+    """Legacy alias for feedback_to_gain."""
+    return feedback_to_gain(feedback)
 
 
 def cents_to_ratio(cents: float) -> float:
@@ -83,12 +194,18 @@ class DXEnvelope:
     """
     DX7-style 4-stage rate/level envelope.
     
-    Unlike ADSR, this envelope uses 4 rates (R1-R4) and 4 levels (L1-L4).
-    Each stage transitions from current value toward target level at a given rate.
+    DX7 envelope stages:
+    - Stage 0: From L4 (start) toward L1 at rate R1 (attack)
+    - Stage 1: From L1 toward L2 at rate R2 (decay 1)
+    - Stage 2: From L2 toward L3 at rate R3 (sustain - holds until note_off)
+    - Stage 3: From current toward L4 at rate R4 (release)
+    
+    Rates are 0-99 (or normalized 0-1), converted to exponential timing.
+    Levels are 0-99 (or normalized 0-1), representing envelope amplitude.
     
     Attributes:
-        rates: List of 4 rates [R1, R2, R3, R4] in (0, 1]
-        levels: List of 4 target levels [L1, L2, L3, L4] in [0, 1]
+        rates: List of 4 rates [R1, R2, R3, R4]
+        levels: List of 4 target levels [L1, L2, L3, L4]
         sample_rate: Audio sample rate
     """
     rates: list[float]
@@ -98,18 +215,25 @@ class DXEnvelope:
     stage: int = field(default=0, init=False)
     value: float = field(default=0.0, init=False)
     released: bool = field(default=False, init=False)
+    _coeffs: list[float] = field(default_factory=list, init=False)
+    _targets: list[float] = field(default_factory=list, init=False)
     
     def __post_init__(self):
         if len(self.rates) != 4 or len(self.levels) != 4:
             raise ValueError("DXEnvelope requires exactly 4 rates and 4 levels")
-        self.value = 0.0
+        # Pre-compute smoothing coefficients from rates
+        self._coeffs = [rate_to_time(r, self.sample_rate) for r in self.rates]
+        # Convert levels to normalized amplitude
+        self._targets = [level_to_amplitude(l) for l in self.levels]
+        # Start at L4 (release level, typically 0)
+        self.value = self._targets[3]
         self.stage = 0
         self.released = False
     
     def reset(self) -> None:
         """Reset envelope to initial state for new note."""
         self.stage = 0
-        self.value = 0.0
+        self.value = self._targets[3]  # Start from L4
         self.released = False
     
     def note_off(self) -> None:
@@ -122,7 +246,7 @@ class DXEnvelope:
         """
         Advance envelope by one sample and return current value.
         
-        Uses first-order exponential smoothing for stage transitions.
+        Uses exponential smoothing with DX7-accurate timing.
         
         Returns:
             Current envelope value in [0, 1]
@@ -130,19 +254,23 @@ class DXEnvelope:
         if self.stage >= 4:
             return self.value
         
-        target = self.levels[self.stage]
-        rate = self.rates[self.stage]
+        target = self._targets[self.stage]
+        coeff = self._coeffs[self.stage]
         
-        # First-order exponential smoothing
-        # Rate controls how quickly we approach target
-        # Higher rate = faster approach
+        # Exponential approach to target
         delta = target - self.value
-        self.value += delta * rate
+        self.value += delta * coeff
         
         # Advance stage when close enough to target
-        if abs(delta) < 1e-5:
+        # Stage 2 is sustain: holds at L3 until note_off triggers stage 3
+        if abs(delta) < 0.001:
             self.value = target
-            self.stage += 1
+            if self.stage in (0, 1):
+                self.stage += 1
+            elif self.stage == 2 and not self.released:
+                pass  # Hold at sustain
+            elif self.stage == 3:
+                self.stage = 4
         
         return self.value
     
@@ -232,22 +360,23 @@ class Operator:
             fb_gain = feedback_map(self.feedback)
             fb_term = self.last_output * fb_gain
         
-        # Compute output
-        mapped_level = level_map(self.level)
+        # Compute output scaling
+        # - Carriers: level is audio amplitude (log-mapped)
+        # - Modulators: level is phase deviation (radians) a.k.a. modulation index
+        if is_modulator:
+            mapped_level = mod_index_map(self.level)
+        else:
+            mapped_level = level_map(self.level)
         
         # Apply velocity sensitivity
         vel_scale = 1.0 - self.velocity_sens * (1.0 - velocity)
         
-        # Apply keyboard scaling for modulators
+        osc = np.sin(self.phase + phase_mod + fb_term)
+
         if is_modulator:
-            output = env * mapped_level * vel_scale * key_scale_factor * np.sin(
-                self.phase + phase_mod + fb_term
-            )
+            output = env * mapped_level * vel_scale * key_scale_factor * osc
         else:
-            # Carriers: envelope controls amplitude, velocity affects amplitude
-            output = env * mapped_level * vel_scale * np.sin(
-                self.phase + phase_mod + fb_term
-            )
+            output = env * mapped_level * vel_scale * osc
         
         self.last_output = output
         return output
@@ -268,6 +397,16 @@ ALGORITHMS: dict[int, dict[int, list[int]]] = {
         5: [6],
         4: [5],
         3: [4],
+        2: [3],
+        1: [2],
+    },
+
+    # Algorithm 3: Two parallel 3-operator stacks
+    3: {
+        6: [],
+        5: [6],
+        4: [5],
+        3: [],
         2: [3],
         1: [2],
     },

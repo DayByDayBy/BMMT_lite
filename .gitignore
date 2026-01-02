@@ -32,3 +32,8 @@ dev_diary.md
 uv.lock
 
 KNOWLEDGE.md
+
+src/bmmt/modelled_classics/yamaha/dev_diary.md
+src/bmmt/modelled_classics/yamaha/implementation_order.md
+src/bmmt/modelled_classics/yamaha/reference_sound.md
+src/bmmt/modelled_classics/yamaha/unit_tests.md

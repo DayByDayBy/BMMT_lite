@@ -49,6 +49,21 @@ PRESETS["init"] = _make_params(
 )
 
 # -----------------------------------------------------------------------------
+# CLARINET_A - DX7 manual-derived clarinet reference preset
+# -----------------------------------------------------------------------------
+PRESETS["clarinet_a"] = _make_params(
+    algorithm=3,
+    op_configs=[
+        {"ratio": 1.0, "level": 99, "rates": [50, 50, 50, 50], "levels": [99, 95, 95, 0], "vel_sens": 0.0},
+        {"ratio": 2.0, "level": 61, "rates": [50, 50, 50, 50], "levels": [99, 95, 95, 0], "vel_sens": 0.0},
+        {"ratio": 1.0, "level": 0.0},
+        {"ratio": 1.0, "level": 0.0},
+        {"ratio": 1.0, "level": 0.0},
+        {"ratio": 1.0, "level": 0.0},
+    ],
+)
+
+# -----------------------------------------------------------------------------
 # E_PIANO_1 - Classic FM electric piano with bell-like attack
 # -----------------------------------------------------------------------------
 PRESETS["e_piano_1"] = _make_params(
