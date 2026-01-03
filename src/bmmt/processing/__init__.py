@@ -38,6 +38,14 @@ from .spatial import (
     apply_shaped_delay,
 )
 
+from .reverbs import (
+    apply_spring_reverb,
+    apply_plate_reverb,
+    apply_hall_reverb,
+    apply_shimmer_reverb,
+    apply_gated_reverb,
+)
+
 __all__ = [
     # Filters
     "lowpass_filter",
@@ -66,4 +74,10 @@ __all__ = [
     "apply_air_absorption",
     "apply_echo_delay",
     "apply_shaped_delay",
+    # Reverbs
+    "apply_spring_reverb",
+    "apply_plate_reverb",
+    "apply_hall_reverb",
+    "apply_shimmer_reverb",
+    "apply_gated_reverb",
 ]
