@@ -1,0 +1,18 @@
+kleprami Track 005
+============================================================
+
+Generated: 20260122_232032
+Seed: 42
+Duration: 5.0 minutes
+
+Sonic Character:
+  Base frequency: 75.0 Hz (low-mid focus)
+  Layers: 4
+  Harmonics: [1.0, 1.5, 1.5, 2.0]
+  Detuning: 0.26 Hz (subtle beating)
+  Modulation speed: 0.021 Hz (49s period)
+
+Spatial Character:
+  Reverb decay: 4.4s (intimate space)
+  Distance: 2.7 (close)
+  Shimmer layer: absent

@@ -264,7 +264,13 @@ def generate_linear_envelope(start_val: float, end_val: float, duration: float, 
     return np.linspace(start_val, end_val, num_samples)
 
 
-def generate_exponential_envelope(start_val: float, end_val: float, duration: float, curve: float = 2.0, sample_rate: int = 44100) -> np.ndarray:
+def generate_exponential_envelope(
+    start_val: float,
+    end_val: float,
+    duration: float, 
+    curve: float = 2.0, 
+    sample_rate: int = 44100
+) -> np.ndarray:
     """
     Generate an exponential envelope from start to end value.
     
@@ -362,7 +368,12 @@ def generate_adsr_envelope(attack: float, decay: float, sustain_level: float, re
     return envelope
 
 
-def generate_percussive_envelope(attack_ms: float, decay_ms: float, duration: float, sample_rate: int = 44100) -> np.ndarray:
+def generate_percussive_envelope(
+    attack_ms: float, 
+    decay_ms: float, 
+    duration: float, 
+    sample_rate: int = 44100
+) -> np.ndarray:
     """
     Generate a fast AD envelope optimized for percussive sounds.
     
@@ -417,7 +428,13 @@ def generate_percussive_envelope(attack_ms: float, decay_ms: float, duration: fl
     return envelope
 
 
-def generate_pitch_envelope(start_freq: float, end_freq: float, time_ms: float, duration: float, sample_rate: int = 44100) -> np.ndarray:
+def generate_pitch_envelope(
+    start_freq: float, 
+    end_freq: float, 
+    time_ms: float, 
+    duration: float, 
+    sample_rate: int = 44100
+) -> np.ndarray:
     """
     Generate a pitch sweep envelope for drum synthesis (e.g., kick drum pitch drops).
     

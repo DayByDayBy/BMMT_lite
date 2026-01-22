@@ -295,12 +295,16 @@ def apply_tape_saturation(signal: np.ndarray, drive: float = 2.0, warmth: float 
     if not (0.0 <= warmth <= 1.0):
         raise ValueError(f"Warmth must be between 0.0 and 1.0, got {warmth}")
     
+    # handle stereo signals
+    if signal.ndim == 2:
+        left = apply_tape_saturation(signal[:, 0], drive, warmth)
+        right = apply_tape_saturation(signal[:, 1], drive, warmth)
+        return np.column_stack([left, right])
+
     # Apply input gain
     driven_signal = signal * drive
-    
-    # Soft saturation using tanh function (analog-like)
+    # soft saturation using tanh function (analog-like)
     saturated = np.tanh(driven_signal)
-    
     # Add subtle asymmetry for analog character
     asymmetry = 0.1 * warmth
     saturated = saturated + asymmetry * (saturated ** 2)

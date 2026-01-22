@@ -1,0 +1,18 @@
+kleprami Track 014
+============================================================
+
+Generated: 20260122_232947
+Seed: 8046
+Duration: 3.0 minutes
+
+Sonic Character:
+  Base frequency: 41.0 Hz (sub-bass focus)
+  Layers: 7
+  Harmonics: [1.0, 3.0, 3.0, 3.0, 1.5, 1.5, 2.0]
+  Detuning: 0.29 Hz (subtle beating)
+  Modulation speed: 0.015 Hz (68s period)
+
+Spatial Character:
+  Reverb decay: 4.7s (intimate space)
+  Distance: 3.2 (distant)
+  Shimmer layer: absent

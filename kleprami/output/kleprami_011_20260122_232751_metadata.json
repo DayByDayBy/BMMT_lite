@@ -1,0 +1,28 @@
+{
+  "seed": 42,
+  "sample_rate": 44100,
+  "base_freq": 77,
+  "num_layers": 4,
+  "fade_in_duration": 8,
+  "modulation_speed": 0.02060635849591716,
+  "detuning_amount": 0.2602013342115643,
+  "reverb_decay": 4.418613785575432,
+  "distance_factor": 2.7049903523430148,
+  "noise_floor": -37,
+  "track_duration_minutes": 5,
+  "shimmer_probability": 0.42608164978882485,
+  "warmth_amount": 0.4054804549213176,
+  "duration": 300,
+  "harmonic_ratios": [
+    1.0,
+    1.5,
+    1.5,
+    2.0
+  ],
+  "layer_amps": [
+    -14.302017319827781,
+    -17.591925083800078,
+    -17.755019748245548,
+    -23.135921548310385
+  ]
+}
