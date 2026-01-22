@@ -168,19 +168,64 @@ class DroneLayerBuilder:
         self.num_samples = int(duration * sample_rate)
         
         # Generate shared modulation patterns for coherence
-        self.freq_modulation = generate_perlin_drift(
+        # Use multiple modulation speeds for evolution over time
+        slow_mod = generate_perlin_drift(
             duration, 
             frequency=params['modulation_speed'], 
             amplitude=params['detuning_amount'],
             seed=params.get('seed', None)
         )
         
-        self.amp_modulation = generate_perlin_drift(
+        medium_mod = generate_perlin_drift(
             duration,
-            frequency=params['modulation_speed'] * 0.7,  # Slower amp modulation
-            amplitude=0.1,  # Subtle amplitude variation
+            frequency=params['modulation_speed'] * 3.0,  # 3x faster
+            amplitude=params['detuning_amount'] * 0.5,  # Half amplitude
+            seed=params.get('seed', 11111) if params.get('seed') else None
+        )
+        
+        # Crossfade between slow and medium modulation over time
+        crossfade_duration = min(duration * 0.3, 300)  # 30% of track or 5 minutes
+        crossfade_samples = int(crossfade_duration * self.sample_rate)
+        
+        self.freq_modulation = np.zeros(self.num_samples)
+        if crossfade_samples < self.num_samples:
+            # Start with slow modulation
+            self.freq_modulation[:crossfade_samples] = slow_mod[:crossfade_samples]
+            # Crossfade to medium modulation
+            fade = np.linspace(0, 1, crossfade_samples)
+            crossfade_section = slow_mod[crossfade_samples:2*crossfade_samples] * (1 - fade) + \
+                              medium_mod[crossfade_samples:2*crossfade_samples] * fade
+            self.freq_modulation[crossfade_samples:2*crossfade_samples] = crossfade_section
+            # Continue with medium modulation
+            self.freq_modulation[2*crossfade_samples:] = medium_mod[2*crossfade_samples:]
+        else:
+            self.freq_modulation = slow_mod
+        
+        # Amplitude modulation with similar evolution
+        slow_amp = generate_perlin_drift(
+            duration,
+            frequency=params['modulation_speed'] * 0.7,
+            amplitude=0.1,
             seed=params.get('seed', 12345) if params.get('seed') else None
         )
+        
+        medium_amp = generate_perlin_drift(
+            duration,
+            frequency=params['modulation_speed'] * 2.0,
+            amplitude=0.15,
+            seed=params.get('seed', 54321) if params.get('seed') else None
+        )
+        
+        self.amp_modulation = np.zeros(self.num_samples)
+        if crossfade_samples < self.num_samples:
+            self.amp_modulation[:crossfade_samples] = slow_amp[:crossfade_samples]
+            fade = np.linspace(0, 1, crossfade_samples)
+            crossfade_section = slow_amp[crossfade_samples:2*crossfade_samples] * (1 - fade) + \
+                              medium_amp[crossfade_samples:2*crossfade_samples] * fade
+            self.amp_modulation[crossfade_samples:2*crossfade_samples] = crossfade_section
+            self.amp_modulation[2*crossfade_samples:] = medium_amp[2*crossfade_samples:]
+        else:
+            self.amp_modulation = slow_amp
         
         # Generate fade envelope
         self.fade_envelope = generate_exponential_envelope(
@@ -255,7 +300,7 @@ class DroneLayerBuilder:
     def build_shimmer_layer(self, base_freq: float) -> Optional[np.ndarray]:
         """
         Build high-frequency texture layer.
-        Uses high harmonics with heavy filtering.
+        Uses high harmonics with heavy filtering and evolving modulation.
         """
         if random.random() > self.params['shimmer_presence']:
             return None
@@ -269,13 +314,38 @@ class DroneLayerBuilder:
         # Heavy low-pass to create shimmer, not harshness
         shimmer = lowpass_filter(shimmer, 2000, self.sample_rate)
         
-        # Apply slow amplitude modulation
-        shimmer_mod = generate_perlin_drift(
-            self.duration,
-            frequency=self.params['modulation_speed'] * 2.0,
-            amplitude=0.3,
-            seed=self.params.get('seed', 54321) if self.params.get('seed') else None
+        # Apply evolving amplitude modulation with multiple phases
+        # Phase 1: Subtle shimmer (first third)
+        phase1_samples = self.num_samples // 3
+        shimmer_mod1 = generate_perlin_drift(
+            self.duration / 3,
+            frequency=self.params['modulation_speed'] * 4.0,
+            amplitude=0.2,
+            seed=self.params.get('seed', 98765) if self.params.get('seed') else None
         )
+        
+        # Phase 2: More active shimmer (middle third)
+        phase2_samples = self.num_samples // 3
+        shimmer_mod2 = generate_perlin_drift(
+            self.duration / 3,
+            frequency=self.params['modulation_speed'] * 6.0,
+            amplitude=0.3,
+            seed=self.params.get('seed', 43210) if self.params.get('seed') else None
+        )
+        
+        # Phase 3: Evolving shimmer (final third)
+        phase3_samples = self.num_samples - phase1_samples - phase2_samples
+        shimmer_mod3 = generate_perlin_drift(
+            self.duration / 3,
+            frequency=self.params['modulation_speed'] * 8.0,
+            amplitude=0.25,
+            seed=self.params.get('seed', 13579) if self.params.get('seed') else None
+        )
+        
+        # Combine phases with smooth transitions
+        shimmer_mod = np.concatenate([shimmer_mod1, shimmer_mod2, shimmer_mod3])
+        shimmer_mod = shimmer_mod[:self.num_samples]  # Ensure correct length
+        
         shimmer = shimmer * (1.0 + shimmer_mod)
         
         # Apply fade envelope
@@ -323,6 +393,154 @@ class DroneLayerBuilder:
 
 
 # ============================================================================
+# AUTOMATED AESTHETIC VALIDATION
+# ============================================================================
+
+def validate_kleprami_aesthetic(audio: np.ndarray, params: Dict[str, Any]) -> Tuple[bool, list]:
+    """
+    Validate that generated audio complies with kleprami aesthetic constraints.
+    Provides automated checks alongside subjective listening.
+    
+    Args:
+        audio: Stereo audio signal (numpy array)
+        params: Generation parameters
+        
+    Returns:
+        Tuple of (is_valid, warnings_list)
+    """
+    warnings = []
+    
+    # Ensure stereo
+    if audio.ndim == 1:
+        audio = np.column_stack([audio, audio])
+    elif audio.shape[1] != 2:
+        warnings.append("Audio should be stereo (2 channels)")
+    
+    # Check 1: No fast modulation (spectral envelope analysis)
+    try:
+        # Analyze amplitude envelope for fast changes
+        left_channel = audio[:, 0]
+        window_size = int(params['sample_rate'] * 1.0)  # 1-second windows
+        
+        # Calculate RMS in windows
+        rms_values = []
+        for i in range(0, len(left_channel) - window_size, window_size // 4):
+            window = left_channel[i:i + window_size]
+            rms = np.sqrt(np.mean(window ** 2))
+            rms_values.append(rms)
+        
+        rms_values = np.array(rms_values)
+        
+        # Check for fast changes (>0.5dB/second)
+        if len(rms_values) > 1:
+            rms_db = 20 * np.log10(rms_values + 1e-10)
+            rms_diff = np.abs(np.diff(rms_db))
+            fast_changes = np.sum(rms_diff > 0.5)
+            
+            if fast_changes > len(rms_diff) * 0.1:  # More than 10% fast changes
+                warnings.append(f"Fast amplitude modulation detected: {fast_changes} rapid changes")
+    except Exception as e:
+        warnings.append(f"Could not analyze modulation speed: {e}")
+    
+    # Check 2: Frequency distribution (bass/mid heavy)
+    try:
+        # FFT analysis
+        fft = np.fft.fft(left_channel)
+        freqs = np.fft.fftfreq(len(left_channel), 1/params['sample_rate'])
+        magnitude = np.abs(fft)
+        
+        # Only consider positive frequencies
+        pos_mask = freqs > 0
+        freqs = freqs[pos_mask]
+        magnitude = magnitude[pos_mask]
+        
+        # Calculate energy in different bands
+        bass_energy = np.sum(magnitude[(freqs >= 20) & (freqs < 200)])
+        mid_energy = np.sum(magnitude[(freqs >= 200) & (freqs < 2000)])
+        high_energy = np.sum(magnitude[(freqs >= 2000) & (freqs < 8000)])
+        ultra_high_energy = np.sum(magnitude[freqs >= 8000])
+        
+        total_energy = bass_energy + mid_energy + high_energy + ultra_high_energy
+        
+        if total_energy > 0:
+            bass_ratio = bass_energy / total_energy
+            mid_ratio = mid_energy / total_energy
+            high_ratio = high_energy / total_energy
+            ultra_high_ratio = ultra_high_energy / total_energy
+            
+            # kleprami should be bass/mid heavy
+            if bass_ratio + mid_ratio < 0.7:
+                warnings.append(f"Insufficient bass/mid content: {bass_ratio + mid_ratio:.2f} (should be >0.7)")
+            
+            if ultra_high_ratio > 0.1:
+                warnings.append(f"Excessive high frequency content: {ultra_high_ratio:.2f} (should be <0.1)")
+            
+            if high_ratio > 0.2:
+                warnings.append(f"Excessive high-mid content: {high_ratio:.2f} (should be <0.2)")
+    except Exception as e:
+        warnings.append(f"Could not analyze frequency distribution: {e}")
+    
+    # Check 3: Dynamic range (gentle, no spikes)
+    try:
+        # Analyze dynamic range
+        rms_level = 20 * np.log10(np.sqrt(np.mean(left_channel ** 2)) + 1e-10)
+        peak_level = 20 * np.log10(np.max(np.abs(left_channel)) + 1e-10)
+        
+        # Check for excessive dynamic range
+        dynamic_range = peak_level - rms_level
+        if dynamic_range > 12:  # More than 12dB dynamic range
+            warnings.append(f"Excessive dynamic range: {dynamic_range:.1f}dB (should be <12dB)")
+        
+        # Check for transient peaks
+        # Look for samples that are much louder than local average
+        window_size = int(params['sample_rate'] * 0.1)  # 100ms windows
+        local_rms = []
+        for i in range(0, len(left_channel) - window_size, window_size // 10):
+            window = left_channel[i:i + window_size]
+            local_rms.append(np.sqrt(np.mean(window ** 2)))
+        
+        local_rms = np.array(local_rms)
+        local_rms_db = 20 * np.log10(local_rms + 1e-10)
+        
+        # Find peaks in RMS
+        peak_threshold = np.mean(local_rms_db) + 6  # 6dB above average
+        peaks = local_rms_db > peak_threshold
+        
+        if np.sum(peaks) > len(peaks) * 0.05:  # More than 5% peaks
+            warnings.append(f"Too many transient peaks: {np.sum(peaks)} peaks detected")
+    except Exception as e:
+        warnings.append(f"Could not analyze dynamic range: {e}")
+    
+    # Check 4: Stereo correlation (wide but coherent)
+    try:
+        left_channel = audio[:, 0]
+        right_channel = audio[:, 1]
+        
+        # Calculate correlation
+        correlation = np.corrcoef(left_channel, right_channel)[0, 1]
+        
+        if np.isnan(correlation):
+            warnings.append("Could not calculate stereo correlation")
+        elif correlation > 0.95:
+            warnings.append(f"Stereo channels too similar: {correlation:.3f} (should be <0.95)")
+        elif correlation < 0.7:
+            warnings.append(f"Stereo channels too different: {correlation:.3f} (should be >0.7)")
+        
+        # Check stereo balance
+        left_rms = np.sqrt(np.mean(left_channel ** 2))
+        right_rms = np.sqrt(np.mean(right_channel ** 2))
+        balance_diff = 20 * np.log10(left_rms / right_rms)
+        
+        if abs(balance_diff) > 3:  # More than 3dB imbalance
+            warnings.append(f"Stereo imbalance: {balance_diff:.1f}dB (should be <3dB)")
+    except Exception as e:
+        warnings.append(f"Could not analyze stereo correlation: {e}")
+    
+    is_valid = len(warnings) == 0
+    return is_valid, warnings
+
+
+# ============================================================================
 # MAIN GENERATION FUNCTION
 # ============================================================================
 
@@ -359,6 +577,22 @@ def generate_kleprami_track(seed: Optional[int] = None, output_dir: Optional[str
     
     # For now, just use layers as output
     final_audio = layers
+    
+    # Validate aesthetic
+    is_valid, warnings = validate_kleprami_aesthetic(final_audio, params)
+    
+    if not is_valid:
+        print("⚠️  Aesthetic validation warnings:")
+        for warning in warnings:
+            print(f"  - {warning}")
+    else:
+        print("✅ Aesthetic validation passed")
+    
+    # Save validation results in metadata
+    params['validation_results'] = {
+        'is_valid': is_valid,
+        'warnings': warnings
+    }
     
     # Generate filename
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")

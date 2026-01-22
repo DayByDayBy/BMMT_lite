@@ -1,0 +1,39 @@
+{
+  "base_freq": 70,
+  "num_layers": 3,
+  "fade_in_duration": 5,
+  "modulation_speed": 0.02353876249399582,
+  "detuning_amount": 0.27142429766243337,
+  "reverb_decay": 4.0,
+  "distance_factor": 2.3074855285145226,
+  "noise_floor": -37,
+  "track_duration": 1078,
+  "shimmer_presence": 0.5952462562245198,
+  "tube_warmth": 0.21271307179271345,
+  "tape_saturation": 0.12810857195847775,
+  "sample_rate": 44100,
+  "duration": 1078,
+  "harmonic_ratios": [
+    1.0,
+    3.0,
+    1.5
+  ],
+  "oscillator_types": [
+    "triangle",
+    "sine",
+    "triangle"
+  ],
+  "layer_amplitudes": [
+    -11.403487047940054,
+    -20.100693373322862,
+    -20.7303511163807
+  ],
+  "seed": 42,
+  "validation_results": {
+    "is_valid": false,
+    "warnings": [
+      "Excessive dynamic range: 30.2dB (should be <12dB)",
+      "Stereo channels too similar: 1.000 (should be <0.95)"
+    ]
+  }
+}
