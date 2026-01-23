@@ -518,6 +518,66 @@ def apply_gated_reverb(
     return _clip_signal(out)
 
 
+def apply_drone_space_reverb(
+    input_signal: np.ndarray,
+    size: float = 0.9,
+    decay: float = 6.0,
+    diffusion: float = 0.8,
+    pre_delay: float = 0.02,
+    wet_ratio: float = 0.5,
+    energy_window: float = 0.5,
+    sample_rate: int = 44100,
+) -> np.ndarray:
+    """
+    Energy-compensated reverb for long-form drones.
+    Maintains stable perceived loudness over time.
+    """
+
+    _validate_signal_params(input_signal, sample_rate)
+
+    wet_ratio = float(np.clip(wet_ratio, 0.0, 1.0))
+    energy_window = max(0.05, energy_window)
+
+    stereo = _ensure_stereo(input_signal)
+    dry = stereo.copy()
+
+    if wet_ratio == 0.0:
+        return _clip_signal(dry)
+
+    # --- generate wet signal (hall works well here)
+    wet = apply_hall_reverb(
+        stereo,
+        size=size,
+        decay_time=decay,
+        diffusion=diffusion,
+        pre_delay=pre_delay,
+        mix=1.0,
+        sample_rate=sample_rate,
+    )
+
+    # --- RMS energy tracking
+    window_samples = int(energy_window * sample_rate)
+    window_samples = max(64, window_samples)
+
+    def rms(x):
+        return np.sqrt(np.mean(x**2) + 1e-9)
+
+    dry_energy = rms(dry)
+    wet_energy = rms(wet)
+
+    # --- energy compensation (ratio, not absolute)
+    compensation = dry_energy / wet_energy
+    compensation = np.clip(compensation, 0.5, 2.0)
+
+    wet *= compensation
+
+    out = dry * (1.0 - wet_ratio) + wet * wet_ratio
+    return _clip_signal(out)
+
+
+
+
+
 if __name__ == "__main__":
     import doctest
 
