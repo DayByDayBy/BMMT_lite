@@ -650,7 +650,7 @@ def generate_analog_hum(duration: float = 60, power_frequency: float = 50,
         power_frequency: Power line frequency in Hz (50 or 60)
         harmonic_content: Harmonic richness (0.0-1.0)
         sample_rate: Sample rate in Hz (default 44100)
-Returns:
+    Returns:
         numpy.ndarray: Stereo analog hum composition
     """
     _validate_preset_params(duration, sample_rate)
@@ -911,6 +911,55 @@ def generate_underground_transmission(duration: float = 60, earth_filtering: flo
     stereo = apply_master_limiter(stereo, -3.0, 4.0)
     
     return stereo
+
+def generate_stereo_mass(
+    base_freq: float,
+    amp: float,
+    duration: float,
+    voices: int = 5,
+    detune_ratio: float = 0.003,
+    stereo_spread: float = 0.7,
+    waveform: str = "sine",
+    sample_rate: int = 44100,
+    ) -> np.ndarray:
+    """
+    Generate a ratio-modulated stereo oscillator mass.
+    """
+
+    osc_map = {
+        "sine": generate_sine,
+        "triangle": generate_triangle,
+        "saw": generate_sawtooth,
+        "square": generate_square,
+    }
+
+    osc = osc_map[waveform]
+
+    voices = max(1, voices)
+    rng = np.random.default_rng(1234)
+
+    left = np.zeros(int(duration * sample_rate))
+    right = np.zeros_like(left)
+
+    for i in range(voices):
+        detune = 1.0 + rng.uniform(-detune_ratio, detune_ratio)
+        pan = rng.uniform(-stereo_spread, stereo_spread)
+
+        sig = osc(
+            base_freq * detune,
+            amp - 20 * np.log10(voices),
+            duration,
+            sample_rate,
+        )
+
+        l_gain = np.cos((pan + 1) * np.pi / 4)
+        r_gain = np.sin((pan + 1) * np.pi / 4)
+
+        left += sig * l_gain
+        right += sig * r_gain
+
+    return np.column_stack([left, right])
+
 
 
 # Utility Functions
@@ -1214,6 +1263,11 @@ def generate_composition_metadata(preset_name: str, parameters: Dict[str, Any],
             complexity_level
         ]
     }
+
+
+
+
+
 
 
 if __name__ == "__main__":
