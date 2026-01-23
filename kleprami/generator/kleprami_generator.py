@@ -44,8 +44,8 @@ from bmmt.composition.mixing import (
 # ============================================================================
 
 KLEPRAMI_RANGES = {
-    'base_freq': (37, 84),
-    'num_layers': (3, 13),
+    'base_freq': (35, 85),
+    'num_layers': (3, 5),
     'fade_in_duration': (8, 25),
     'modulation_speed': (0.008, 0.025),
     'detuning_amount': (0.15, 0.6),
@@ -315,8 +315,8 @@ def apply_kleprami_spatial_processing(
     if audio.ndim == 1:
         audio = create_stereo_field([audio], [0.0], width=1.2)
     
-    # Apply distance filtering (muffles high frequencies)
-    audio = apply_distance_filter(audio, params['distance_factor'], sample_rate)
+    # # Apply distance filtering (muffles high frequencies)
+    # audio = apply_distance_filter(audio, params['distance_factor'], sample_rate)
     
     # Apply air absorption (simulates sound traveling through air)
     distance_meters = max(1.0, min(100.0, params['distance_factor'] * 50))
@@ -338,8 +338,6 @@ def apply_kleprami_spatial_processing(
     return audio
 
 
-
-
 def apply_master_processing(
     audio: np.ndarray,
     params: Dict[str, Any]
@@ -352,7 +350,6 @@ def apply_master_processing(
     # Remove subsonic content
     audio_left = highpass_filter(audio[:, 0], 25, sample_rate)
     audio_right = highpass_filter(audio[:, 1], 25, sample_rate)
-    
     audio = np.column_stack([audio_left, audio_right])
     
     # Gentle tube warmth
@@ -387,13 +384,13 @@ def generate_kleprami_envelope(
     
     # Fade in (exponential for naturalness)
     fade_in = generate_exponential_envelope(
-        -60.0, 0.0, fade_in_duration, curve=2.0, sample_rate=sample_rate
+        -60.0, 0.0, fade_in_duration, curve=2.0, sample_rate=sample_rate,
     )
-
+    
     # Fade out (last 10% of track, or 30 seconds, whichever is longer)
-    fade_out_duration = max(duration * 0.1, 24.0)
+    fade_out_duration = max(duration * 0.1, 30.0)
     fade_out = generate_exponential_envelope(
-        0.0, -44.0, fade_out_duration,  curve=2.0, sample_rate=sample_rate
+        0.0, -60.0, fade_out_duration, curve=2.0, sample_rate=sample_rate,
     )
     
     # Sustained section
@@ -404,10 +401,10 @@ def generate_kleprami_envelope(
         fade_in_duration = duration * 0.3
         fade_out_duration = duration * 0.3
         fade_in = generate_exponential_envelope(
-            -60.0, 0.0, fade_in_duration, sample_rate, curve=2.0
+            0.0, 1.0, fade_in_duration, curve=3.0, sample_rate=sample_rate
         )
         fade_out = generate_exponential_envelope(
-            0.0, -60.0, fade_out_duration, sample_rate, curve=2.0
+            1.0, 0.0, fade_out_duration, curve=3.0, sample_rate=sample_rate
         )
     else:
         sustain_samples = int(sustain_duration * sample_rate)
@@ -416,14 +413,6 @@ def generate_kleprami_envelope(
     
     # Combine
     envelope = np.concatenate([fade_in, sustain, fade_out])
-
-    # check ennvelope shape:
-    # import matplotlib.pyplot as plt
-    # plt.plot(envelope)
-    # plt.title("Amplitude Envelope")
-    # plt.xlabel("Samples")
-    # plt.ylabel("Amplitude")
-    # plt.show()
     
     # Ensure correct length
     if len(envelope) > num_samples:
@@ -515,9 +504,7 @@ def generate_kleprami_track(
     print("\nMixing layers...")
     mix_levels = [1.0] * len(layers)
     mixed = combine_signals(layers, mix_levels, sample_rate)
-
-    print(f"After mixing - Peak: {np.max(np.abs(mixed)):.4f}, RMS: {np.sqrt(np.mean(mixed**2)):.4f}")
-
+    
     # Apply master envelope
     print("Applying master envelope...")
     envelope = generate_kleprami_envelope(
@@ -526,29 +513,17 @@ def generate_kleprami_track(
         sample_rate
     )
     mixed = mixed * envelope
-
-    print(f"After envelope - Peak: {np.max(np.abs(mixed)):.4f}, RMS: {np.sqrt(np.mean(mixed**2)):.4f}")
-
     
     # Convert to stereo
     stereo = create_stereo_field([mixed], [0.0], width=1.0)
-
-    print(f"After stereo - Peak: {np.max(np.abs(stereo)):.4f}, RMS: {np.sqrt(np.mean(stereo**2)):.4f}")
-
+    
     # Apply spatial processing
     print("Applying spatial processing...")
     spatial = apply_kleprami_spatial_processing(stereo, params)
-    print("Spatial audio shape:", spatial.shape)
-    print(f"After spatial - Peak: {np.max(np.abs(spatial)):.4f}, RMS: {np.sqrt(np.mean(spatial**2)):.4f}")
-
-
     
     # Master processing
     print("Applying master processing...")
     final = apply_master_processing(spatial, params)
-    
-    print(f"After mastering - Peak: {np.max(np.abs(final)):.4f}, RMS: {np.sqrt(np.mean(final**2)):.4f}")
-
     
     # Generate filename
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -603,4 +578,4 @@ def generate_kleprami_track(
 
 if __name__ == "__main__":
     # Quick test with short duration
-    generate_kleprami_track(8046)
+    generate_kleprami_track()
