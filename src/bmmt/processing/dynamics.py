@@ -33,7 +33,7 @@ def apply_compression(
     release_ms: float = 100.0,
     makeup_gain_db: float = 0.0,
     sample_rate: int = 44100
-) -> np.ndarray:
+    ) -> np.ndarray:
     """
     Apply dynamic range compression to reduce loud peaks.
     
@@ -136,7 +136,7 @@ def apply_parallel_compression(
     attack_ms: float = 5.0,
     release_ms: float = 50.0,
     sample_rate: int = 44100
-) -> np.ndarray:
+    ) -> np.ndarray:
     """
     Apply New York-style parallel compression for punchy drums.
     
@@ -206,7 +206,7 @@ def apply_sidechain_ducking(
     attack_ms: float = 1.0,
     release_ms: float = 100.0,
     sample_rate: int = 44100
-) -> np.ndarray:
+    ) -> np.ndarray:
     """
     Apply sidechain ducking to reduce input signal when sidechain is loud.
     
@@ -304,7 +304,7 @@ def apply_soft_limiter(
     input_signal: np.ndarray,
     threshold_db: float = -3.0,
     ceiling_db: float = -0.1
-) -> np.ndarray:
+    ) -> np.ndarray:
     """
     Apply soft limiting to prevent clipping while preserving dynamics.
     
@@ -352,6 +352,8 @@ def apply_soft_limiter(
         return np.column_stack([left, right])
     else:
         return soft_limit(input_signal)
+
+
 
 
 if __name__ == "__main__":

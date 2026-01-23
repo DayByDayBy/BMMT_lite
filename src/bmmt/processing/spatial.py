@@ -537,7 +537,7 @@ def apply_shaped_delay(
     bitcrush_depth: int = None,
     saturation_drive: float = None,
     sample_rate: int = 44100
-) -> np.ndarray:
+    ) -> np.ndarray:
     """
     Apply shaped delay with per-repeat filtering, pitch shifting, and degradation.
     
@@ -645,7 +645,7 @@ def _apply_shaped_delay_channel(
     bitcrush_depth: int,
     saturation_drive: float,
     sample_rate: int
-) -> np.ndarray:
+    ) -> np.ndarray:
     """applies shaped delay with per-repeat effects to a single channel."""
     if delay_samples <= 0 or delay_samples >= len(channel):
         return channel.copy()
@@ -717,6 +717,60 @@ def _apply_shaped_delay_channel(
         delay_buffer[i % delay_samples] = feedback_signal
     
     return output
+
+
+# originally made for kleprami project:
+def apply_space(
+    input_signal: np.ndarray,
+    depth: float = 0.6,
+    motion: float = 0.3,
+    darkness: float = 0.4,
+    width: float = 1.1,
+    sample_rate: int = 44100,
+) -> np.ndarray:
+    """
+    Unified spatial field for drones.
+    """
+
+    depth = float(np.clip(depth, 0.0, 1.0))
+    motion = float(np.clip(motion, 0.0, 1.0))
+    darkness = float(np.clip(darkness, 0.0, 1.0))
+    width = float(np.clip(width, 0.5, 1.5))
+
+    stereo = _ensure_stereo(input_signal)
+
+    # --- slow parameter drift (VERY subtle)
+    if motion > 0.0:
+        drift = generate_stochastic_drift(
+            duration=len(stereo) / sample_rate,
+            rate=0.01 + 0.04 * motion,
+            depth=0.15 * motion,
+            sample_rate=sample_rate,
+        )
+        depth_mod = depth * (1.0 + drift)
+    else:
+        depth_mod = depth
+
+    # --- space core (energy compensated)
+    spaced = apply_drone_space_reverb(
+        stereo,
+        size=0.6 + depth_mod * 0.4,
+        decay=3.0 + depth_mod * 6.0,
+        diffusion=0.6 + depth_mod * 0.3,
+        wet_ratio=0.35 + depth_mod * 0.35,
+        sample_rate=sample_rate,
+    )
+
+    # --- spectral darkening
+    if darkness > 0.0:
+        cutoff = 6000.0 - darkness * 4000.0
+        spaced[:, 0] = lowpass_filter(spaced[:, 0], cutoff, sample_rate)
+        spaced[:, 1] = lowpass_filter(spaced[:, 1], cutoff, sample_rate)
+
+    # --- stereo width (post-space!)
+    spaced = create_stereo_field([np.mean(spaced, axis=1)], [0.0], width=width)
+
+    return spaced
 
 
 if __name__ == "__main__":

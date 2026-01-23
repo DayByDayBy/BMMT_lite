@@ -270,7 +270,7 @@ def generate_exponential_envelope(
     duration: float, 
     curve: float = 2.0, 
     sample_rate: int = 44100
-) -> np.ndarray:
+    ) -> np.ndarray:
     """
     Generate an exponential envelope from start to end value.
     
@@ -373,7 +373,7 @@ def generate_percussive_envelope(
     decay_ms: float, 
     duration: float, 
     sample_rate: int = 44100
-) -> np.ndarray:
+    ) -> np.ndarray:
     """
     Generate a fast AD envelope optimized for percussive sounds.
     
@@ -434,7 +434,7 @@ def generate_pitch_envelope(
     time_ms: float, 
     duration: float, 
     sample_rate: int = 44100
-) -> np.ndarray:
+    ) -> np.ndarray:
     """
     Generate a pitch sweep envelope for drum synthesis (e.g., kick drum pitch drops).
     
@@ -482,6 +482,42 @@ def generate_pitch_envelope(
         envelope[:sweep_samples] = sweep_curve
     
     return envelope
+
+
+# originally written for kleprami project:
+def generate_stochastic_drift(
+    duration: float,
+    rate: float = 0.02,
+    depth: float = 0.1,
+    sample_rate: int = 44100,
+    ) -> np.ndarray:
+    """
+    Generate very slow, smooth stochastic modulation.
+    Returns a signal centered around 0.
+    """
+
+    length = int(duration * sample_rate)
+    rng = np.random.default_rng()
+
+    # white noise
+    noise = rng.normal(0.0, 1.0, length)
+
+    # lowpass to control rate
+    cutoff = max(0.001, rate)
+    nyquist = sample_rate / 2
+    norm = cutoff / nyquist
+
+    if norm < 0.999:
+        b, a = signal.butter(2, norm)
+        noise = signal.filtfilt(b, a, noise)
+
+    # normalize and scale
+    noise -= np.mean(noise)
+    noise /= np.max(np.abs(noise)) + 1e-9
+
+    return noise * depth
+
+
 
 
 if __name__ == "__main__":

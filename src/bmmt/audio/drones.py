@@ -20,7 +20,7 @@ from ..processing.effects import (
     apply_tape_saturation, apply_vinyl_crackle, apply_tube_warmth
 )
 from ..processing.spatial import (
-    apply_reverb, apply_distance_filter, apply_stereo_width, 
+    apply_reverb, apply_distance_filter, apply_stereo_width, apply_space,
     apply_air_absorption, apply_echo_delay
 )
 from ..processing.filters import lowpass_filter, highpass_filter, bandpass_filter
@@ -528,11 +528,18 @@ def generate_meditation_drone(duration: float = 60, base_freq: float = 60,
         room_size = 0.2 + harmonic_complexity * 0.3
         decay_time = 2.0 + harmonic_complexity * 2.0
         damping = 0.6
-        stereo = apply_reverb(stereo, room_size, decay_time, damping, sample_rate)
+        stereo = apply_space(
+            stereo,
+            depth=0.3 + harmonic_complexity * 0.5,
+            motion=0.2 + harmonic_complexity * 0.3,
+            darkness=0.4,
+            width=1.2,
+            sample_rate=sample_rate,
+)        
     
     # Master processing with gentle limiting
-    stereo = normalize_to_peak(stereo, -8.0)
-    stereo = apply_master_limiter(stereo, -6.0, 2.0)
+    # stereo = normalize_to_peak(stereo, -8.0)
+    # stereo = apply_master_limiter(stereo, -6.0, 2.0)
     
     return stereo
 
